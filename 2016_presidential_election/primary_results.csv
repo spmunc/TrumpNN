@@ -1,0 +1,2058 @@
+state,state_abbreviation,county,fips,party,candidate,votes,fraction_votes
+Iowa,IA,Adair,19001,Republican,Ted Cruz,104,0.256
+Iowa,IA,Adair,19001,Republican,Donald Trump,104,0.256
+Iowa,IA,Adair,19001,Republican,Marco Rubio,80,0.19699999999999998
+Iowa,IA,Adair,19001,Republican,Ben Carson,61,0.15
+Iowa,IA,Adair,19001,Republican,Carly Fiorina,16,0.039
+Iowa,IA,Adair,19001,Republican,Rand Paul,12,0.028999999999999998
+Iowa,IA,Adair,19001,Republican,Mike Huckabee,11,0.027000000000000003
+Iowa,IA,Adair,19001,Republican,Rick Santorum,7,0.017
+Iowa,IA,Adair,19001,Republican,Jeb Bush,4,0.01
+Iowa,IA,Adair,19001,Republican,Chris Christie,4,0.01
+Iowa,IA,Adair,19001,Republican,John Kasich,2,0.005
+Iowa,IA,Adair,19001,Democrat,Hillary Clinton,168,0.56
+Iowa,IA,Adair,19001,Democrat,Bernie Sanders,132,0.44
+Iowa,IA,Adair,19001,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Adair,19001,Democrat, Uncommitted,0,0.0
+Iowa,IA,Adams,19003,Republican,Ted Cruz,81,0.297
+Iowa,IA,Adams,19003,Republican,Donald Trump,68,0.249
+Iowa,IA,Adams,19003,Republican,Marco Rubio,47,0.172
+Iowa,IA,Adams,19003,Republican,Ben Carson,30,0.11
+Iowa,IA,Adams,19003,Republican,Carly Fiorina,16,0.059000000000000004
+Iowa,IA,Adams,19003,Republican,John Kasich,10,0.037000000000000005
+Iowa,IA,Adams,19003,Republican,Rand Paul,8,0.028999999999999998
+Iowa,IA,Adams,19003,Republican,Jeb Bush,7,0.026000000000000002
+Iowa,IA,Adams,19003,Republican,Mike Huckabee,3,0.011000000000000001
+Iowa,IA,Adams,19003,Republican,Chris Christie,1,0.004
+Iowa,IA,Adams,19003,Republican,Rick Santorum,1,0.004
+Iowa,IA,Adams,19003,Democrat,Hillary Clinton,113,0.568
+Iowa,IA,Adams,19003,Democrat,Bernie Sanders,86,0.43200000000000005
+Iowa,IA,Adams,19003,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Adams,19003,Democrat, Uncommitted,0,0.0
+Iowa,IA,Allamakee,19005,Republican,Ted Cruz,183,0.266
+Iowa,IA,Allamakee,19005,Republican,Donald Trump,193,0.281
+Iowa,IA,Allamakee,19005,Republican,Marco Rubio,131,0.191
+Iowa,IA,Allamakee,19005,Republican,Ben Carson,77,0.11199999999999999
+Iowa,IA,Allamakee,19005,Republican,Carly Fiorina,54,0.079
+Iowa,IA,Allamakee,19005,Republican,Rand Paul,16,0.023
+Iowa,IA,Allamakee,19005,Republican,Jeb Bush,11,0.016
+Iowa,IA,Allamakee,19005,Republican,Mike Huckabee,9,0.013000000000000001
+Iowa,IA,Allamakee,19005,Republican,Rick Santorum,6,0.009000000000000001
+Iowa,IA,Allamakee,19005,Republican,Chris Christie,4,0.006
+Iowa,IA,Allamakee,19005,Republican,John Kasich,2,0.003
+Iowa,IA,Allamakee,19005,Democrat,Hillary Clinton,304,0.507
+Iowa,IA,Allamakee,19005,Democrat,Bernie Sanders,296,0.493
+Iowa,IA,Allamakee,19005,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Allamakee,19005,Democrat, Uncommitted,0,0.0
+Iowa,IA,Appanoose,19007,Republican,Ted Cruz,269,0.32
+Iowa,IA,Appanoose,19007,Republican,Donald Trump,292,0.348
+Iowa,IA,Appanoose,19007,Republican,Ben Carson,92,0.11
+Iowa,IA,Appanoose,19007,Republican,Marco Rubio,90,0.107
+Iowa,IA,Appanoose,19007,Republican,Mike Huckabee,44,0.052000000000000005
+Iowa,IA,Appanoose,19007,Republican,Rand Paul,20,0.024
+Iowa,IA,Appanoose,19007,Republican,Jeb Bush,13,0.015
+Iowa,IA,Appanoose,19007,Republican,Carly Fiorina,9,0.011000000000000001
+Iowa,IA,Appanoose,19007,Republican,Chris Christie,4,0.005
+Iowa,IA,Appanoose,19007,Republican,John Kasich,4,0.005
+Iowa,IA,Appanoose,19007,Republican,Rick Santorum,2,0.002
+Iowa,IA,Appanoose,19007,Democrat,Hillary Clinton,273,0.547
+Iowa,IA,Appanoose,19007,Democrat,Bernie Sanders,226,0.45299999999999996
+Iowa,IA,Appanoose,19007,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Appanoose,19007,Democrat, Uncommitted,0,0.0
+Iowa,IA,Audubon,19009,Republican,Ted Cruz,135,0.361
+Iowa,IA,Audubon,19009,Republican,Donald Trump,99,0.265
+Iowa,IA,Audubon,19009,Republican,Marco Rubio,56,0.15
+Iowa,IA,Audubon,19009,Republican,Ben Carson,33,0.08800000000000001
+Iowa,IA,Audubon,19009,Republican,Mike Huckabee,20,0.053
+Iowa,IA,Audubon,19009,Republican,Rand Paul,11,0.028999999999999998
+Iowa,IA,Audubon,19009,Republican,Jeb Bush,10,0.027000000000000003
+Iowa,IA,Audubon,19009,Republican,John Kasich,5,0.013000000000000001
+Iowa,IA,Audubon,19009,Republican,Carly Fiorina,4,0.011000000000000001
+Iowa,IA,Audubon,19009,Republican,Chris Christie,1,0.003
+Iowa,IA,Audubon,19009,Republican,Rick Santorum,0,0.0
+Iowa,IA,Audubon,19009,Democrat,Hillary Clinton,187,0.625
+Iowa,IA,Audubon,19009,Democrat,Bernie Sanders,112,0.375
+Iowa,IA,Audubon,19009,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Audubon,19009,Democrat, Uncommitted,0,0.0
+Iowa,IA,Benton,19011,Republican,Ted Cruz,596,0.365
+Iowa,IA,Benton,19011,Republican,Donald Trump,410,0.251
+Iowa,IA,Benton,19011,Republican,Marco Rubio,246,0.15
+Iowa,IA,Benton,19011,Republican,Ben Carson,171,0.105
+Iowa,IA,Benton,19011,Republican,Rand Paul,72,0.044000000000000004
+Iowa,IA,Benton,19011,Republican,Carly Fiorina,35,0.021
+Iowa,IA,Benton,19011,Republican,Mike Huckabee,34,0.021
+Iowa,IA,Benton,19011,Republican,John Kasich,27,0.017
+Iowa,IA,Benton,19011,Republican,Chris Christie,23,0.013999999999999999
+Iowa,IA,Benton,19011,Republican,Jeb Bush,11,0.006999999999999999
+Iowa,IA,Benton,19011,Republican,Rick Santorum,9,0.006
+Iowa,IA,Benton,19011,Democrat,Hillary Clinton,672,0.56
+Iowa,IA,Benton,19011,Democrat,Bernie Sanders,528,0.44
+Iowa,IA,Benton,19011,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Benton,19011,Democrat, Uncommitted,0,0.0
+Iowa,IA,Black Hawk,19013,Republican,Ted Cruz,1585,0.268
+Iowa,IA,Black Hawk,19013,Republican,Marco Rubio,1551,0.262
+Iowa,IA,Black Hawk,19013,Republican,Donald Trump,1360,0.23
+Iowa,IA,Black Hawk,19013,Republican,Ben Carson,497,0.084
+Iowa,IA,Black Hawk,19013,Republican,Rand Paul,357,0.06
+Iowa,IA,Black Hawk,19013,Republican,Jeb Bush,178,0.03
+Iowa,IA,Black Hawk,19013,Republican,Carly Fiorina,131,0.022000000000000002
+Iowa,IA,Black Hawk,19013,Republican,Chris Christie,104,0.018000000000000002
+Iowa,IA,Black Hawk,19013,Republican,Mike Huckabee,72,0.012
+Iowa,IA,Black Hawk,19013,Republican,John Kasich,53,0.009000000000000001
+Iowa,IA,Black Hawk,19013,Republican,Rick Santorum,20,0.003
+Iowa,IA,Black Hawk,19013,Democrat,Hillary Clinton,3220,0.467
+Iowa,IA,Black Hawk,19013,Democrat,Bernie Sanders,3647,0.529
+Iowa,IA,Black Hawk,19013,Democrat,Martin O'Malley,16,0.002
+Iowa,IA,Black Hawk,19013,Democrat, Uncommitted,16,0.002
+Iowa,IA,Boone,19015,Republican,Ted Cruz,566,0.322
+Iowa,IA,Boone,19015,Republican,Donald Trump,412,0.23399999999999999
+Iowa,IA,Boone,19015,Republican,Marco Rubio,320,0.182
+Iowa,IA,Boone,19015,Republican,Ben Carson,177,0.10099999999999999
+Iowa,IA,Boone,19015,Republican,Rand Paul,96,0.055
+Iowa,IA,Boone,19015,Republican,Mike Huckabee,67,0.038
+Iowa,IA,Boone,19015,Republican,Chris Christie,40,0.023
+Iowa,IA,Boone,19015,Republican,Jeb Bush,31,0.018000000000000002
+Iowa,IA,Boone,19015,Republican,John Kasich,22,0.013000000000000001
+Iowa,IA,Boone,19015,Republican,Rick Santorum,19,0.011000000000000001
+Iowa,IA,Boone,19015,Republican,Carly Fiorina,7,0.004
+Iowa,IA,Boone,19015,Democrat,Hillary Clinton,585,0.45
+Iowa,IA,Boone,19015,Democrat,Bernie Sanders,715,0.55
+Iowa,IA,Boone,19015,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Boone,19015,Democrat, Uncommitted,0,0.0
+Iowa,IA,Bremer,19017,Republican,Ted Cruz,408,0.27399999999999997
+Iowa,IA,Bremer,19017,Republican,Marco Rubio,389,0.261
+Iowa,IA,Bremer,19017,Republican,Donald Trump,347,0.233
+Iowa,IA,Bremer,19017,Republican,Ben Carson,134,0.09
+Iowa,IA,Bremer,19017,Republican,John Kasich,50,0.034
+Iowa,IA,Bremer,19017,Republican,Rand Paul,46,0.031
+Iowa,IA,Bremer,19017,Republican,Jeb Bush,38,0.026000000000000002
+Iowa,IA,Bremer,19017,Republican,Carly Fiorina,24,0.016
+Iowa,IA,Bremer,19017,Republican,Mike Huckabee,19,0.013000000000000001
+Iowa,IA,Bremer,19017,Republican,Rick Santorum,19,0.013000000000000001
+Iowa,IA,Bremer,19017,Republican,Chris Christie,16,0.011000000000000001
+Iowa,IA,Bremer,19017,Democrat,Hillary Clinton,640,0.5329999999999999
+Iowa,IA,Bremer,19017,Democrat,Bernie Sanders,544,0.45299999999999996
+Iowa,IA,Bremer,19017,Democrat,Martin O'Malley,16,0.013000000000000001
+Iowa,IA,Bremer,19017,Democrat, Uncommitted,0,0.0
+Iowa,IA,Buchanan,19019,Republican,Ted Cruz,308,0.368
+Iowa,IA,Buchanan,19019,Republican,Donald Trump,217,0.259
+Iowa,IA,Buchanan,19019,Republican,Marco Rubio,110,0.131
+Iowa,IA,Buchanan,19019,Republican,Ben Carson,82,0.098
+Iowa,IA,Buchanan,19019,Republican,Rand Paul,35,0.042
+Iowa,IA,Buchanan,19019,Republican,Carly Fiorina,31,0.037000000000000005
+Iowa,IA,Buchanan,19019,Republican,Chris Christie,15,0.018000000000000002
+Iowa,IA,Buchanan,19019,Republican,Mike Huckabee,15,0.018000000000000002
+Iowa,IA,Buchanan,19019,Republican,Jeb Bush,14,0.017
+Iowa,IA,Buchanan,19019,Republican,John Kasich,6,0.006999999999999999
+Iowa,IA,Buchanan,19019,Republican,Rick Santorum,4,0.005
+Iowa,IA,Buchanan,19019,Democrat,Hillary Clinton,525,0.525
+Iowa,IA,Buchanan,19019,Democrat,Bernie Sanders,475,0.475
+Iowa,IA,Buchanan,19019,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Buchanan,19019,Democrat, Uncommitted,0,0.0
+Iowa,IA,Buena Vista,19021,Republican,Ted Cruz,309,0.306
+Iowa,IA,Buena Vista,19021,Republican,Donald Trump,251,0.249
+Iowa,IA,Buena Vista,19021,Republican,Marco Rubio,221,0.21899999999999997
+Iowa,IA,Buena Vista,19021,Republican,Ben Carson,97,0.096
+Iowa,IA,Buena Vista,19021,Republican,Rand Paul,26,0.026000000000000002
+Iowa,IA,Buena Vista,19021,Republican,Jeb Bush,23,0.023
+Iowa,IA,Buena Vista,19021,Republican,Rick Santorum,22,0.022000000000000002
+Iowa,IA,Buena Vista,19021,Republican,Carly Fiorina,20,0.02
+Iowa,IA,Buena Vista,19021,Republican,Mike Huckabee,18,0.018000000000000002
+Iowa,IA,Buena Vista,19021,Republican,John Kasich,15,0.015
+Iowa,IA,Buena Vista,19021,Republican,Chris Christie,7,0.006999999999999999
+Iowa,IA,Buena Vista,19021,Democrat,Hillary Clinton,291,0.486
+Iowa,IA,Buena Vista,19021,Democrat,Bernie Sanders,291,0.486
+Iowa,IA,Buena Vista,19021,Democrat,Martin O'Malley,17,0.027999999999999997
+Iowa,IA,Buena Vista,19021,Democrat, Uncommitted,0,0.0
+Iowa,IA,Butler,19023,Republican,Ted Cruz,332,0.365
+Iowa,IA,Butler,19023,Republican,Donald Trump,220,0.242
+Iowa,IA,Butler,19023,Republican,Marco Rubio,145,0.159
+Iowa,IA,Butler,19023,Republican,Ben Carson,108,0.11900000000000001
+Iowa,IA,Butler,19023,Republican,Rand Paul,32,0.035
+Iowa,IA,Butler,19023,Republican,Jeb Bush,24,0.026000000000000002
+Iowa,IA,Butler,19023,Republican,Mike Huckabee,21,0.023
+Iowa,IA,Butler,19023,Republican,Carly Fiorina,18,0.02
+Iowa,IA,Butler,19023,Republican,Chris Christie,6,0.006999999999999999
+Iowa,IA,Butler,19023,Republican,John Kasich,3,0.003
+Iowa,IA,Butler,19023,Republican,Rick Santorum,1,0.001
+Iowa,IA,Butler,19023,Democrat,Hillary Clinton,250,0.41700000000000004
+Iowa,IA,Butler,19023,Democrat,Bernie Sanders,350,0.583
+Iowa,IA,Butler,19023,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Butler,19023,Democrat, Uncommitted,0,0.0
+Iowa,IA,Calhoun,19025,Republican,Ted Cruz,159,0.285
+Iowa,IA,Calhoun,19025,Republican,Donald Trump,136,0.244
+Iowa,IA,Calhoun,19025,Republican,Marco Rubio,121,0.217
+Iowa,IA,Calhoun,19025,Republican,Ben Carson,37,0.066
+Iowa,IA,Calhoun,19025,Republican,Mike Huckabee,35,0.063
+Iowa,IA,Calhoun,19025,Republican,Rand Paul,20,0.036000000000000004
+Iowa,IA,Calhoun,19025,Republican,Rick Santorum,19,0.034
+Iowa,IA,Calhoun,19025,Republican,Jeb Bush,10,0.018000000000000002
+Iowa,IA,Calhoun,19025,Republican,Carly Fiorina,8,0.013999999999999999
+Iowa,IA,Calhoun,19025,Republican,John Kasich,7,0.013000000000000001
+Iowa,IA,Calhoun,19025,Republican,Chris Christie,5,0.009000000000000001
+Iowa,IA,Calhoun,19025,Democrat,Hillary Clinton,200,0.5
+Iowa,IA,Calhoun,19025,Democrat,Bernie Sanders,200,0.5
+Iowa,IA,Calhoun,19025,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Calhoun,19025,Democrat, Uncommitted,0,0.0
+Iowa,IA,Carroll,19027,Republican,Ted Cruz,256,0.25
+Iowa,IA,Carroll,19027,Republican,Donald Trump,298,0.29
+Iowa,IA,Carroll,19027,Republican,Marco Rubio,230,0.22399999999999998
+Iowa,IA,Carroll,19027,Republican,Ben Carson,69,0.067
+Iowa,IA,Carroll,19027,Republican,Jeb Bush,60,0.057999999999999996
+Iowa,IA,Carroll,19027,Republican,Carly Fiorina,44,0.043
+Iowa,IA,Carroll,19027,Republican,Rand Paul,31,0.03
+Iowa,IA,Carroll,19027,Republican,John Kasich,14,0.013999999999999999
+Iowa,IA,Carroll,19027,Republican,Mike Huckabee,11,0.011000000000000001
+Iowa,IA,Carroll,19027,Republican,Chris Christie,7,0.006999999999999999
+Iowa,IA,Carroll,19027,Republican,Rick Santorum,5,0.005
+Iowa,IA,Carroll,19027,Democrat,Hillary Clinton,504,0.63
+Iowa,IA,Carroll,19027,Democrat,Bernie Sanders,296,0.37
+Iowa,IA,Carroll,19027,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Carroll,19027,Democrat, Uncommitted,0,0.0
+Iowa,IA,Cass,19029,Republican,Ted Cruz,225,0.244
+Iowa,IA,Cass,19029,Republican,Donald Trump,262,0.284
+Iowa,IA,Cass,19029,Republican,Marco Rubio,176,0.19
+Iowa,IA,Cass,19029,Republican,Ben Carson,142,0.154
+Iowa,IA,Cass,19029,Republican,Jeb Bush,34,0.037000000000000005
+Iowa,IA,Cass,19029,Republican,John Kasich,21,0.023
+Iowa,IA,Cass,19029,Republican,Mike Huckabee,17,0.018000000000000002
+Iowa,IA,Cass,19029,Republican,Chris Christie,15,0.016
+Iowa,IA,Cass,19029,Republican,Rick Santorum,13,0.013999999999999999
+Iowa,IA,Cass,19029,Republican,Carly Fiorina,10,0.011000000000000001
+Iowa,IA,Cass,19029,Republican,Rand Paul,9,0.01
+Iowa,IA,Cass,19029,Democrat,Hillary Clinton,300,0.6
+Iowa,IA,Cass,19029,Democrat,Bernie Sanders,190,0.38
+Iowa,IA,Cass,19029,Democrat,Martin O'Malley,10,0.02
+Iowa,IA,Cass,19029,Democrat, Uncommitted,0,0.0
+Iowa,IA,Cedar,19031,Republican,Ted Cruz,310,0.29
+Iowa,IA,Cedar,19031,Republican,Donald Trump,281,0.263
+Iowa,IA,Cedar,19031,Republican,Marco Rubio,240,0.22399999999999998
+Iowa,IA,Cedar,19031,Republican,Ben Carson,100,0.09300000000000001
+Iowa,IA,Cedar,19031,Republican,Rand Paul,43,0.04
+Iowa,IA,Cedar,19031,Republican,John Kasich,26,0.024
+Iowa,IA,Cedar,19031,Republican,Carly Fiorina,19,0.018000000000000002
+Iowa,IA,Cedar,19031,Republican,Jeb Bush,17,0.016
+Iowa,IA,Cedar,19031,Republican,Mike Huckabee,13,0.012
+Iowa,IA,Cedar,19031,Republican,Chris Christie,9,0.008
+Iowa,IA,Cedar,19031,Republican,Rick Santorum,6,0.006
+Iowa,IA,Cedar,19031,Democrat,Hillary Clinton,354,0.44299999999999995
+Iowa,IA,Cedar,19031,Democrat,Bernie Sanders,445,0.557
+Iowa,IA,Cedar,19031,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Cedar,19031,Democrat, Uncommitted,0,0.0
+Iowa,IA,Cerro Gordo,19033,Republican,Ted Cruz,655,0.282
+Iowa,IA,Cerro Gordo,19033,Republican,Donald Trump,597,0.257
+Iowa,IA,Cerro Gordo,19033,Republican,Marco Rubio,446,0.192
+Iowa,IA,Cerro Gordo,19033,Republican,Ben Carson,184,0.079
+Iowa,IA,Cerro Gordo,19033,Republican,Jeb Bush,119,0.051
+Iowa,IA,Cerro Gordo,19033,Republican,Chris Christie,114,0.049
+Iowa,IA,Cerro Gordo,19033,Republican,Rand Paul,78,0.034
+Iowa,IA,Cerro Gordo,19033,Republican,Carly Fiorina,42,0.018000000000000002
+Iowa,IA,Cerro Gordo,19033,Republican,Mike Huckabee,39,0.017
+Iowa,IA,Cerro Gordo,19033,Republican,John Kasich,29,0.012
+Iowa,IA,Cerro Gordo,19033,Republican,Rick Santorum,18,0.008
+Iowa,IA,Cerro Gordo,19033,Democrat,Hillary Clinton,1091,0.496
+Iowa,IA,Cerro Gordo,19033,Democrat,Bernie Sanders,1108,0.504
+Iowa,IA,Cerro Gordo,19033,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Cerro Gordo,19033,Democrat, Uncommitted,0,0.0
+Iowa,IA,Cherokee,19035,Republican,Ted Cruz,157,0.187
+Iowa,IA,Cherokee,19035,Republican,Donald Trump,248,0.29600000000000004
+Iowa,IA,Cherokee,19035,Republican,Marco Rubio,243,0.29
+Iowa,IA,Cherokee,19035,Republican,Ben Carson,119,0.142
+Iowa,IA,Cherokee,19035,Republican,Mike Huckabee,17,0.02
+Iowa,IA,Cherokee,19035,Republican,Jeb Bush,16,0.019
+Iowa,IA,Cherokee,19035,Republican,Rand Paul,12,0.013999999999999999
+Iowa,IA,Cherokee,19035,Republican,Carly Fiorina,11,0.013000000000000001
+Iowa,IA,Cherokee,19035,Republican,Chris Christie,5,0.006
+Iowa,IA,Cherokee,19035,Republican,John Kasich,5,0.006
+Iowa,IA,Cherokee,19035,Republican,Rick Santorum,5,0.006
+Iowa,IA,Cherokee,19035,Democrat,Hillary Clinton,181,0.45399999999999996
+Iowa,IA,Cherokee,19035,Democrat,Bernie Sanders,218,0.546
+Iowa,IA,Cherokee,19035,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Cherokee,19035,Democrat, Uncommitted,0,0.0
+Iowa,IA,Chickasaw,19037,Republican,Ted Cruz,161,0.268
+Iowa,IA,Chickasaw,19037,Republican,Donald Trump,166,0.276
+Iowa,IA,Chickasaw,19037,Republican,Marco Rubio,143,0.23800000000000002
+Iowa,IA,Chickasaw,19037,Republican,Ben Carson,57,0.095
+Iowa,IA,Chickasaw,19037,Republican,Carly Fiorina,27,0.045
+Iowa,IA,Chickasaw,19037,Republican,Rand Paul,18,0.03
+Iowa,IA,Chickasaw,19037,Republican,Jeb Bush,11,0.018000000000000002
+Iowa,IA,Chickasaw,19037,Republican,Mike Huckabee,6,0.01
+Iowa,IA,Chickasaw,19037,Republican,Rick Santorum,6,0.01
+Iowa,IA,Chickasaw,19037,Republican,John Kasich,3,0.005
+Iowa,IA,Chickasaw,19037,Republican,Chris Christie,2,0.003
+Iowa,IA,Chickasaw,19037,Democrat,Hillary Clinton,360,0.601
+Iowa,IA,Chickasaw,19037,Democrat,Bernie Sanders,233,0.389
+Iowa,IA,Chickasaw,19037,Democrat,Martin O'Malley,6,0.01
+Iowa,IA,Chickasaw,19037,Democrat, Uncommitted,0,0.0
+Iowa,IA,Clarke,19039,Republican,Ted Cruz,155,0.278
+Iowa,IA,Clarke,19039,Republican,Donald Trump,202,0.363
+Iowa,IA,Clarke,19039,Republican,Marco Rubio,88,0.158
+Iowa,IA,Clarke,19039,Republican,Ben Carson,56,0.10099999999999999
+Iowa,IA,Clarke,19039,Republican,Rand Paul,15,0.027000000000000003
+Iowa,IA,Clarke,19039,Republican,Jeb Bush,12,0.022000000000000002
+Iowa,IA,Clarke,19039,Republican,Chris Christie,9,0.016
+Iowa,IA,Clarke,19039,Republican,Carly Fiorina,9,0.016
+Iowa,IA,Clarke,19039,Republican,Mike Huckabee,8,0.013999999999999999
+Iowa,IA,Clarke,19039,Republican,John Kasich,3,0.005
+Iowa,IA,Clarke,19039,Republican,Rick Santorum,0,0.0
+Iowa,IA,Clarke,19039,Democrat,Hillary Clinton,232,0.58
+Iowa,IA,Clarke,19039,Democrat,Bernie Sanders,168,0.42
+Iowa,IA,Clarke,19039,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Clarke,19039,Democrat, Uncommitted,0,0.0
+Iowa,IA,Clay,19041,Republican,Ted Cruz,291,0.284
+Iowa,IA,Clay,19041,Republican,Donald Trump,292,0.285
+Iowa,IA,Clay,19041,Republican,Ben Carson,155,0.151
+Iowa,IA,Clay,19041,Republican,Marco Rubio,149,0.145
+Iowa,IA,Clay,19041,Republican,John Kasich,31,0.03
+Iowa,IA,Clay,19041,Republican,Rand Paul,28,0.027000000000000003
+Iowa,IA,Clay,19041,Republican,Mike Huckabee,25,0.024
+Iowa,IA,Clay,19041,Republican,Jeb Bush,16,0.016
+Iowa,IA,Clay,19041,Republican,Chris Christie,15,0.015
+Iowa,IA,Clay,19041,Republican,Rick Santorum,14,0.013999999999999999
+Iowa,IA,Clay,19041,Republican,Carly Fiorina,8,0.008
+Iowa,IA,Clay,19041,Democrat,Hillary Clinton,296,0.494
+Iowa,IA,Clay,19041,Democrat,Bernie Sanders,303,0.506
+Iowa,IA,Clay,19041,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Clay,19041,Democrat, Uncommitted,0,0.0
+Iowa,IA,Clayton,19043,Republican,Ted Cruz,298,0.35200000000000004
+Iowa,IA,Clayton,19043,Republican,Donald Trump,249,0.294
+Iowa,IA,Clayton,19043,Republican,Marco Rubio,109,0.129
+Iowa,IA,Clayton,19043,Republican,Ben Carson,67,0.079
+Iowa,IA,Clayton,19043,Republican,Rand Paul,29,0.034
+Iowa,IA,Clayton,19043,Republican,Jeb Bush,26,0.031
+Iowa,IA,Clayton,19043,Republican,Carly Fiorina,26,0.031
+Iowa,IA,Clayton,19043,Republican,Mike Huckabee,17,0.02
+Iowa,IA,Clayton,19043,Republican,John Kasich,11,0.013000000000000001
+Iowa,IA,Clayton,19043,Republican,Chris Christie,9,0.011000000000000001
+Iowa,IA,Clayton,19043,Republican,Rick Santorum,5,0.006
+Iowa,IA,Clayton,19043,Democrat,Hillary Clinton,392,0.49
+Iowa,IA,Clayton,19043,Democrat,Bernie Sanders,408,0.51
+Iowa,IA,Clayton,19043,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Clayton,19043,Democrat, Uncommitted,0,0.0
+Iowa,IA,Clinton,19045,Republican,Ted Cruz,621,0.26899999999999996
+Iowa,IA,Clinton,19045,Republican,Donald Trump,709,0.307
+Iowa,IA,Clinton,19045,Republican,Marco Rubio,459,0.19899999999999998
+Iowa,IA,Clinton,19045,Republican,Ben Carson,159,0.069
+Iowa,IA,Clinton,19045,Republican,Jeb Bush,106,0.046
+Iowa,IA,Clinton,19045,Republican,Rand Paul,94,0.040999999999999995
+Iowa,IA,Clinton,19045,Republican,Carly Fiorina,70,0.03
+Iowa,IA,Clinton,19045,Republican,John Kasich,41,0.018000000000000002
+Iowa,IA,Clinton,19045,Republican,Chris Christie,26,0.011000000000000001
+Iowa,IA,Clinton,19045,Republican,Mike Huckabee,15,0.006999999999999999
+Iowa,IA,Clinton,19045,Republican,Rick Santorum,6,0.003
+Iowa,IA,Clinton,19045,Democrat,Hillary Clinton,1165,0.486
+Iowa,IA,Clinton,19045,Democrat,Bernie Sanders,1234,0.514
+Iowa,IA,Clinton,19045,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Clinton,19045,Democrat, Uncommitted,0,0.0
+Iowa,IA,Crawford,19047,Republican,Ted Cruz,226,0.32299999999999995
+Iowa,IA,Crawford,19047,Republican,Donald Trump,214,0.306
+Iowa,IA,Crawford,19047,Republican,Marco Rubio,114,0.163
+Iowa,IA,Crawford,19047,Republican,Ben Carson,63,0.09
+Iowa,IA,Crawford,19047,Republican,Carly Fiorina,24,0.034
+Iowa,IA,Crawford,19047,Republican,Chris Christie,14,0.02
+Iowa,IA,Crawford,19047,Republican,Jeb Bush,12,0.017
+Iowa,IA,Crawford,19047,Republican,Rand Paul,12,0.017
+Iowa,IA,Crawford,19047,Republican,John Kasich,8,0.011000000000000001
+Iowa,IA,Crawford,19047,Republican,Mike Huckabee,7,0.01
+Iowa,IA,Crawford,19047,Republican,Rick Santorum,5,0.006999999999999999
+Iowa,IA,Crawford,19047,Democrat,Hillary Clinton,225,0.451
+Iowa,IA,Crawford,19047,Democrat,Bernie Sanders,208,0.41700000000000004
+Iowa,IA,Crawford,19047,Democrat,Martin O'Malley,66,0.132
+Iowa,IA,Crawford,19047,Democrat, Uncommitted,0,0.0
+Iowa,IA,Dallas,19049,Republican,Ted Cruz,1691,0.23199999999999998
+Iowa,IA,Dallas,19049,Republican,Marco Rubio,2469,0.33899999999999997
+Iowa,IA,Dallas,19049,Republican,Donald Trump,1510,0.207
+Iowa,IA,Dallas,19049,Republican,Ben Carson,489,0.067
+Iowa,IA,Dallas,19049,Republican,Rand Paul,276,0.038
+Iowa,IA,Dallas,19049,Republican,Chris Christie,214,0.028999999999999998
+Iowa,IA,Dallas,19049,Republican,Jeb Bush,213,0.028999999999999998
+Iowa,IA,Dallas,19049,Republican,John Kasich,167,0.023
+Iowa,IA,Dallas,19049,Republican,Carly Fiorina,133,0.018000000000000002
+Iowa,IA,Dallas,19049,Republican,Mike Huckabee,61,0.008
+Iowa,IA,Dallas,19049,Republican,Rick Santorum,58,0.008
+Iowa,IA,Dallas,19049,Democrat,Hillary Clinton,1667,0.575
+Iowa,IA,Dallas,19049,Democrat,Bernie Sanders,1208,0.41700000000000004
+Iowa,IA,Dallas,19049,Democrat,Martin O'Malley,24,0.008
+Iowa,IA,Dallas,19049,Democrat, Uncommitted,0,0.0
+Iowa,IA,Davis,19051,Republican,Ted Cruz,168,0.316
+Iowa,IA,Davis,19051,Republican,Donald Trump,205,0.386
+Iowa,IA,Davis,19051,Republican,Ben Carson,38,0.07200000000000001
+Iowa,IA,Davis,19051,Republican,Mike Huckabee,38,0.07200000000000001
+Iowa,IA,Davis,19051,Republican,Marco Rubio,37,0.07
+Iowa,IA,Davis,19051,Republican,Rand Paul,25,0.047
+Iowa,IA,Davis,19051,Republican,Jeb Bush,10,0.019
+Iowa,IA,Davis,19051,Republican,Chris Christie,8,0.015
+Iowa,IA,Davis,19051,Republican,Carly Fiorina,1,0.002
+Iowa,IA,Davis,19051,Republican,John Kasich,1,0.002
+Iowa,IA,Davis,19051,Republican,Rick Santorum,0,0.0
+Iowa,IA,Davis,19051,Democrat,Hillary Clinton,174,0.58
+Iowa,IA,Davis,19051,Democrat,Bernie Sanders,126,0.42
+Iowa,IA,Davis,19051,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Davis,19051,Democrat, Uncommitted,0,0.0
+Iowa,IA,Decatur,19053,Republican,Ted Cruz,173,0.348
+Iowa,IA,Decatur,19053,Republican,Donald Trump,127,0.256
+Iowa,IA,Decatur,19053,Republican,Ben Carson,80,0.161
+Iowa,IA,Decatur,19053,Republican,Marco Rubio,73,0.147
+Iowa,IA,Decatur,19053,Republican,Rand Paul,19,0.038
+Iowa,IA,Decatur,19053,Republican,Mike Huckabee,6,0.012
+Iowa,IA,Decatur,19053,Republican,Jeb Bush,5,0.01
+Iowa,IA,Decatur,19053,Republican,Chris Christie,4,0.008
+Iowa,IA,Decatur,19053,Republican,John Kasich,4,0.008
+Iowa,IA,Decatur,19053,Republican,Rick Santorum,4,0.008
+Iowa,IA,Decatur,19053,Republican,Carly Fiorina,2,0.004
+Iowa,IA,Decatur,19053,Democrat,Hillary Clinton,150,0.502
+Iowa,IA,Decatur,19053,Democrat,Bernie Sanders,141,0.47200000000000003
+Iowa,IA,Decatur,19053,Democrat,Martin O'Malley,4,0.013000000000000001
+Iowa,IA,Decatur,19053,Democrat, Uncommitted,4,0.013000000000000001
+Iowa,IA,Delaware,19055,Republican,Ted Cruz,317,0.355
+Iowa,IA,Delaware,19055,Republican,Donald Trump,198,0.221
+Iowa,IA,Delaware,19055,Republican,Marco Rubio,172,0.192
+Iowa,IA,Delaware,19055,Republican,Ben Carson,92,0.10300000000000001
+Iowa,IA,Delaware,19055,Republican,Carly Fiorina,52,0.057999999999999996
+Iowa,IA,Delaware,19055,Republican,Rand Paul,27,0.03
+Iowa,IA,Delaware,19055,Republican,Jeb Bush,19,0.021
+Iowa,IA,Delaware,19055,Republican,Mike Huckabee,7,0.008
+Iowa,IA,Delaware,19055,Republican,Chris Christie,5,0.006
+Iowa,IA,Delaware,19055,Republican,Rick Santorum,3,0.003
+Iowa,IA,Delaware,19055,Republican,John Kasich,2,0.002
+Iowa,IA,Delaware,19055,Democrat,Hillary Clinton,440,0.55
+Iowa,IA,Delaware,19055,Democrat,Bernie Sanders,344,0.43
+Iowa,IA,Delaware,19055,Democrat,Martin O'Malley,16,0.02
+Iowa,IA,Delaware,19055,Democrat, Uncommitted,0,0.0
+Iowa,IA,Des Moines,19057,Republican,Ted Cruz,613,0.28300000000000003
+Iowa,IA,Des Moines,19057,Republican,Donald Trump,659,0.304
+Iowa,IA,Des Moines,19057,Republican,Marco Rubio,451,0.20800000000000002
+Iowa,IA,Des Moines,19057,Republican,Ben Carson,212,0.098
+Iowa,IA,Des Moines,19057,Republican,Rand Paul,99,0.046
+Iowa,IA,Des Moines,19057,Republican,Chris Christie,35,0.016
+Iowa,IA,Des Moines,19057,Republican,Mike Huckabee,31,0.013999999999999999
+Iowa,IA,Des Moines,19057,Republican,John Kasich,20,0.009000000000000001
+Iowa,IA,Des Moines,19057,Republican,Jeb Bush,19,0.009000000000000001
+Iowa,IA,Des Moines,19057,Republican,Carly Fiorina,17,0.008
+Iowa,IA,Des Moines,19057,Republican,Rick Santorum,6,0.003
+Iowa,IA,Des Moines,19057,Democrat,Hillary Clinton,933,0.467
+Iowa,IA,Des Moines,19057,Democrat,Bernie Sanders,1066,0.5329999999999999
+Iowa,IA,Des Moines,19057,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Des Moines,19057,Democrat, Uncommitted,0,0.0
+Iowa,IA,Dickinson,19059,Republican,Ted Cruz,260,0.21600000000000003
+Iowa,IA,Dickinson,19059,Republican,Donald Trump,342,0.285
+Iowa,IA,Dickinson,19059,Republican,Marco Rubio,286,0.23800000000000002
+Iowa,IA,Dickinson,19059,Republican,Ben Carson,159,0.132
+Iowa,IA,Dickinson,19059,Republican,Jeb Bush,46,0.038
+Iowa,IA,Dickinson,19059,Republican,Rand Paul,34,0.027999999999999997
+Iowa,IA,Dickinson,19059,Republican,John Kasich,27,0.022000000000000002
+Iowa,IA,Dickinson,19059,Republican,Mike Huckabee,15,0.012
+Iowa,IA,Dickinson,19059,Republican,Carly Fiorina,12,0.01
+Iowa,IA,Dickinson,19059,Republican,Rick Santorum,12,0.01
+Iowa,IA,Dickinson,19059,Republican,Chris Christie,8,0.006999999999999999
+Iowa,IA,Dickinson,19059,Democrat,Hillary Clinton,341,0.488
+Iowa,IA,Dickinson,19059,Democrat,Bernie Sanders,358,0.512
+Iowa,IA,Dickinson,19059,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Dickinson,19059,Democrat, Uncommitted,0,0.0
+Iowa,IA,Dubuque,19061,Republican,Ted Cruz,824,0.207
+Iowa,IA,Dubuque,19061,Republican,Donald Trump,1087,0.273
+Iowa,IA,Dubuque,19061,Republican,Marco Rubio,1060,0.267
+Iowa,IA,Dubuque,19061,Republican,Ben Carson,384,0.09699999999999999
+Iowa,IA,Dubuque,19061,Republican,Rand Paul,230,0.057999999999999996
+Iowa,IA,Dubuque,19061,Republican,Carly Fiorina,97,0.024
+Iowa,IA,Dubuque,19061,Republican,Jeb Bush,95,0.024
+Iowa,IA,Dubuque,19061,Republican,Chris Christie,75,0.019
+Iowa,IA,Dubuque,19061,Republican,John Kasich,54,0.013999999999999999
+Iowa,IA,Dubuque,19061,Republican,Mike Huckabee,48,0.012
+Iowa,IA,Dubuque,19061,Republican,Rick Santorum,21,0.005
+Iowa,IA,Dubuque,19061,Democrat,Hillary Clinton,2504,0.522
+Iowa,IA,Dubuque,19061,Democrat,Bernie Sanders,2276,0.474
+Iowa,IA,Dubuque,19061,Democrat,Martin O'Malley,18,0.004
+Iowa,IA,Dubuque,19061,Democrat, Uncommitted,0,0.0
+Iowa,IA,Emmet,19063,Republican,Ted Cruz,143,0.355
+Iowa,IA,Emmet,19063,Republican,Donald Trump,122,0.303
+Iowa,IA,Emmet,19063,Republican,Ben Carson,49,0.122
+Iowa,IA,Emmet,19063,Republican,Marco Rubio,46,0.114
+Iowa,IA,Emmet,19063,Republican,Jeb Bush,11,0.027000000000000003
+Iowa,IA,Emmet,19063,Republican,Mike Huckabee,10,0.025
+Iowa,IA,Emmet,19063,Republican,Carly Fiorina,8,0.02
+Iowa,IA,Emmet,19063,Republican,Chris Christie,5,0.012
+Iowa,IA,Emmet,19063,Republican,John Kasich,4,0.01
+Iowa,IA,Emmet,19063,Republican,Rand Paul,4,0.01
+Iowa,IA,Emmet,19063,Republican,Rick Santorum,1,0.002
+Iowa,IA,Emmet,19063,Democrat,Hillary Clinton,168,0.56
+Iowa,IA,Emmet,19063,Democrat,Bernie Sanders,132,0.44
+Iowa,IA,Emmet,19063,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Emmet,19063,Democrat, Uncommitted,0,0.0
+Iowa,IA,Fayette,19065,Republican,Ted Cruz,341,0.341
+Iowa,IA,Fayette,19065,Republican,Donald Trump,240,0.24
+Iowa,IA,Fayette,19065,Republican,Marco Rubio,180,0.18
+Iowa,IA,Fayette,19065,Republican,Ben Carson,144,0.14400000000000002
+Iowa,IA,Fayette,19065,Republican,Rand Paul,27,0.027000000000000003
+Iowa,IA,Fayette,19065,Republican,Jeb Bush,18,0.018000000000000002
+Iowa,IA,Fayette,19065,Republican,Carly Fiorina,18,0.018000000000000002
+Iowa,IA,Fayette,19065,Republican,Mike Huckabee,17,0.017
+Iowa,IA,Fayette,19065,Republican,Chris Christie,6,0.006
+Iowa,IA,Fayette,19065,Republican,John Kasich,6,0.006
+Iowa,IA,Fayette,19065,Republican,Rick Santorum,3,0.003
+Iowa,IA,Fayette,19065,Democrat,Hillary Clinton,525,0.526
+Iowa,IA,Fayette,19065,Democrat,Bernie Sanders,468,0.469
+Iowa,IA,Fayette,19065,Democrat, Uncommitted,5,0.005
+Iowa,IA,Fayette,19065,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Floyd,19067,Republican,Ted Cruz,305,0.401
+Iowa,IA,Floyd,19067,Republican,Donald Trump,200,0.263
+Iowa,IA,Floyd,19067,Republican,Marco Rubio,105,0.138
+Iowa,IA,Floyd,19067,Republican,Ben Carson,83,0.109
+Iowa,IA,Floyd,19067,Republican,Jeb Bush,23,0.03
+Iowa,IA,Floyd,19067,Republican,Rand Paul,10,0.013000000000000001
+Iowa,IA,Floyd,19067,Republican,Chris Christie,9,0.012
+Iowa,IA,Floyd,19067,Republican,John Kasich,9,0.012
+Iowa,IA,Floyd,19067,Republican,Carly Fiorina,8,0.011000000000000001
+Iowa,IA,Floyd,19067,Republican,Mike Huckabee,8,0.011000000000000001
+Iowa,IA,Floyd,19067,Republican,Rick Santorum,0,0.0
+Iowa,IA,Floyd,19067,Democrat,Hillary Clinton,453,0.5670000000000001
+Iowa,IA,Floyd,19067,Democrat,Bernie Sanders,346,0.433
+Iowa,IA,Floyd,19067,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Floyd,19067,Democrat, Uncommitted,0,0.0
+Iowa,IA,Franklin,19069,Republican,Ted Cruz,225,0.358
+Iowa,IA,Franklin,19069,Republican,Donald Trump,159,0.253
+Iowa,IA,Franklin,19069,Republican,Marco Rubio,105,0.16699999999999998
+Iowa,IA,Franklin,19069,Republican,Ben Carson,62,0.099
+Iowa,IA,Franklin,19069,Republican,Mike Huckabee,23,0.037000000000000005
+Iowa,IA,Franklin,19069,Republican,Rand Paul,23,0.037000000000000005
+Iowa,IA,Franklin,19069,Republican,Jeb Bush,18,0.028999999999999998
+Iowa,IA,Franklin,19069,Republican,Carly Fiorina,5,0.008
+Iowa,IA,Franklin,19069,Republican,John Kasich,4,0.006
+Iowa,IA,Franklin,19069,Republican,Rick Santorum,3,0.005
+Iowa,IA,Franklin,19069,Republican,Chris Christie,1,0.002
+Iowa,IA,Franklin,19069,Democrat,Hillary Clinton,226,0.568
+Iowa,IA,Franklin,19069,Democrat,Bernie Sanders,168,0.42200000000000004
+Iowa,IA,Franklin,19069,Democrat,Martin O'Malley,4,0.01
+Iowa,IA,Franklin,19069,Democrat, Uncommitted,0,0.0
+Iowa,IA,Fremont,19071,Republican,Ted Cruz,87,0.204
+Iowa,IA,Fremont,19071,Republican,Donald Trump,182,0.42700000000000005
+Iowa,IA,Fremont,19071,Republican,Marco Rubio,77,0.18100000000000002
+Iowa,IA,Fremont,19071,Republican,Ben Carson,40,0.094
+Iowa,IA,Fremont,19071,Republican,Rand Paul,11,0.026000000000000002
+Iowa,IA,Fremont,19071,Republican,Jeb Bush,10,0.023
+Iowa,IA,Fremont,19071,Republican,John Kasich,6,0.013999999999999999
+Iowa,IA,Fremont,19071,Republican,Chris Christie,5,0.012
+Iowa,IA,Fremont,19071,Republican,Rick Santorum,5,0.012
+Iowa,IA,Fremont,19071,Republican,Mike Huckabee,2,0.005
+Iowa,IA,Fremont,19071,Republican,Carly Fiorina,0,0.0
+Iowa,IA,Fremont,19071,Democrat,Hillary Clinton,120,0.444
+Iowa,IA,Fremont,19071,Democrat,Bernie Sanders,135,0.5
+Iowa,IA,Fremont,19071,Democrat,Martin O'Malley,15,0.055999999999999994
+Iowa,IA,Fremont,19071,Democrat, Uncommitted,0,0.0
+Iowa,IA,Greene,19073,Republican,Ted Cruz,162,0.297
+Iowa,IA,Greene,19073,Republican,Donald Trump,164,0.3
+Iowa,IA,Greene,19073,Republican,Marco Rubio,77,0.141
+Iowa,IA,Greene,19073,Republican,Ben Carson,62,0.114
+Iowa,IA,Greene,19073,Republican,Jeb Bush,25,0.046
+Iowa,IA,Greene,19073,Republican,Mike Huckabee,14,0.026000000000000002
+Iowa,IA,Greene,19073,Republican,Rand Paul,14,0.026000000000000002
+Iowa,IA,Greene,19073,Republican,Chris Christie,13,0.024
+Iowa,IA,Greene,19073,Republican,Rick Santorum,7,0.013000000000000001
+Iowa,IA,Greene,19073,Republican,John Kasich,6,0.011000000000000001
+Iowa,IA,Greene,19073,Republican,Carly Fiorina,2,0.004
+Iowa,IA,Greene,19073,Democrat,Hillary Clinton,215,0.539
+Iowa,IA,Greene,19073,Democrat,Bernie Sanders,184,0.461
+Iowa,IA,Greene,19073,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Greene,19073,Democrat, Uncommitted,0,0.0
+Iowa,IA,Grundy,19075,Republican,Ted Cruz,272,0.28800000000000003
+Iowa,IA,Grundy,19075,Republican,Marco Rubio,261,0.276
+Iowa,IA,Grundy,19075,Republican,Donald Trump,198,0.209
+Iowa,IA,Grundy,19075,Republican,Ben Carson,73,0.077
+Iowa,IA,Grundy,19075,Republican,Mike Huckabee,50,0.053
+Iowa,IA,Grundy,19075,Republican,Rand Paul,32,0.034
+Iowa,IA,Grundy,19075,Republican,Jeb Bush,26,0.027000000000000003
+Iowa,IA,Grundy,19075,Republican,Chris Christie,12,0.013000000000000001
+Iowa,IA,Grundy,19075,Republican,Carly Fiorina,10,0.011000000000000001
+Iowa,IA,Grundy,19075,Republican,Rick Santorum,8,0.008
+Iowa,IA,Grundy,19075,Republican,John Kasich,4,0.004
+Iowa,IA,Grundy,19075,Democrat,Hillary Clinton,186,0.467
+Iowa,IA,Grundy,19075,Democrat,Bernie Sanders,206,0.518
+Iowa,IA,Grundy,19075,Democrat,Martin O'Malley,6,0.015
+Iowa,IA,Grundy,19075,Democrat, Uncommitted,0,0.0
+Iowa,IA,Guthrie,19077,Republican,Ted Cruz,218,0.289
+Iowa,IA,Guthrie,19077,Republican,Donald Trump,208,0.276
+Iowa,IA,Guthrie,19077,Republican,Marco Rubio,118,0.156
+Iowa,IA,Guthrie,19077,Republican,Ben Carson,107,0.142
+Iowa,IA,Guthrie,19077,Republican,Rand Paul,28,0.037000000000000005
+Iowa,IA,Guthrie,19077,Republican,Mike Huckabee,23,0.031
+Iowa,IA,Guthrie,19077,Republican,Carly Fiorina,18,0.024
+Iowa,IA,Guthrie,19077,Republican,Jeb Bush,16,0.021
+Iowa,IA,Guthrie,19077,Republican,Chris Christie,9,0.012
+Iowa,IA,Guthrie,19077,Republican,Rick Santorum,7,0.009000000000000001
+Iowa,IA,Guthrie,19077,Republican,John Kasich,2,0.003
+Iowa,IA,Guthrie,19077,Democrat,Hillary Clinton,220,0.55
+Iowa,IA,Guthrie,19077,Democrat,Bernie Sanders,180,0.45
+Iowa,IA,Guthrie,19077,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Guthrie,19077,Democrat, Uncommitted,0,0.0
+Iowa,IA,Hamilton,19079,Republican,Ted Cruz,277,0.289
+Iowa,IA,Hamilton,19079,Republican,Donald Trump,269,0.281
+Iowa,IA,Hamilton,19079,Republican,Marco Rubio,159,0.166
+Iowa,IA,Hamilton,19079,Republican,Ben Carson,89,0.09300000000000001
+Iowa,IA,Hamilton,19079,Republican,Rand Paul,48,0.05
+Iowa,IA,Hamilton,19079,Republican,Mike Huckabee,25,0.026000000000000002
+Iowa,IA,Hamilton,19079,Republican,Chris Christie,21,0.022000000000000002
+Iowa,IA,Hamilton,19079,Republican,John Kasich,20,0.021
+Iowa,IA,Hamilton,19079,Republican,Rick Santorum,20,0.021
+Iowa,IA,Hamilton,19079,Republican,Carly Fiorina,14,0.015
+Iowa,IA,Hamilton,19079,Republican,Jeb Bush,13,0.013999999999999999
+Iowa,IA,Hamilton,19079,Democrat,Hillary Clinton,353,0.589
+Iowa,IA,Hamilton,19079,Democrat,Bernie Sanders,246,0.41100000000000003
+Iowa,IA,Hamilton,19079,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Hamilton,19079,Democrat, Uncommitted,0,0.0
+Iowa,IA,Hancock,19081,Republican,Ted Cruz,385,0.45299999999999996
+Iowa,IA,Hancock,19081,Republican,Donald Trump,160,0.188
+Iowa,IA,Hancock,19081,Republican,Marco Rubio,132,0.155
+Iowa,IA,Hancock,19081,Republican,Ben Carson,71,0.084
+Iowa,IA,Hancock,19081,Republican,Jeb Bush,22,0.026000000000000002
+Iowa,IA,Hancock,19081,Republican,Rand Paul,21,0.025
+Iowa,IA,Hancock,19081,Republican,Carly Fiorina,19,0.022000000000000002
+Iowa,IA,Hancock,19081,Republican,Mike Huckabee,16,0.019
+Iowa,IA,Hancock,19081,Republican,Rick Santorum,12,0.013999999999999999
+Iowa,IA,Hancock,19081,Republican,John Kasich,6,0.006999999999999999
+Iowa,IA,Hancock,19081,Republican,Chris Christie,5,0.006
+Iowa,IA,Hancock,19081,Democrat,Hillary Clinton,240,0.612
+Iowa,IA,Hancock,19081,Democrat,Bernie Sanders,152,0.38799999999999996
+Iowa,IA,Hancock,19081,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Hancock,19081,Democrat, Uncommitted,0,0.0
+Iowa,IA,Hardin,19083,Republican,Ted Cruz,417,0.32799999999999996
+Iowa,IA,Hardin,19083,Republican,Donald Trump,295,0.23199999999999998
+Iowa,IA,Hardin,19083,Republican,Marco Rubio,225,0.177
+Iowa,IA,Hardin,19083,Republican,Ben Carson,138,0.109
+Iowa,IA,Hardin,19083,Republican,Rand Paul,45,0.035
+Iowa,IA,Hardin,19083,Republican,Chris Christie,33,0.026000000000000002
+Iowa,IA,Hardin,19083,Republican,Mike Huckabee,31,0.024
+Iowa,IA,Hardin,19083,Republican,Rick Santorum,29,0.023
+Iowa,IA,Hardin,19083,Republican,Carly Fiorina,25,0.02
+Iowa,IA,Hardin,19083,Republican,Jeb Bush,19,0.015
+Iowa,IA,Hardin,19083,Republican,John Kasich,12,0.009000000000000001
+Iowa,IA,Hardin,19083,Democrat,Hillary Clinton,403,0.5770000000000001
+Iowa,IA,Hardin,19083,Democrat,Bernie Sanders,296,0.423
+Iowa,IA,Hardin,19083,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Hardin,19083,Democrat, Uncommitted,0,0.0
+Iowa,IA,Harrison,19085,Republican,Ted Cruz,282,0.27699999999999997
+Iowa,IA,Harrison,19085,Republican,Donald Trump,315,0.309
+Iowa,IA,Harrison,19085,Republican,Ben Carson,221,0.217
+Iowa,IA,Harrison,19085,Republican,Marco Rubio,112,0.11
+Iowa,IA,Harrison,19085,Republican,Carly Fiorina,24,0.024
+Iowa,IA,Harrison,19085,Republican,Chris Christie,17,0.017
+Iowa,IA,Harrison,19085,Republican,Rand Paul,17,0.017
+Iowa,IA,Harrison,19085,Republican,Mike Huckabee,10,0.01
+Iowa,IA,Harrison,19085,Republican,John Kasich,10,0.01
+Iowa,IA,Harrison,19085,Republican,Rick Santorum,6,0.006
+Iowa,IA,Harrison,19085,Republican,Jeb Bush,5,0.005
+Iowa,IA,Harrison,19085,Democrat,Hillary Clinton,226,0.45299999999999996
+Iowa,IA,Harrison,19085,Democrat,Bernie Sanders,273,0.547
+Iowa,IA,Harrison,19085,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Harrison,19085,Democrat, Uncommitted,0,0.0
+Iowa,IA,Henry,19087,Republican,Ted Cruz,379,0.313
+Iowa,IA,Henry,19087,Republican,Donald Trump,273,0.225
+Iowa,IA,Henry,19087,Republican,Marco Rubio,228,0.188
+Iowa,IA,Henry,19087,Republican,Ben Carson,189,0.156
+Iowa,IA,Henry,19087,Republican,Mike Huckabee,33,0.027000000000000003
+Iowa,IA,Henry,19087,Republican,Jeb Bush,31,0.026000000000000002
+Iowa,IA,Henry,19087,Republican,Rand Paul,30,0.025
+Iowa,IA,Henry,19087,Republican,Carly Fiorina,18,0.015
+Iowa,IA,Henry,19087,Republican,John Kasich,12,0.01
+Iowa,IA,Henry,19087,Republican,Rick Santorum,12,0.01
+Iowa,IA,Henry,19087,Republican,Chris Christie,7,0.006
+Iowa,IA,Henry,19087,Democrat,Hillary Clinton,350,0.5
+Iowa,IA,Henry,19087,Democrat,Bernie Sanders,350,0.5
+Iowa,IA,Henry,19087,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Henry,19087,Democrat, Uncommitted,0,0.0
+Iowa,IA,Howard,19089,Republican,Ted Cruz,106,0.289
+Iowa,IA,Howard,19089,Republican,Donald Trump,112,0.305
+Iowa,IA,Howard,19089,Republican,Marco Rubio,89,0.243
+Iowa,IA,Howard,19089,Republican,Ben Carson,26,0.071
+Iowa,IA,Howard,19089,Republican,Jeb Bush,19,0.052000000000000005
+Iowa,IA,Howard,19089,Republican,Mike Huckabee,5,0.013999999999999999
+Iowa,IA,Howard,19089,Republican,Rand Paul,5,0.013999999999999999
+Iowa,IA,Howard,19089,Republican,Carly Fiorina,3,0.008
+Iowa,IA,Howard,19089,Republican,Chris Christie,2,0.005
+Iowa,IA,Howard,19089,Republican,John Kasich,0,0.0
+Iowa,IA,Howard,19089,Republican,Rick Santorum,0,0.0
+Iowa,IA,Howard,19089,Democrat,Hillary Clinton,184,0.461
+Iowa,IA,Howard,19089,Democrat,Bernie Sanders,215,0.539
+Iowa,IA,Howard,19089,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Howard,19089,Democrat, Uncommitted,0,0.0
+Iowa,IA,Humboldt,19091,Republican,Ted Cruz,168,0.278
+Iowa,IA,Humboldt,19091,Republican,Donald Trump,204,0.337
+Iowa,IA,Humboldt,19091,Republican,Marco Rubio,111,0.183
+Iowa,IA,Humboldt,19091,Republican,Ben Carson,48,0.079
+Iowa,IA,Humboldt,19091,Republican,Mike Huckabee,17,0.027999999999999997
+Iowa,IA,Humboldt,19091,Republican,Rand Paul,16,0.026000000000000002
+Iowa,IA,Humboldt,19091,Republican,Jeb Bush,14,0.023
+Iowa,IA,Humboldt,19091,Republican,Chris Christie,9,0.015
+Iowa,IA,Humboldt,19091,Republican,Rick Santorum,9,0.015
+Iowa,IA,Humboldt,19091,Republican,Carly Fiorina,6,0.01
+Iowa,IA,Humboldt,19091,Republican,John Kasich,3,0.005
+Iowa,IA,Humboldt,19091,Democrat,Hillary Clinton,166,0.555
+Iowa,IA,Humboldt,19091,Democrat,Bernie Sanders,133,0.445
+Iowa,IA,Humboldt,19091,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Humboldt,19091,Democrat, Uncommitted,0,0.0
+Iowa,IA,Ida,19093,Republican,Ted Cruz,135,0.256
+Iowa,IA,Ida,19093,Republican,Donald Trump,136,0.258
+Iowa,IA,Ida,19093,Republican,Marco Rubio,135,0.256
+Iowa,IA,Ida,19093,Republican,Ben Carson,43,0.08199999999999999
+Iowa,IA,Ida,19093,Republican,Carly Fiorina,32,0.061
+Iowa,IA,Ida,19093,Republican,Rick Santorum,14,0.027000000000000003
+Iowa,IA,Ida,19093,Republican,Jeb Bush,8,0.015
+Iowa,IA,Ida,19093,Republican,Mike Huckabee,8,0.015
+Iowa,IA,Ida,19093,Republican,Rand Paul,7,0.013000000000000001
+Iowa,IA,Ida,19093,Republican,Chris Christie,4,0.008
+Iowa,IA,Ida,19093,Republican,John Kasich,3,0.006
+Iowa,IA,Ida,19093,Democrat,Hillary Clinton,106,0.5329999999999999
+Iowa,IA,Ida,19093,Democrat,Bernie Sanders,93,0.467
+Iowa,IA,Ida,19093,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Ida,19093,Democrat, Uncommitted,0,0.0
+Iowa,IA,Iowa,19095,Republican,Ted Cruz,353,0.342
+Iowa,IA,Iowa,19095,Republican,Donald Trump,249,0.24100000000000002
+Iowa,IA,Iowa,19095,Republican,Marco Rubio,163,0.158
+Iowa,IA,Iowa,19095,Republican,Ben Carson,105,0.102
+Iowa,IA,Iowa,19095,Republican,Rand Paul,56,0.054000000000000006
+Iowa,IA,Iowa,19095,Republican,Mike Huckabee,33,0.032
+Iowa,IA,Iowa,19095,Republican,Carly Fiorina,25,0.024
+Iowa,IA,Iowa,19095,Republican,John Kasich,14,0.013999999999999999
+Iowa,IA,Iowa,19095,Republican,Chris Christie,12,0.012
+Iowa,IA,Iowa,19095,Republican,Rick Santorum,12,0.012
+Iowa,IA,Iowa,19095,Republican,Jeb Bush,11,0.011000000000000001
+Iowa,IA,Iowa,19095,Democrat,Hillary Clinton,357,0.51
+Iowa,IA,Iowa,19095,Democrat,Bernie Sanders,343,0.49
+Iowa,IA,Iowa,19095,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Iowa,19095,Democrat, Uncommitted,0,0.0
+Iowa,IA,Jackson,19097,Republican,Ted Cruz,265,0.285
+Iowa,IA,Jackson,19097,Republican,Donald Trump,306,0.32899999999999996
+Iowa,IA,Jackson,19097,Republican,Marco Rubio,169,0.182
+Iowa,IA,Jackson,19097,Republican,Ben Carson,64,0.069
+Iowa,IA,Jackson,19097,Republican,Rand Paul,34,0.037000000000000005
+Iowa,IA,Jackson,19097,Republican,Jeb Bush,26,0.027999999999999997
+Iowa,IA,Jackson,19097,Republican,Carly Fiorina,21,0.023
+Iowa,IA,Jackson,19097,Republican,Chris Christie,18,0.019
+Iowa,IA,Jackson,19097,Republican,John Kasich,11,0.012
+Iowa,IA,Jackson,19097,Republican,Mike Huckabee,9,0.01
+Iowa,IA,Jackson,19097,Republican,Rick Santorum,5,0.005
+Iowa,IA,Jackson,19097,Democrat,Hillary Clinton,450,0.5
+Iowa,IA,Jackson,19097,Democrat,Bernie Sanders,414,0.46
+Iowa,IA,Jackson,19097,Democrat,Martin O'Malley,36,0.04
+Iowa,IA,Jackson,19097,Democrat, Uncommitted,0,0.0
+Iowa,IA,Jasper,19099,Republican,Ted Cruz,812,0.349
+Iowa,IA,Jasper,19099,Republican,Donald Trump,583,0.251
+Iowa,IA,Jasper,19099,Republican,Marco Rubio,417,0.179
+Iowa,IA,Jasper,19099,Republican,Ben Carson,207,0.08900000000000001
+Iowa,IA,Jasper,19099,Republican,Rand Paul,100,0.043
+Iowa,IA,Jasper,19099,Republican,Mike Huckabee,72,0.031
+Iowa,IA,Jasper,19099,Republican,Jeb Bush,46,0.02
+Iowa,IA,Jasper,19099,Republican,Carly Fiorina,31,0.013000000000000001
+Iowa,IA,Jasper,19099,Republican,Chris Christie,30,0.013000000000000001
+Iowa,IA,Jasper,19099,Republican,John Kasich,13,0.006
+Iowa,IA,Jasper,19099,Republican,Rick Santorum,12,0.005
+Iowa,IA,Jasper,19099,Democrat,Hillary Clinton,927,0.515
+Iowa,IA,Jasper,19099,Democrat,Bernie Sanders,810,0.45
+Iowa,IA,Jasper,19099,Democrat,Martin O'Malley,63,0.035
+Iowa,IA,Jasper,19099,Democrat, Uncommitted,0,0.0
+Iowa,IA,Jefferson,19101,Republican,Ted Cruz,270,0.317
+Iowa,IA,Jefferson,19101,Republican,Donald Trump,223,0.262
+Iowa,IA,Jefferson,19101,Republican,Marco Rubio,104,0.122
+Iowa,IA,Jefferson,19101,Republican,Rand Paul,67,0.079
+Iowa,IA,Jefferson,19101,Republican,Ben Carson,55,0.065
+Iowa,IA,Jefferson,19101,Republican,Mike Huckabee,51,0.06
+Iowa,IA,Jefferson,19101,Republican,John Kasich,25,0.028999999999999998
+Iowa,IA,Jefferson,19101,Republican,Rick Santorum,18,0.021
+Iowa,IA,Jefferson,19101,Republican,Jeb Bush,17,0.02
+Iowa,IA,Jefferson,19101,Republican,Carly Fiorina,11,0.013000000000000001
+Iowa,IA,Jefferson,19101,Republican,Chris Christie,7,0.008
+Iowa,IA,Jefferson,19101,Democrat,Hillary Clinton,245,0.273
+Iowa,IA,Jefferson,19101,Democrat,Bernie Sanders,654,0.727
+Iowa,IA,Jefferson,19101,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Jefferson,19101,Democrat, Uncommitted,0,0.0
+Iowa,IA,Johnson,19103,Republican,Ted Cruz,1413,0.196
+Iowa,IA,Johnson,19103,Republican,Marco Rubio,2207,0.305
+Iowa,IA,Johnson,19103,Republican,Donald Trump,1394,0.193
+Iowa,IA,Johnson,19103,Republican,Rand Paul,691,0.096
+Iowa,IA,Johnson,19103,Republican,Ben Carson,531,0.073
+Iowa,IA,Johnson,19103,Republican,John Kasich,284,0.039
+Iowa,IA,Johnson,19103,Republican,Jeb Bush,229,0.032
+Iowa,IA,Johnson,19103,Republican,Carly Fiorina,191,0.026000000000000002
+Iowa,IA,Johnson,19103,Republican,Chris Christie,171,0.024
+Iowa,IA,Johnson,19103,Republican,Mike Huckabee,75,0.01
+Iowa,IA,Johnson,19103,Republican,Rick Santorum,37,0.005
+Iowa,IA,Johnson,19103,Democrat,Hillary Clinton,3700,0.402
+Iowa,IA,Johnson,19103,Democrat,Bernie Sanders,5473,0.595
+Iowa,IA,Johnson,19103,Democrat,Martin O'Malley,26,0.003
+Iowa,IA,Johnson,19103,Democrat, Uncommitted,0,0.0
+Iowa,IA,Jones,19105,Republican,Ted Cruz,363,0.35100000000000003
+Iowa,IA,Jones,19105,Republican,Donald Trump,258,0.25
+Iowa,IA,Jones,19105,Republican,Marco Rubio,167,0.162
+Iowa,IA,Jones,19105,Republican,Ben Carson,107,0.10300000000000001
+Iowa,IA,Jones,19105,Republican,Carly Fiorina,35,0.034
+Iowa,IA,Jones,19105,Republican,Rand Paul,32,0.031
+Iowa,IA,Jones,19105,Republican,Jeb Bush,25,0.024
+Iowa,IA,Jones,19105,Republican,Rick Santorum,21,0.02
+Iowa,IA,Jones,19105,Republican,Chris Christie,14,0.013999999999999999
+Iowa,IA,Jones,19105,Republican,Mike Huckabee,6,0.006
+Iowa,IA,Jones,19105,Republican,John Kasich,6,0.006
+Iowa,IA,Jones,19105,Democrat,Hillary Clinton,419,0.466
+Iowa,IA,Jones,19105,Democrat,Bernie Sanders,480,0.534
+Iowa,IA,Jones,19105,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Jones,19105,Democrat, Uncommitted,0,0.0
+Iowa,IA,Keokuk,19107,Republican,Ted Cruz,216,0.308
+Iowa,IA,Keokuk,19107,Republican,Donald Trump,220,0.313
+Iowa,IA,Keokuk,19107,Republican,Marco Rubio,116,0.165
+Iowa,IA,Keokuk,19107,Republican,Ben Carson,63,0.09
+Iowa,IA,Keokuk,19107,Republican,Mike Huckabee,23,0.033
+Iowa,IA,Keokuk,19107,Republican,Rand Paul,19,0.027000000000000003
+Iowa,IA,Keokuk,19107,Republican,Jeb Bush,13,0.019
+Iowa,IA,Keokuk,19107,Republican,Carly Fiorina,11,0.016
+Iowa,IA,Keokuk,19107,Republican,Rick Santorum,10,0.013999999999999999
+Iowa,IA,Keokuk,19107,Republican,John Kasich,5,0.006999999999999999
+Iowa,IA,Keokuk,19107,Republican,Chris Christie,4,0.006
+Iowa,IA,Keokuk,19107,Democrat,Hillary Clinton,250,0.625
+Iowa,IA,Keokuk,19107,Democrat,Bernie Sanders,140,0.35
+Iowa,IA,Keokuk,19107,Democrat,Martin O'Malley,10,0.025
+Iowa,IA,Keokuk,19107,Democrat, Uncommitted,0,0.0
+Iowa,IA,Kossuth,19109,Republican,Ted Cruz,285,0.301
+Iowa,IA,Kossuth,19109,Republican,Donald Trump,224,0.237
+Iowa,IA,Kossuth,19109,Republican,Marco Rubio,190,0.201
+Iowa,IA,Kossuth,19109,Republican,Ben Carson,150,0.158
+Iowa,IA,Kossuth,19109,Republican,Mike Huckabee,27,0.028999999999999998
+Iowa,IA,Kossuth,19109,Republican,Rand Paul,18,0.019
+Iowa,IA,Kossuth,19109,Republican,John Kasich,15,0.016
+Iowa,IA,Kossuth,19109,Republican,Jeb Bush,13,0.013999999999999999
+Iowa,IA,Kossuth,19109,Republican,Rick Santorum,12,0.013000000000000001
+Iowa,IA,Kossuth,19109,Republican,Chris Christie,9,0.01
+Iowa,IA,Kossuth,19109,Republican,Carly Fiorina,4,0.004
+Iowa,IA,Kossuth,19109,Democrat,Hillary Clinton,360,0.608
+Iowa,IA,Kossuth,19109,Democrat,Bernie Sanders,213,0.36
+Iowa,IA,Kossuth,19109,Democrat,Martin O'Malley,13,0.022000000000000002
+Iowa,IA,Kossuth,19109,Democrat, Uncommitted,6,0.01
+Iowa,IA,Lee,19111,Republican,Ted Cruz,334,0.253
+Iowa,IA,Lee,19111,Republican,Donald Trump,409,0.31
+Iowa,IA,Lee,19111,Republican,Marco Rubio,249,0.18899999999999997
+Iowa,IA,Lee,19111,Republican,Ben Carson,157,0.11900000000000001
+Iowa,IA,Lee,19111,Republican,Carly Fiorina,51,0.039
+Iowa,IA,Lee,19111,Republican,Rand Paul,36,0.027000000000000003
+Iowa,IA,Lee,19111,Republican,Mike Huckabee,26,0.02
+Iowa,IA,Lee,19111,Republican,Jeb Bush,19,0.013999999999999999
+Iowa,IA,Lee,19111,Republican,John Kasich,16,0.012
+Iowa,IA,Lee,19111,Republican,Chris Christie,12,0.009000000000000001
+Iowa,IA,Lee,19111,Republican,Rick Santorum,6,0.005
+Iowa,IA,Lee,19111,Democrat,Hillary Clinton,929,0.547
+Iowa,IA,Lee,19111,Democrat,Bernie Sanders,770,0.45299999999999996
+Iowa,IA,Lee,19111,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Lee,19111,Democrat, Uncommitted,0,0.0
+Iowa,IA,Linn,19113,Republican,Ted Cruz,3422,0.294
+Iowa,IA,Linn,19113,Republican,Marco Rubio,2825,0.243
+Iowa,IA,Linn,19113,Republican,Donald Trump,2344,0.20199999999999999
+Iowa,IA,Linn,19113,Republican,Ben Carson,1072,0.092
+Iowa,IA,Linn,19113,Republican,Rand Paul,699,0.06
+Iowa,IA,Linn,19113,Republican,Carly Fiorina,302,0.026000000000000002
+Iowa,IA,Linn,19113,Republican,Chris Christie,276,0.024
+Iowa,IA,Linn,19113,Republican,Jeb Bush,262,0.023
+Iowa,IA,Linn,19113,Republican,John Kasich,262,0.023
+Iowa,IA,Linn,19113,Republican,Mike Huckabee,99,0.009000000000000001
+Iowa,IA,Linn,19113,Republican,Rick Santorum,56,0.005
+Iowa,IA,Linn,19113,Democrat,Hillary Clinton,5733,0.474
+Iowa,IA,Linn,19113,Democrat,Bernie Sanders,6331,0.523
+Iowa,IA,Linn,19113,Democrat,Martin O'Malley,35,0.003
+Iowa,IA,Linn,19113,Democrat, Uncommitted,0,0.0
+Iowa,IA,Louisa,19115,Republican,Ted Cruz,257,0.355
+Iowa,IA,Louisa,19115,Republican,Donald Trump,261,0.36
+Iowa,IA,Louisa,19115,Republican,Marco Rubio,76,0.105
+Iowa,IA,Louisa,19115,Republican,Ben Carson,44,0.061
+Iowa,IA,Louisa,19115,Republican,Mike Huckabee,31,0.043
+Iowa,IA,Louisa,19115,Republican,Rand Paul,26,0.036000000000000004
+Iowa,IA,Louisa,19115,Republican,Jeb Bush,14,0.019
+Iowa,IA,Louisa,19115,Republican,Carly Fiorina,5,0.006999999999999999
+Iowa,IA,Louisa,19115,Republican,John Kasich,5,0.006999999999999999
+Iowa,IA,Louisa,19115,Republican,Chris Christie,4,0.006
+Iowa,IA,Louisa,19115,Republican,Rick Santorum,1,0.001
+Iowa,IA,Louisa,19115,Democrat,Hillary Clinton,224,0.56
+Iowa,IA,Louisa,19115,Democrat,Bernie Sanders,168,0.42
+Iowa,IA,Louisa,19115,Democrat,Martin O'Malley,8,0.02
+Iowa,IA,Louisa,19115,Democrat, Uncommitted,0,0.0
+Iowa,IA,Lucas,19117,Republican,Ted Cruz,213,0.36200000000000004
+Iowa,IA,Lucas,19117,Republican,Donald Trump,159,0.27
+Iowa,IA,Lucas,19117,Republican,Marco Rubio,79,0.134
+Iowa,IA,Lucas,19117,Republican,Ben Carson,68,0.115
+Iowa,IA,Lucas,19117,Republican,Rand Paul,24,0.040999999999999995
+Iowa,IA,Lucas,19117,Republican,Mike Huckabee,18,0.031
+Iowa,IA,Lucas,19117,Republican,Jeb Bush,10,0.017
+Iowa,IA,Lucas,19117,Republican,Carly Fiorina,9,0.015
+Iowa,IA,Lucas,19117,Republican,Chris Christie,5,0.008
+Iowa,IA,Lucas,19117,Republican,Rick Santorum,3,0.005
+Iowa,IA,Lucas,19117,Republican,John Kasich,0,0.0
+Iowa,IA,Lucas,19117,Democrat,Hillary Clinton,180,0.6
+Iowa,IA,Lucas,19117,Democrat,Bernie Sanders,120,0.4
+Iowa,IA,Lucas,19117,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Lucas,19117,Democrat, Uncommitted,0,0.0
+Iowa,IA,Lyon,19119,Republican,Ted Cruz,432,0.39
+Iowa,IA,Lyon,19119,Republican,Marco Rubio,229,0.207
+Iowa,IA,Lyon,19119,Republican,Ben Carson,206,0.18600000000000003
+Iowa,IA,Lyon,19119,Republican,Donald Trump,173,0.156
+Iowa,IA,Lyon,19119,Republican,Rick Santorum,20,0.018000000000000002
+Iowa,IA,Lyon,19119,Republican,Rand Paul,14,0.013000000000000001
+Iowa,IA,Lyon,19119,Republican,Jeb Bush,11,0.01
+Iowa,IA,Lyon,19119,Republican,Carly Fiorina,10,0.009000000000000001
+Iowa,IA,Lyon,19119,Republican,John Kasich,6,0.005
+Iowa,IA,Lyon,19119,Republican,Chris Christie,3,0.003
+Iowa,IA,Lyon,19119,Republican,Mike Huckabee,3,0.003
+Iowa,IA,Lyon,19119,Democrat,Hillary Clinton,80,0.402
+Iowa,IA,Lyon,19119,Democrat,Bernie Sanders,113,0.568
+Iowa,IA,Lyon,19119,Democrat,Martin O'Malley,6,0.03
+Iowa,IA,Lyon,19119,Democrat, Uncommitted,0,0.0
+Iowa,IA,Madison,19121,Republican,Ted Cruz,452,0.335
+Iowa,IA,Madison,19121,Republican,Donald Trump,373,0.27699999999999997
+Iowa,IA,Madison,19121,Republican,Marco Rubio,250,0.185
+Iowa,IA,Madison,19121,Republican,Ben Carson,107,0.079
+Iowa,IA,Madison,19121,Republican,Rand Paul,51,0.038
+Iowa,IA,Madison,19121,Republican,Mike Huckabee,34,0.025
+Iowa,IA,Madison,19121,Republican,Jeb Bush,22,0.016
+Iowa,IA,Madison,19121,Republican,Carly Fiorina,21,0.016
+Iowa,IA,Madison,19121,Republican,Chris Christie,18,0.013000000000000001
+Iowa,IA,Madison,19121,Republican,John Kasich,11,0.008
+Iowa,IA,Madison,19121,Republican,Rick Santorum,7,0.005
+Iowa,IA,Madison,19121,Democrat,Hillary Clinton,320,0.5329999999999999
+Iowa,IA,Madison,19121,Democrat,Bernie Sanders,280,0.467
+Iowa,IA,Madison,19121,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Madison,19121,Democrat, Uncommitted,0,0.0
+Iowa,IA,Mahaska,19123,Republican,Ted Cruz,669,0.341
+Iowa,IA,Mahaska,19123,Republican,Donald Trump,421,0.215
+Iowa,IA,Mahaska,19123,Republican,Marco Rubio,368,0.188
+Iowa,IA,Mahaska,19123,Republican,Ben Carson,209,0.107
+Iowa,IA,Mahaska,19123,Republican,Rick Santorum,73,0.037000000000000005
+Iowa,IA,Mahaska,19123,Republican,Rand Paul,69,0.035
+Iowa,IA,Mahaska,19123,Republican,Mike Huckabee,49,0.025
+Iowa,IA,Mahaska,19123,Republican,Jeb Bush,40,0.02
+Iowa,IA,Mahaska,19123,Republican,Carly Fiorina,37,0.019
+Iowa,IA,Mahaska,19123,Republican,Chris Christie,16,0.008
+Iowa,IA,Mahaska,19123,Republican,John Kasich,8,0.004
+Iowa,IA,Mahaska,19123,Democrat,Hillary Clinton,393,0.562
+Iowa,IA,Mahaska,19123,Democrat,Bernie Sanders,306,0.43799999999999994
+Iowa,IA,Mahaska,19123,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Mahaska,19123,Democrat, Uncommitted,0,0.0
+Iowa,IA,Marion,19125,Republican,Ted Cruz,1011,0.35200000000000004
+Iowa,IA,Marion,19125,Republican,Marco Rubio,606,0.21100000000000002
+Iowa,IA,Marion,19125,Republican,Donald Trump,539,0.188
+Iowa,IA,Marion,19125,Republican,Ben Carson,272,0.095
+Iowa,IA,Marion,19125,Republican,Rand Paul,123,0.043
+Iowa,IA,Marion,19125,Republican,Jeb Bush,74,0.026000000000000002
+Iowa,IA,Marion,19125,Republican,Mike Huckabee,74,0.026000000000000002
+Iowa,IA,Marion,19125,Republican,Chris Christie,62,0.022000000000000002
+Iowa,IA,Marion,19125,Republican,Carly Fiorina,41,0.013999999999999999
+Iowa,IA,Marion,19125,Republican,Rick Santorum,40,0.013999999999999999
+Iowa,IA,Marion,19125,Republican,John Kasich,30,0.01
+Iowa,IA,Marion,19125,Democrat,Hillary Clinton,650,0.5
+Iowa,IA,Marion,19125,Democrat,Bernie Sanders,624,0.48
+Iowa,IA,Marion,19125,Democrat,Martin O'Malley,26,0.02
+Iowa,IA,Marion,19125,Democrat, Uncommitted,0,0.0
+Iowa,IA,Marshall,19127,Republican,Ted Cruz,630,0.271
+Iowa,IA,Marshall,19127,Republican,Donald Trump,608,0.261
+Iowa,IA,Marshall,19127,Republican,Marco Rubio,502,0.21600000000000003
+Iowa,IA,Marshall,19127,Republican,Ben Carson,226,0.09699999999999999
+Iowa,IA,Marshall,19127,Republican,Rand Paul,75,0.032
+Iowa,IA,Marshall,19127,Republican,Jeb Bush,61,0.026000000000000002
+Iowa,IA,Marshall,19127,Republican,Carly Fiorina,57,0.024
+Iowa,IA,Marshall,19127,Republican,Rick Santorum,55,0.024
+Iowa,IA,Marshall,19127,Republican,Mike Huckabee,50,0.021
+Iowa,IA,Marshall,19127,Republican,John Kasich,33,0.013999999999999999
+Iowa,IA,Marshall,19127,Republican,Chris Christie,27,0.012
+Iowa,IA,Marshall,19127,Democrat,Hillary Clinton,839,0.466
+Iowa,IA,Marshall,19127,Democrat,Bernie Sanders,960,0.534
+Iowa,IA,Marshall,19127,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Marshall,19127,Democrat, Uncommitted,0,0.0
+Iowa,IA,Mills,19129,Republican,Ted Cruz,244,0.218
+Iowa,IA,Mills,19129,Republican,Donald Trump,300,0.268
+Iowa,IA,Mills,19129,Republican,Marco Rubio,265,0.23600000000000002
+Iowa,IA,Mills,19129,Republican,Ben Carson,182,0.162
+Iowa,IA,Mills,19129,Republican,Rand Paul,33,0.028999999999999998
+Iowa,IA,Mills,19129,Republican,Rick Santorum,31,0.027999999999999997
+Iowa,IA,Mills,19129,Republican,Carly Fiorina,23,0.021
+Iowa,IA,Mills,19129,Republican,John Kasich,15,0.013000000000000001
+Iowa,IA,Mills,19129,Republican,Chris Christie,11,0.01
+Iowa,IA,Mills,19129,Republican,Jeb Bush,10,0.009000000000000001
+Iowa,IA,Mills,19129,Republican,Mike Huckabee,7,0.006
+Iowa,IA,Mills,19129,Democrat,Hillary Clinton,255,0.511
+Iowa,IA,Mills,19129,Democrat,Bernie Sanders,244,0.489
+Iowa,IA,Mills,19129,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Mills,19129,Democrat, Uncommitted,0,0.0
+Iowa,IA,Mitchell,19131,Republican,Ted Cruz,114,0.242
+Iowa,IA,Mitchell,19131,Republican,Donald Trump,120,0.255
+Iowa,IA,Mitchell,19131,Republican,Ben Carson,61,0.13
+Iowa,IA,Mitchell,19131,Republican,Marco Rubio,56,0.11900000000000001
+Iowa,IA,Mitchell,19131,Republican,Carly Fiorina,55,0.11699999999999999
+Iowa,IA,Mitchell,19131,Republican,Rand Paul,34,0.07200000000000001
+Iowa,IA,Mitchell,19131,Republican,Mike Huckabee,11,0.023
+Iowa,IA,Mitchell,19131,Republican,Jeb Bush,10,0.021
+Iowa,IA,Mitchell,19131,Republican,Chris Christie,4,0.008
+Iowa,IA,Mitchell,19131,Republican,John Kasich,3,0.006
+Iowa,IA,Mitchell,19131,Republican,Rick Santorum,3,0.006
+Iowa,IA,Mitchell,19131,Democrat,Hillary Clinton,260,0.65
+Iowa,IA,Mitchell,19131,Democrat,Bernie Sanders,135,0.33799999999999997
+Iowa,IA,Mitchell,19131,Democrat,Martin O'Malley,5,0.013000000000000001
+Iowa,IA,Mitchell,19131,Democrat, Uncommitted,0,0.0
+Iowa,IA,Monona,19133,Republican,Ted Cruz,185,0.361
+Iowa,IA,Monona,19133,Republican,Donald Trump,156,0.305
+Iowa,IA,Monona,19133,Republican,Marco Rubio,94,0.184
+Iowa,IA,Monona,19133,Republican,Ben Carson,41,0.08
+Iowa,IA,Monona,19133,Republican,Mike Huckabee,9,0.018000000000000002
+Iowa,IA,Monona,19133,Republican,Chris Christie,8,0.016
+Iowa,IA,Monona,19133,Republican,Rand Paul,8,0.016
+Iowa,IA,Monona,19133,Republican,Carly Fiorina,6,0.012
+Iowa,IA,Monona,19133,Republican,Jeb Bush,2,0.004
+Iowa,IA,Monona,19133,Republican,Rick Santorum,2,0.004
+Iowa,IA,Monona,19133,Republican,John Kasich,1,0.002
+Iowa,IA,Monona,19133,Democrat,Hillary Clinton,180,0.602
+Iowa,IA,Monona,19133,Democrat,Bernie Sanders,116,0.38799999999999996
+Iowa,IA,Monona,19133,Democrat,Martin O'Malley,3,0.01
+Iowa,IA,Monona,19133,Democrat, Uncommitted,0,0.0
+Iowa,IA,Monroe,19135,Republican,Ted Cruz,195,0.36
+Iowa,IA,Monroe,19135,Republican,Donald Trump,170,0.314
+Iowa,IA,Monroe,19135,Republican,Marco Rubio,97,0.179
+Iowa,IA,Monroe,19135,Republican,Ben Carson,25,0.046
+Iowa,IA,Monroe,19135,Republican,Rand Paul,23,0.043
+Iowa,IA,Monroe,19135,Republican,Mike Huckabee,18,0.033
+Iowa,IA,Monroe,19135,Republican,Carly Fiorina,4,0.006999999999999999
+Iowa,IA,Monroe,19135,Republican,John Kasich,4,0.006999999999999999
+Iowa,IA,Monroe,19135,Republican,Jeb Bush,3,0.006
+Iowa,IA,Monroe,19135,Republican,Chris Christie,2,0.004
+Iowa,IA,Monroe,19135,Republican,Rick Santorum,0,0.0
+Iowa,IA,Monroe,19135,Democrat,Hillary Clinton,129,0.433
+Iowa,IA,Monroe,19135,Democrat,Bernie Sanders,133,0.446
+Iowa,IA,Monroe,19135,Democrat,Martin O'Malley,36,0.121
+Iowa,IA,Monroe,19135,Democrat, Uncommitted,0,0.0
+Iowa,IA,Montgomery,19137,Republican,Ted Cruz,133,0.233
+Iowa,IA,Montgomery,19137,Republican,Marco Rubio,124,0.217
+Iowa,IA,Montgomery,19137,Republican,Donald Trump,118,0.207
+Iowa,IA,Montgomery,19137,Republican,Ben Carson,85,0.149
+Iowa,IA,Montgomery,19137,Republican,Jeb Bush,27,0.047
+Iowa,IA,Montgomery,19137,Republican,Carly Fiorina,27,0.047
+Iowa,IA,Montgomery,19137,Republican,Rand Paul,26,0.046
+Iowa,IA,Montgomery,19137,Republican,Mike Huckabee,10,0.018000000000000002
+Iowa,IA,Montgomery,19137,Republican,John Kasich,10,0.018000000000000002
+Iowa,IA,Montgomery,19137,Republican,Rick Santorum,6,0.011000000000000001
+Iowa,IA,Montgomery,19137,Republican,Chris Christie,5,0.009000000000000001
+Iowa,IA,Montgomery,19137,Democrat,Hillary Clinton,108,0.36
+Iowa,IA,Montgomery,19137,Democrat,Bernie Sanders,192,0.64
+Iowa,IA,Montgomery,19137,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Montgomery,19137,Democrat, Uncommitted,0,0.0
+Iowa,IA,Muscatine,19139,Republican,Ted Cruz,576,0.239
+Iowa,IA,Muscatine,19139,Republican,Donald Trump,720,0.298
+Iowa,IA,Muscatine,19139,Republican,Marco Rubio,635,0.263
+Iowa,IA,Muscatine,19139,Republican,Rand Paul,131,0.054000000000000006
+Iowa,IA,Muscatine,19139,Republican,Ben Carson,110,0.046
+Iowa,IA,Muscatine,19139,Republican,Jeb Bush,53,0.022000000000000002
+Iowa,IA,Muscatine,19139,Republican,Chris Christie,50,0.021
+Iowa,IA,Muscatine,19139,Republican,John Kasich,45,0.019
+Iowa,IA,Muscatine,19139,Republican,Carly Fiorina,43,0.018000000000000002
+Iowa,IA,Muscatine,19139,Republican,Mike Huckabee,39,0.016
+Iowa,IA,Muscatine,19139,Republican,Rick Santorum,12,0.005
+Iowa,IA,Muscatine,19139,Democrat,Hillary Clinton,828,0.46
+Iowa,IA,Muscatine,19139,Democrat,Bernie Sanders,972,0.54
+Iowa,IA,Muscatine,19139,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Muscatine,19139,Democrat, Uncommitted,0,0.0
+Iowa,IA,Osceola,19143,Republican,Ted Cruz,113,0.34600000000000003
+Iowa,IA,Osceola,19143,Republican,Donald Trump,78,0.239
+Iowa,IA,Osceola,19143,Republican,Marco Rubio,56,0.171
+Iowa,IA,Osceola,19143,Republican,Ben Carson,42,0.128
+Iowa,IA,Osceola,19143,Republican,Jeb Bush,13,0.04
+Iowa,IA,Osceola,19143,Republican,Rand Paul,8,0.024
+Iowa,IA,Osceola,19143,Republican,Carly Fiorina,7,0.021
+Iowa,IA,Osceola,19143,Republican,Chris Christie,3,0.009000000000000001
+Iowa,IA,Osceola,19143,Republican,Mike Huckabee,3,0.009000000000000001
+Iowa,IA,Osceola,19143,Republican,Rick Santorum,3,0.009000000000000001
+Iowa,IA,Osceola,19143,Republican,John Kasich,1,0.003
+Iowa,IA,Osceola,19143,Democrat,Hillary Clinton,56,0.5660000000000001
+Iowa,IA,Osceola,19143,Democrat,Bernie Sanders,38,0.384
+Iowa,IA,Osceola,19143,Democrat,Martin O'Malley,5,0.051
+Iowa,IA,Osceola,19143,Democrat, Uncommitted,0,0.0
+Iowa,IA,Page,19145,Republican,Ted Cruz,249,0.285
+Iowa,IA,Page,19145,Republican,Donald Trump,232,0.266
+Iowa,IA,Page,19145,Republican,Ben Carson,157,0.18
+Iowa,IA,Page,19145,Republican,Marco Rubio,156,0.179
+Iowa,IA,Page,19145,Republican,Jeb Bush,25,0.028999999999999998
+Iowa,IA,Page,19145,Republican,Rand Paul,13,0.015
+Iowa,IA,Page,19145,Republican,John Kasich,12,0.013999999999999999
+Iowa,IA,Page,19145,Republican,Mike Huckabee,9,0.01
+Iowa,IA,Page,19145,Republican,Carly Fiorina,8,0.009000000000000001
+Iowa,IA,Page,19145,Republican,Rick Santorum,7,0.008
+Iowa,IA,Page,19145,Republican,Chris Christie,4,0.005
+Iowa,IA,Page,19145,Democrat,Hillary Clinton,197,0.494
+Iowa,IA,Page,19145,Democrat,Bernie Sanders,202,0.506
+Iowa,IA,Page,19145,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Page,19145,Democrat, Uncommitted,0,0.0
+Iowa,IA,Palo Alto,19147,Republican,Ted Cruz,110,0.255
+Iowa,IA,Palo Alto,19147,Republican,Donald Trump,117,0.271
+Iowa,IA,Palo Alto,19147,Republican,Marco Rubio,94,0.218
+Iowa,IA,Palo Alto,19147,Republican,Ben Carson,40,0.09300000000000001
+Iowa,IA,Palo Alto,19147,Republican,Mike Huckabee,17,0.039
+Iowa,IA,Palo Alto,19147,Republican,Rand Paul,15,0.035
+Iowa,IA,Palo Alto,19147,Republican,Jeb Bush,14,0.032
+Iowa,IA,Palo Alto,19147,Republican,Carly Fiorina,9,0.021
+Iowa,IA,Palo Alto,19147,Republican,Chris Christie,6,0.013999999999999999
+Iowa,IA,Palo Alto,19147,Republican,John Kasich,5,0.012
+Iowa,IA,Palo Alto,19147,Republican,Rick Santorum,5,0.012
+Iowa,IA,Palo Alto,19147,Democrat,Hillary Clinton,213,0.534
+Iowa,IA,Palo Alto,19147,Democrat,Bernie Sanders,186,0.466
+Iowa,IA,Palo Alto,19147,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Palo Alto,19147,Democrat, Uncommitted,0,0.0
+Iowa,IA,Plymouth,19149,Republican,Ted Cruz,530,0.281
+Iowa,IA,Plymouth,19149,Republican,Donald Trump,618,0.32799999999999996
+Iowa,IA,Plymouth,19149,Republican,Marco Rubio,373,0.198
+Iowa,IA,Plymouth,19149,Republican,Ben Carson,195,0.10300000000000001
+Iowa,IA,Plymouth,19149,Republican,Jeb Bush,44,0.023
+Iowa,IA,Plymouth,19149,Republican,Rand Paul,34,0.018000000000000002
+Iowa,IA,Plymouth,19149,Republican,Chris Christie,25,0.013000000000000001
+Iowa,IA,Plymouth,19149,Republican,John Kasich,22,0.012
+Iowa,IA,Plymouth,19149,Republican,Carly Fiorina,19,0.01
+Iowa,IA,Plymouth,19149,Republican,Mike Huckabee,14,0.006999999999999999
+Iowa,IA,Plymouth,19149,Republican,Rick Santorum,12,0.006
+Iowa,IA,Plymouth,19149,Democrat,Hillary Clinton,387,0.5539999999999999
+Iowa,IA,Plymouth,19149,Democrat,Bernie Sanders,312,0.446
+Iowa,IA,Plymouth,19149,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Plymouth,19149,Democrat, Uncommitted,0,0.0
+Iowa,IA,Pocahontas,19151,Republican,Ted Cruz,187,0.387
+Iowa,IA,Pocahontas,19151,Republican,Donald Trump,110,0.228
+Iowa,IA,Pocahontas,19151,Republican,Ben Carson,70,0.145
+Iowa,IA,Pocahontas,19151,Republican,Marco Rubio,65,0.135
+Iowa,IA,Pocahontas,19151,Republican,Mike Huckabee,16,0.033
+Iowa,IA,Pocahontas,19151,Republican,Rand Paul,13,0.027000000000000003
+Iowa,IA,Pocahontas,19151,Republican,Jeb Bush,9,0.019
+Iowa,IA,Pocahontas,19151,Republican,Chris Christie,5,0.01
+Iowa,IA,Pocahontas,19151,Republican,Carly Fiorina,5,0.01
+Iowa,IA,Pocahontas,19151,Republican,John Kasich,2,0.004
+Iowa,IA,Pocahontas,19151,Republican,Rick Santorum,1,0.002
+Iowa,IA,Pocahontas,19151,Democrat,Hillary Clinton,198,0.66
+Iowa,IA,Pocahontas,19151,Democrat,Bernie Sanders,90,0.3
+Iowa,IA,Pocahontas,19151,Democrat,Martin O'Malley,12,0.04
+Iowa,IA,Pocahontas,19151,Democrat, Uncommitted,0,0.0
+Iowa,IA,Polk,19153,Republican,Ted Cruz,7864,0.253
+Iowa,IA,Polk,19153,Republican,Marco Rubio,8365,0.26899999999999996
+Iowa,IA,Polk,19153,Republican,Donald Trump,6764,0.218
+Iowa,IA,Polk,19153,Republican,Ben Carson,2297,0.07400000000000001
+Iowa,IA,Polk,19153,Republican,Rand Paul,1633,0.053
+Iowa,IA,Polk,19153,Republican,Jeb Bush,1405,0.045
+Iowa,IA,Polk,19153,Republican,John Kasich,773,0.025
+Iowa,IA,Polk,19153,Republican,Chris Christie,745,0.024
+Iowa,IA,Polk,19153,Republican,Mike Huckabee,565,0.018000000000000002
+Iowa,IA,Polk,19153,Republican,Carly Fiorina,420,0.013999999999999999
+Iowa,IA,Polk,19153,Republican,Rick Santorum,234,0.008
+Iowa,IA,Polk,19153,Democrat,Hillary Clinton,12122,0.532
+Iowa,IA,Polk,19153,Democrat,Bernie Sanders,10526,0.462
+Iowa,IA,Polk,19153,Democrat,Martin O'Malley,152,0.006999999999999999
+Iowa,IA,Polk,19153,Democrat, Uncommitted,0,0.0
+Iowa,IA,Pottawattamie,19155,Republican,Ted Cruz,942,0.215
+Iowa,IA,Pottawattamie,19155,Republican,Donald Trump,1508,0.345
+Iowa,IA,Pottawattamie,19155,Republican,Marco Rubio,750,0.172
+Iowa,IA,Pottawattamie,19155,Republican,Ben Carson,543,0.124
+Iowa,IA,Pottawattamie,19155,Republican,Rand Paul,156,0.036000000000000004
+Iowa,IA,Pottawattamie,19155,Republican,John Kasich,127,0.028999999999999998
+Iowa,IA,Pottawattamie,19155,Republican,Rick Santorum,115,0.026000000000000002
+Iowa,IA,Pottawattamie,19155,Republican,Carly Fiorina,80,0.018000000000000002
+Iowa,IA,Pottawattamie,19155,Republican,Jeb Bush,70,0.016
+Iowa,IA,Pottawattamie,19155,Republican,Chris Christie,53,0.012
+Iowa,IA,Pottawattamie,19155,Republican,Mike Huckabee,25,0.006
+Iowa,IA,Pottawattamie,19155,Democrat,Hillary Clinton,1519,0.49
+Iowa,IA,Pottawattamie,19155,Democrat,Bernie Sanders,1573,0.508
+Iowa,IA,Pottawattamie,19155,Democrat, Uncommitted,7,0.002
+Iowa,IA,Pottawattamie,19155,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Poweshiek,19157,Republican,Ted Cruz,282,0.287
+Iowa,IA,Poweshiek,19157,Republican,Donald Trump,258,0.262
+Iowa,IA,Poweshiek,19157,Republican,Marco Rubio,183,0.18600000000000003
+Iowa,IA,Poweshiek,19157,Republican,Ben Carson,76,0.077
+Iowa,IA,Poweshiek,19157,Republican,Rand Paul,63,0.064
+Iowa,IA,Poweshiek,19157,Republican,Jeb Bush,38,0.039
+Iowa,IA,Poweshiek,19157,Republican,Mike Huckabee,30,0.031
+Iowa,IA,Poweshiek,19157,Republican,John Kasich,18,0.018000000000000002
+Iowa,IA,Poweshiek,19157,Republican,Chris Christie,14,0.013999999999999999
+Iowa,IA,Poweshiek,19157,Republican,Carly Fiorina,14,0.013999999999999999
+Iowa,IA,Poweshiek,19157,Republican,Rick Santorum,7,0.006999999999999999
+Iowa,IA,Poweshiek,19157,Democrat,Hillary Clinton,424,0.47200000000000003
+Iowa,IA,Poweshiek,19157,Democrat,Bernie Sanders,475,0.528
+Iowa,IA,Poweshiek,19157,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Poweshiek,19157,Democrat, Uncommitted,0,0.0
+Iowa,IA,Ringgold,19159,Republican,Ted Cruz,84,0.253
+Iowa,IA,Ringgold,19159,Republican,Donald Trump,106,0.319
+Iowa,IA,Ringgold,19159,Republican,Ben Carson,52,0.157
+Iowa,IA,Ringgold,19159,Republican,Marco Rubio,50,0.151
+Iowa,IA,Ringgold,19159,Republican,Jeb Bush,16,0.048
+Iowa,IA,Ringgold,19159,Republican,Mike Huckabee,14,0.042
+Iowa,IA,Ringgold,19159,Republican,Chris Christie,3,0.009000000000000001
+Iowa,IA,Ringgold,19159,Republican,Carly Fiorina,3,0.009000000000000001
+Iowa,IA,Ringgold,19159,Republican,Rand Paul,2,0.006
+Iowa,IA,Ringgold,19159,Republican,Rick Santorum,1,0.003
+Iowa,IA,Ringgold,19159,Republican,John Kasich,0,0.0
+Iowa,IA,Ringgold,19159,Democrat,Hillary Clinton,132,0.6629999999999999
+Iowa,IA,Ringgold,19159,Democrat,Bernie Sanders,67,0.337
+Iowa,IA,Ringgold,19159,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Ringgold,19159,Democrat, Uncommitted,0,0.0
+Iowa,IA,Sac,19161,Republican,Ted Cruz,187,0.28
+Iowa,IA,Sac,19161,Republican,Donald Trump,212,0.317
+Iowa,IA,Sac,19161,Republican,Marco Rubio,81,0.121
+Iowa,IA,Sac,19161,Republican,Ben Carson,61,0.091
+Iowa,IA,Sac,19161,Republican,Rick Santorum,49,0.073
+Iowa,IA,Sac,19161,Republican,Jeb Bush,19,0.027999999999999997
+Iowa,IA,Sac,19161,Republican,Mike Huckabee,18,0.027000000000000003
+Iowa,IA,Sac,19161,Republican,Rand Paul,17,0.025
+Iowa,IA,Sac,19161,Republican,Carly Fiorina,12,0.018000000000000002
+Iowa,IA,Sac,19161,Republican,John Kasich,7,0.01
+Iowa,IA,Sac,19161,Republican,Chris Christie,6,0.009000000000000001
+Iowa,IA,Sac,19161,Democrat,Hillary Clinton,165,0.55
+Iowa,IA,Sac,19161,Democrat,Bernie Sanders,135,0.45
+Iowa,IA,Sac,19161,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Sac,19161,Democrat, Uncommitted,0,0.0
+Iowa,IA,Scott,19163,Republican,Ted Cruz,2396,0.24600000000000002
+Iowa,IA,Scott,19163,Republican,Marco Rubio,2553,0.262
+Iowa,IA,Scott,19163,Republican,Donald Trump,2465,0.253
+Iowa,IA,Scott,19163,Republican,Ben Carson,532,0.055
+Iowa,IA,Scott,19163,Republican,Rand Paul,486,0.05
+Iowa,IA,Scott,19163,Republican,John Kasich,436,0.045
+Iowa,IA,Scott,19163,Republican,Jeb Bush,353,0.036000000000000004
+Iowa,IA,Scott,19163,Republican,Carly Fiorina,219,0.022000000000000002
+Iowa,IA,Scott,19163,Republican,Chris Christie,178,0.018000000000000002
+Iowa,IA,Scott,19163,Republican,Mike Huckabee,78,0.008
+Iowa,IA,Scott,19163,Republican,Rick Santorum,50,0.005
+Iowa,IA,Scott,19163,Democrat,Hillary Clinton,4025,0.491
+Iowa,IA,Scott,19163,Democrat,Bernie Sanders,4144,0.505
+Iowa,IA,Scott,19163,Democrat,Martin O'Malley,29,0.004
+Iowa,IA,Scott,19163,Democrat, Uncommitted,0,0.0
+Iowa,IA,Shelby,19165,Republican,Ted Cruz,207,0.278
+Iowa,IA,Shelby,19165,Republican,Donald Trump,203,0.272
+Iowa,IA,Shelby,19165,Republican,Marco Rubio,129,0.17300000000000001
+Iowa,IA,Shelby,19165,Republican,Ben Carson,109,0.146
+Iowa,IA,Shelby,19165,Republican,Rand Paul,23,0.031
+Iowa,IA,Shelby,19165,Republican,Carly Fiorina,22,0.03
+Iowa,IA,Shelby,19165,Republican,Mike Huckabee,18,0.024
+Iowa,IA,Shelby,19165,Republican,Chris Christie,10,0.013000000000000001
+Iowa,IA,Shelby,19165,Republican,Jeb Bush,9,0.012
+Iowa,IA,Shelby,19165,Republican,John Kasich,9,0.012
+Iowa,IA,Shelby,19165,Republican,Rick Santorum,6,0.008
+Iowa,IA,Shelby,19165,Democrat,Hillary Clinton,168,0.42
+Iowa,IA,Shelby,19165,Democrat,Bernie Sanders,232,0.58
+Iowa,IA,Shelby,19165,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Shelby,19165,Democrat, Uncommitted,0,0.0
+Iowa,IA,Sioux,19167,Republican,Ted Cruz,1524,0.332
+Iowa,IA,Sioux,19167,Republican,Marco Rubio,1469,0.32
+Iowa,IA,Sioux,19167,Republican,Ben Carson,686,0.149
+Iowa,IA,Sioux,19167,Republican,Donald Trump,502,0.109
+Iowa,IA,Sioux,19167,Republican,Rand Paul,117,0.025
+Iowa,IA,Sioux,19167,Republican,Rick Santorum,77,0.017
+Iowa,IA,Sioux,19167,Republican,Jeb Bush,76,0.017
+Iowa,IA,Sioux,19167,Republican,John Kasich,45,0.01
+Iowa,IA,Sioux,19167,Republican,Carly Fiorina,39,0.008
+Iowa,IA,Sioux,19167,Republican,Mike Huckabee,35,0.008
+Iowa,IA,Sioux,19167,Republican,Chris Christie,24,0.005
+Iowa,IA,Sioux,19167,Democrat,Hillary Clinton,192,0.48100000000000004
+Iowa,IA,Sioux,19167,Democrat,Bernie Sanders,202,0.506
+Iowa,IA,Sioux,19167,Democrat, Uncommitted,5,0.013000000000000001
+Iowa,IA,Sioux,19167,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Story,19169,Republican,Ted Cruz,1815,0.24100000000000002
+Iowa,IA,Story,19169,Republican,Marco Rubio,2415,0.321
+Iowa,IA,Story,19169,Republican,Donald Trump,1152,0.153
+Iowa,IA,Story,19169,Republican,Ben Carson,641,0.085
+Iowa,IA,Story,19169,Republican,Rand Paul,629,0.083
+Iowa,IA,Story,19169,Republican,Jeb Bush,212,0.027999999999999997
+Iowa,IA,Story,19169,Republican,John Kasich,193,0.026000000000000002
+Iowa,IA,Story,19169,Republican,Chris Christie,166,0.022000000000000002
+Iowa,IA,Story,19169,Republican,Mike Huckabee,123,0.016
+Iowa,IA,Story,19169,Republican,Carly Fiorina,117,0.016
+Iowa,IA,Story,19169,Republican,Rick Santorum,62,0.008
+Iowa,IA,Story,19169,Democrat,Hillary Clinton,1862,0.405
+Iowa,IA,Story,19169,Democrat,Bernie Sanders,2737,0.595
+Iowa,IA,Story,19169,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Story,19169,Democrat, Uncommitted,0,0.0
+Iowa,IA,Tama,19171,Republican,Ted Cruz,307,0.312
+Iowa,IA,Tama,19171,Republican,Donald Trump,350,0.35600000000000004
+Iowa,IA,Tama,19171,Republican,Marco Rubio,123,0.125
+Iowa,IA,Tama,19171,Republican,Ben Carson,83,0.084
+Iowa,IA,Tama,19171,Republican,Mike Huckabee,33,0.034
+Iowa,IA,Tama,19171,Republican,Rand Paul,27,0.027000000000000003
+Iowa,IA,Tama,19171,Republican,Chris Christie,16,0.016
+Iowa,IA,Tama,19171,Republican,Jeb Bush,12,0.012
+Iowa,IA,Tama,19171,Republican,John Kasich,12,0.012
+Iowa,IA,Tama,19171,Republican,Carly Fiorina,10,0.01
+Iowa,IA,Tama,19171,Republican,Rick Santorum,10,0.01
+Iowa,IA,Tama,19171,Democrat,Hillary Clinton,476,0.529
+Iowa,IA,Tama,19171,Democrat,Bernie Sanders,423,0.47100000000000003
+Iowa,IA,Tama,19171,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Tama,19171,Democrat, Uncommitted,0,0.0
+Iowa,IA,Taylor,19173,Republican,Ted Cruz,74,0.195
+Iowa,IA,Taylor,19173,Republican,Donald Trump,140,0.369
+Iowa,IA,Taylor,19173,Republican,Ben Carson,63,0.166
+Iowa,IA,Taylor,19173,Republican,Marco Rubio,52,0.13699999999999998
+Iowa,IA,Taylor,19173,Republican,Jeb Bush,10,0.026000000000000002
+Iowa,IA,Taylor,19173,Republican,Rand Paul,10,0.026000000000000002
+Iowa,IA,Taylor,19173,Republican,Mike Huckabee,9,0.024
+Iowa,IA,Taylor,19173,Republican,Carly Fiorina,6,0.016
+Iowa,IA,Taylor,19173,Republican,John Kasich,6,0.016
+Iowa,IA,Taylor,19173,Republican,Chris Christie,5,0.013000000000000001
+Iowa,IA,Taylor,19173,Republican,Rick Santorum,3,0.008
+Iowa,IA,Taylor,19173,Democrat,Hillary Clinton,140,0.7
+Iowa,IA,Taylor,19173,Democrat,Bernie Sanders,60,0.3
+Iowa,IA,Taylor,19173,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Taylor,19173,Democrat, Uncommitted,0,0.0
+Iowa,IA,Union,19175,Republican,Ted Cruz,203,0.289
+Iowa,IA,Union,19175,Republican,Donald Trump,194,0.276
+Iowa,IA,Union,19175,Republican,Marco Rubio,135,0.192
+Iowa,IA,Union,19175,Republican,Ben Carson,87,0.124
+Iowa,IA,Union,19175,Republican,Mike Huckabee,28,0.04
+Iowa,IA,Union,19175,Republican,Carly Fiorina,16,0.023
+Iowa,IA,Union,19175,Republican,Jeb Bush,12,0.017
+Iowa,IA,Union,19175,Republican,Rand Paul,10,0.013999999999999999
+Iowa,IA,Union,19175,Republican,John Kasich,7,0.01
+Iowa,IA,Union,19175,Republican,Rick Santorum,7,0.01
+Iowa,IA,Union,19175,Republican,Chris Christie,3,0.004
+Iowa,IA,Union,19175,Democrat,Hillary Clinton,231,0.46299999999999997
+Iowa,IA,Union,19175,Democrat,Bernie Sanders,268,0.537
+Iowa,IA,Union,19175,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Union,19175,Democrat, Uncommitted,0,0.0
+Iowa,IA,Van Buren,19177,Republican,Ted Cruz,196,0.368
+Iowa,IA,Van Buren,19177,Republican,Donald Trump,151,0.28300000000000003
+Iowa,IA,Van Buren,19177,Republican,Marco Rubio,63,0.11800000000000001
+Iowa,IA,Van Buren,19177,Republican,Ben Carson,56,0.105
+Iowa,IA,Van Buren,19177,Republican,Mike Huckabee,51,0.096
+Iowa,IA,Van Buren,19177,Republican,Rand Paul,7,0.013000000000000001
+Iowa,IA,Van Buren,19177,Republican,Jeb Bush,3,0.006
+Iowa,IA,Van Buren,19177,Republican,Chris Christie,3,0.006
+Iowa,IA,Van Buren,19177,Republican,John Kasich,1,0.002
+Iowa,IA,Van Buren,19177,Republican,Carly Fiorina,0,0.0
+Iowa,IA,Van Buren,19177,Republican,Rick Santorum,0,0.0
+Iowa,IA,Van Buren,19177,Democrat,Hillary Clinton,93,0.467
+Iowa,IA,Van Buren,19177,Democrat,Bernie Sanders,106,0.5329999999999999
+Iowa,IA,Van Buren,19177,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Van Buren,19177,Democrat, Uncommitted,0,0.0
+Iowa,IA,Wapello,19179,Republican,Ted Cruz,489,0.293
+Iowa,IA,Wapello,19179,Republican,Donald Trump,592,0.355
+Iowa,IA,Wapello,19179,Republican,Marco Rubio,242,0.145
+Iowa,IA,Wapello,19179,Republican,Ben Carson,127,0.076
+Iowa,IA,Wapello,19179,Republican,Mike Huckabee,103,0.062
+Iowa,IA,Wapello,19179,Republican,Rand Paul,50,0.03
+Iowa,IA,Wapello,19179,Republican,Jeb Bush,24,0.013999999999999999
+Iowa,IA,Wapello,19179,Republican,Chris Christie,21,0.013000000000000001
+Iowa,IA,Wapello,19179,Republican,Carly Fiorina,10,0.006
+Iowa,IA,Wapello,19179,Republican,John Kasich,9,0.005
+Iowa,IA,Wapello,19179,Republican,Rick Santorum,2,0.001
+Iowa,IA,Wapello,19179,Democrat,Hillary Clinton,817,0.5479999999999999
+Iowa,IA,Wapello,19179,Democrat,Bernie Sanders,667,0.447
+Iowa,IA,Wapello,19179,Democrat,Martin O'Malley,7,0.005
+Iowa,IA,Wapello,19179,Democrat, Uncommitted,0,0.0
+Iowa,IA,Warren,19181,Republican,Ted Cruz,1120,0.294
+Iowa,IA,Warren,19181,Republican,Donald Trump,982,0.258
+Iowa,IA,Warren,19181,Republican,Marco Rubio,784,0.20600000000000002
+Iowa,IA,Warren,19181,Republican,Ben Carson,374,0.098
+Iowa,IA,Warren,19181,Republican,Rand Paul,197,0.052000000000000005
+Iowa,IA,Warren,19181,Republican,Jeb Bush,95,0.025
+Iowa,IA,Warren,19181,Republican,Mike Huckabee,76,0.02
+Iowa,IA,Warren,19181,Republican,Chris Christie,65,0.017
+Iowa,IA,Warren,19181,Republican,John Kasich,44,0.012
+Iowa,IA,Warren,19181,Republican,Carly Fiorina,37,0.01
+Iowa,IA,Warren,19181,Republican,Rick Santorum,33,0.009000000000000001
+Iowa,IA,Warren,19181,Democrat,Hillary Clinton,1217,0.5529999999999999
+Iowa,IA,Warren,19181,Democrat,Bernie Sanders,953,0.433
+Iowa,IA,Warren,19181,Democrat,Martin O'Malley,29,0.013000000000000001
+Iowa,IA,Warren,19181,Democrat, Uncommitted,0,0.0
+Iowa,IA,Washington,19183,Republican,Ted Cruz,542,0.35100000000000003
+Iowa,IA,Washington,19183,Republican,Donald Trump,329,0.213
+Iowa,IA,Washington,19183,Republican,Marco Rubio,222,0.14400000000000002
+Iowa,IA,Washington,19183,Republican,Ben Carson,194,0.126
+Iowa,IA,Washington,19183,Republican,Rand Paul,104,0.067
+Iowa,IA,Washington,19183,Republican,Jeb Bush,63,0.040999999999999995
+Iowa,IA,Washington,19183,Republican,Carly Fiorina,30,0.019
+Iowa,IA,Washington,19183,Republican,Mike Huckabee,23,0.015
+Iowa,IA,Washington,19183,Republican,Rick Santorum,15,0.01
+Iowa,IA,Washington,19183,Republican,John Kasich,13,0.008
+Iowa,IA,Washington,19183,Republican,Chris Christie,9,0.006
+Iowa,IA,Washington,19183,Democrat,Hillary Clinton,484,0.5379999999999999
+Iowa,IA,Washington,19183,Democrat,Bernie Sanders,415,0.462
+Iowa,IA,Washington,19183,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Washington,19183,Democrat, Uncommitted,0,0.0
+Iowa,IA,Wayne,19185,Republican,Ted Cruz,171,0.408
+Iowa,IA,Wayne,19185,Republican,Donald Trump,114,0.272
+Iowa,IA,Wayne,19185,Republican,Marco Rubio,57,0.136
+Iowa,IA,Wayne,19185,Republican,Ben Carson,36,0.086
+Iowa,IA,Wayne,19185,Republican,Mike Huckabee,15,0.036000000000000004
+Iowa,IA,Wayne,19185,Republican,Jeb Bush,9,0.021
+Iowa,IA,Wayne,19185,Republican,John Kasich,7,0.017
+Iowa,IA,Wayne,19185,Republican,Carly Fiorina,5,0.012
+Iowa,IA,Wayne,19185,Republican,Rand Paul,3,0.006999999999999999
+Iowa,IA,Wayne,19185,Republican,Chris Christie,1,0.002
+Iowa,IA,Wayne,19185,Republican,Rick Santorum,1,0.002
+Iowa,IA,Wayne,19185,Democrat,Hillary Clinton,130,0.65
+Iowa,IA,Wayne,19185,Democrat,Bernie Sanders,70,0.35
+Iowa,IA,Wayne,19185,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Wayne,19185,Democrat, Uncommitted,0,0.0
+Iowa,IA,Webster,19187,Republican,Ted Cruz,432,0.272
+Iowa,IA,Webster,19187,Republican,Donald Trump,435,0.273
+Iowa,IA,Webster,19187,Republican,Marco Rubio,286,0.18
+Iowa,IA,Webster,19187,Republican,Ben Carson,120,0.075
+Iowa,IA,Webster,19187,Republican,Chris Christie,79,0.05
+Iowa,IA,Webster,19187,Republican,Mike Huckabee,76,0.048
+Iowa,IA,Webster,19187,Republican,Rand Paul,62,0.039
+Iowa,IA,Webster,19187,Republican,Jeb Bush,44,0.027999999999999997
+Iowa,IA,Webster,19187,Republican,John Kasich,28,0.018000000000000002
+Iowa,IA,Webster,19187,Republican,Carly Fiorina,17,0.011000000000000001
+Iowa,IA,Webster,19187,Republican,Rick Santorum,12,0.008
+Iowa,IA,Webster,19187,Democrat,Hillary Clinton,866,0.542
+Iowa,IA,Webster,19187,Democrat,Bernie Sanders,720,0.45
+Iowa,IA,Webster,19187,Democrat,Martin O'Malley,13,0.008
+Iowa,IA,Webster,19187,Democrat, Uncommitted,0,0.0
+Iowa,IA,Winnebago,19189,Republican,Ted Cruz,187,0.303
+Iowa,IA,Winnebago,19189,Republican,Marco Rubio,128,0.207
+Iowa,IA,Winnebago,19189,Republican,Donald Trump,115,0.18600000000000003
+Iowa,IA,Winnebago,19189,Republican,Ben Carson,91,0.147
+Iowa,IA,Winnebago,19189,Republican,Mike Huckabee,27,0.044000000000000004
+Iowa,IA,Winnebago,19189,Republican,Jeb Bush,24,0.039
+Iowa,IA,Winnebago,19189,Republican,Rand Paul,22,0.036000000000000004
+Iowa,IA,Winnebago,19189,Republican,Chris Christie,10,0.016
+Iowa,IA,Winnebago,19189,Republican,Carly Fiorina,7,0.011000000000000001
+Iowa,IA,Winnebago,19189,Republican,Rick Santorum,4,0.006
+Iowa,IA,Winnebago,19189,Republican,John Kasich,2,0.003
+Iowa,IA,Winnebago,19189,Democrat,Hillary Clinton,170,0.425
+Iowa,IA,Winnebago,19189,Democrat,Bernie Sanders,230,0.575
+Iowa,IA,Winnebago,19189,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Winnebago,19189,Democrat, Uncommitted,0,0.0
+Iowa,IA,Winneshiek,19191,Republican,Ted Cruz,251,0.24
+Iowa,IA,Winneshiek,19191,Republican,Donald Trump,274,0.262
+Iowa,IA,Winneshiek,19191,Republican,Marco Rubio,208,0.19899999999999998
+Iowa,IA,Winneshiek,19191,Republican,Ben Carson,151,0.145
+Iowa,IA,Winneshiek,19191,Republican,Rand Paul,40,0.038
+Iowa,IA,Winneshiek,19191,Republican,John Kasich,30,0.028999999999999998
+Iowa,IA,Winneshiek,19191,Republican,Carly Fiorina,27,0.026000000000000002
+Iowa,IA,Winneshiek,19191,Republican,Jeb Bush,26,0.025
+Iowa,IA,Winneshiek,19191,Republican,Mike Huckabee,23,0.022000000000000002
+Iowa,IA,Winneshiek,19191,Republican,Chris Christie,9,0.009000000000000001
+Iowa,IA,Winneshiek,19191,Republican,Rick Santorum,3,0.003
+Iowa,IA,Winneshiek,19191,Democrat,Hillary Clinton,484,0.44
+Iowa,IA,Winneshiek,19191,Democrat,Bernie Sanders,616,0.56
+Iowa,IA,Winneshiek,19191,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Winneshiek,19191,Democrat, Uncommitted,0,0.0
+Iowa,IA,Woodbury,19193,Republican,Ted Cruz,1367,0.27
+Iowa,IA,Woodbury,19193,Republican,Donald Trump,1600,0.317
+Iowa,IA,Woodbury,19193,Republican,Marco Rubio,1065,0.21100000000000002
+Iowa,IA,Woodbury,19193,Republican,Ben Carson,394,0.078
+Iowa,IA,Woodbury,19193,Republican,Rick Santorum,153,0.03
+Iowa,IA,Woodbury,19193,Republican,Rand Paul,141,0.027999999999999997
+Iowa,IA,Woodbury,19193,Republican,Carly Fiorina,114,0.023
+Iowa,IA,Woodbury,19193,Republican,Jeb Bush,85,0.017
+Iowa,IA,Woodbury,19193,Republican,Chris Christie,69,0.013999999999999999
+Iowa,IA,Woodbury,19193,Republican,John Kasich,44,0.009000000000000001
+Iowa,IA,Woodbury,19193,Republican,Mike Huckabee,23,0.005
+Iowa,IA,Woodbury,19193,Democrat,Hillary Clinton,1665,0.46299999999999997
+Iowa,IA,Woodbury,19193,Democrat,Bernie Sanders,1920,0.5329999999999999
+Iowa,IA,Woodbury,19193,Democrat,Martin O'Malley,15,0.004
+Iowa,IA,Woodbury,19193,Democrat, Uncommitted,0,0.0
+Iowa,IA,Worth,19195,Republican,Ted Cruz,115,0.307
+Iowa,IA,Worth,19195,Republican,Donald Trump,113,0.301
+Iowa,IA,Worth,19195,Republican,Marco Rubio,55,0.147
+Iowa,IA,Worth,19195,Republican,Ben Carson,25,0.067
+Iowa,IA,Worth,19195,Republican,Mike Huckabee,18,0.048
+Iowa,IA,Worth,19195,Republican,Rand Paul,14,0.037000000000000005
+Iowa,IA,Worth,19195,Republican,Carly Fiorina,11,0.028999999999999998
+Iowa,IA,Worth,19195,Republican,Jeb Bush,9,0.024
+Iowa,IA,Worth,19195,Republican,Chris Christie,6,0.016
+Iowa,IA,Worth,19195,Republican,John Kasich,5,0.013000000000000001
+Iowa,IA,Worth,19195,Republican,Rick Santorum,4,0.011000000000000001
+Iowa,IA,Worth,19195,Democrat,Hillary Clinton,181,0.45399999999999996
+Iowa,IA,Worth,19195,Democrat,Bernie Sanders,218,0.546
+Iowa,IA,Worth,19195,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Worth,19195,Democrat, Uncommitted,0,0.0
+Iowa,IA,Wright,19197,Republican,Ted Cruz,190,0.33799999999999997
+Iowa,IA,Wright,19197,Republican,Donald Trump,129,0.23
+Iowa,IA,Wright,19197,Republican,Marco Rubio,124,0.221
+Iowa,IA,Wright,19197,Republican,Ben Carson,58,0.10300000000000001
+Iowa,IA,Wright,19197,Republican,Jeb Bush,16,0.027999999999999997
+Iowa,IA,Wright,19197,Republican,Mike Huckabee,15,0.027000000000000003
+Iowa,IA,Wright,19197,Republican,Chris Christie,10,0.018000000000000002
+Iowa,IA,Wright,19197,Republican,Rand Paul,7,0.012
+Iowa,IA,Wright,19197,Republican,John Kasich,6,0.011000000000000001
+Iowa,IA,Wright,19197,Republican,Carly Fiorina,4,0.006999999999999999
+Iowa,IA,Wright,19197,Republican,Rick Santorum,3,0.005
+Iowa,IA,Wright,19197,Democrat,Hillary Clinton,273,0.547
+Iowa,IA,Wright,19197,Democrat,Bernie Sanders,226,0.45299999999999996
+Iowa,IA,Wright,19197,Democrat,Martin O'Malley,0,0.0
+Iowa,IA,Wright,19197,Democrat, Uncommitted,0,0.0
+Nevada,NV,Carson City,32510,Republican,Donald Trump,1066,0.434
+Nevada,NV,Carson City,32510,Republican,Marco Rubio,600,0.244
+Nevada,NV,Carson City,32510,Republican,Ted Cruz,462,0.188
+Nevada,NV,Carson City,32510,Republican,Ben Carson,208,0.085
+Nevada,NV,Carson City,32510,Republican,John Kasich,102,0.042
+Nevada,NV,Carson City,32510,Democrat,Hillary Clinton,79,0.488
+Nevada,NV,Carson City,32510,Democrat,Bernie Sanders,83,0.512
+Nevada,NV,Churchill,32001,Republican,Donald Trump,538,0.39899999999999997
+Nevada,NV,Churchill,32001,Republican,Marco Rubio,342,0.254
+Nevada,NV,Churchill,32001,Republican,Ted Cruz,312,0.231
+Nevada,NV,Churchill,32001,Republican,Ben Carson,108,0.08
+Nevada,NV,Churchill,32001,Republican,John Kasich,43,0.032
+Nevada,NV,Churchill,32001,Democrat,Hillary Clinton,46,0.5
+Nevada,NV,Churchill,32001,Democrat,Bernie Sanders,46,0.5
+Nevada,NV,Clark,32003,Republican,Donald Trump,20132,0.489
+Nevada,NV,Clark,32003,Republican,Marco Rubio,10114,0.24600000000000002
+Nevada,NV,Clark,32003,Republican,Ted Cruz,7857,0.191
+Nevada,NV,Clark,32003,Republican,Ben Carson,1488,0.036000000000000004
+Nevada,NV,Clark,32003,Republican,John Kasich,1399,0.034
+Nevada,NV,Clark,32003,Democrat,Hillary Clinton,4767,0.5489999999999999
+Nevada,NV,Clark,32003,Democrat,Bernie Sanders,3920,0.451
+Nevada,NV,Douglas,32005,Republican,Donald Trump,1683,0.364
+Nevada,NV,Douglas,32005,Republican,Marco Rubio,1251,0.271
+Nevada,NV,Douglas,32005,Republican,Ted Cruz,1195,0.259
+Nevada,NV,Douglas,32005,Republican,Ben Carson,281,0.061
+Nevada,NV,Douglas,32005,Republican,John Kasich,199,0.043
+Nevada,NV,Douglas,32005,Democrat,Hillary Clinton,85,0.541
+Nevada,NV,Douglas,32005,Democrat,Bernie Sanders,72,0.45899999999999996
+Nevada,NV,Elko,32007,Republican,Donald Trump,600,0.253
+Nevada,NV,Elko,32007,Republican,Ted Cruz,1039,0.43799999999999994
+Nevada,NV,Elko,32007,Republican,Marco Rubio,503,0.212
+Nevada,NV,Elko,32007,Republican,Ben Carson,172,0.073
+Nevada,NV,Elko,32007,Republican,John Kasich,37,0.016
+Nevada,NV,Elko,32007,Democrat,Hillary Clinton,38,0.442
+Nevada,NV,Elko,32007,Democrat,Bernie Sanders,48,0.5579999999999999
+Nevada,NV,Esmeralda,32009,Republican,Donald Trump,46,0.622
+Nevada,NV,Esmeralda,32009,Republican,Ted Cruz,9,0.122
+Nevada,NV,Esmeralda,32009,Republican,Marco Rubio,8,0.10800000000000001
+Nevada,NV,Esmeralda,32009,Republican,Ben Carson,7,0.095
+Nevada,NV,Esmeralda,32009,Republican,John Kasich,3,0.040999999999999995
+Nevada,NV,Esmeralda,32009,Democrat,Hillary Clinton,7,0.318
+Nevada,NV,Esmeralda,32009,Democrat,Bernie Sanders,15,0.682
+Nevada,NV,Eureka,32011,Republican,Donald Trump,81,0.415
+Nevada,NV,Eureka,32011,Republican,Ted Cruz,67,0.344
+Nevada,NV,Eureka,32011,Republican,Marco Rubio,31,0.159
+Nevada,NV,Eureka,32011,Republican,Ben Carson,8,0.040999999999999995
+Nevada,NV,Eureka,32011,Republican,John Kasich,7,0.036000000000000004
+Nevada,NV,Eureka,32011,Democrat,Hillary Clinton,3,0.136
+Nevada,NV,Eureka,32011,Democrat,Bernie Sanders,19,0.8640000000000001
+Nevada,NV,Humboldt,32013,Republican,Donald Trump,361,0.418
+Nevada,NV,Humboldt,32013,Republican,Ted Cruz,189,0.21899999999999997
+Nevada,NV,Humboldt,32013,Republican,Marco Rubio,182,0.21100000000000002
+Nevada,NV,Humboldt,32013,Republican,Ben Carson,85,0.098
+Nevada,NV,Humboldt,32013,Republican,John Kasich,42,0.049
+Nevada,NV,Humboldt,32013,Democrat,Hillary Clinton,27,0.33799999999999997
+Nevada,NV,Humboldt,32013,Democrat,Bernie Sanders,53,0.6629999999999999
+Nevada,NV,Lander,32015,Republican,Donald Trump,165,0.39799999999999996
+Nevada,NV,Lander,32015,Republican,Ted Cruz,148,0.35700000000000004
+Nevada,NV,Lander,32015,Republican,Marco Rubio,72,0.17300000000000001
+Nevada,NV,Lander,32015,Republican,Ben Carson,20,0.048
+Nevada,NV,Lander,32015,Republican,John Kasich,9,0.022000000000000002
+Nevada,NV,Lander,32015,Democrat,Hillary Clinton,20,0.29
+Nevada,NV,Lander,32015,Democrat,Bernie Sanders,48,0.696
+Nevada,NV,Lincoln,32017,Republican,Donald Trump,82,0.28800000000000003
+Nevada,NV,Lincoln,32017,Republican,Ted Cruz,127,0.446
+Nevada,NV,Lincoln,32017,Republican,Marco Rubio,46,0.161
+Nevada,NV,Lincoln,32017,Republican,Ben Carson,27,0.095
+Nevada,NV,Lincoln,32017,Republican,John Kasich,3,0.011000000000000001
+Nevada,NV,Lincoln,32017,Democrat,Hillary Clinton,38,0.603
+Nevada,NV,Lincoln,32017,Democrat,Bernie Sanders,25,0.397
+Nevada,NV,Lyon,32019,Republican,Donald Trump,1399,0.48200000000000004
+Nevada,NV,Lyon,32019,Republican,Ted Cruz,711,0.245
+Nevada,NV,Lyon,32019,Republican,Marco Rubio,506,0.174
+Nevada,NV,Lyon,32019,Republican,Ben Carson,208,0.07200000000000001
+Nevada,NV,Lyon,32019,Republican,John Kasich,67,0.023
+Nevada,NV,Lyon,32019,Democrat,Hillary Clinton,80,0.47600000000000003
+Nevada,NV,Lyon,32019,Democrat,Bernie Sanders,88,0.524
+Nevada,NV,Mineral,32021,Republican,Donald Trump,97,0.508
+Nevada,NV,Mineral,32021,Republican,Marco Rubio,38,0.19899999999999998
+Nevada,NV,Mineral,32021,Republican,Ted Cruz,37,0.19399999999999998
+Nevada,NV,Mineral,32021,Republican,Ben Carson,13,0.068
+Nevada,NV,Mineral,32021,Republican,John Kasich,6,0.031
+Nevada,NV,Mineral,32021,Democrat,Hillary Clinton,39,0.534
+Nevada,NV,Mineral,32021,Democrat,Bernie Sanders,34,0.466
+Nevada,NV,Nye,32023,Republican,Donald Trump,980,0.565
+Nevada,NV,Nye,32023,Republican,Ted Cruz,408,0.235
+Nevada,NV,Nye,32023,Republican,Marco Rubio,220,0.127
+Nevada,NV,Nye,32023,Republican,Ben Carson,83,0.048
+Nevada,NV,Nye,32023,Republican,John Kasich,24,0.013999999999999999
+Nevada,NV,Nye,32023,Democrat,Hillary Clinton,94,0.588
+Nevada,NV,Nye,32023,Democrat,Bernie Sanders,65,0.406
+Nevada,NV,Pershing,32027,Republican,Donald Trump,118,0.40700000000000003
+Nevada,NV,Pershing,32027,Republican,Ted Cruz,82,0.28300000000000003
+Nevada,NV,Pershing,32027,Republican,Marco Rubio,57,0.19699999999999998
+Nevada,NV,Pershing,32027,Republican,Ben Carson,21,0.07200000000000001
+Nevada,NV,Pershing,32027,Republican,John Kasich,12,0.040999999999999995
+Nevada,NV,Pershing,32027,Democrat,Hillary Clinton,32,0.478
+Nevada,NV,Pershing,32027,Democrat,Bernie Sanders,33,0.493
+Nevada,NV,Storey,32029,Republican,Donald Trump,161,0.429
+Nevada,NV,Storey,32029,Republican,Ted Cruz,79,0.21100000000000002
+Nevada,NV,Storey,32029,Republican,Ben Carson,70,0.187
+Nevada,NV,Storey,32029,Republican,Marco Rubio,57,0.152
+Nevada,NV,Storey,32029,Republican,John Kasich,8,0.021
+Nevada,NV,Storey,32029,Democrat,Hillary Clinton,31,0.5
+Nevada,NV,Storey,32029,Democrat,Bernie Sanders,31,0.5
+Nevada,NV,Washoe,32031,Republican,Donald Trump,6850,0.441
+Nevada,NV,Washoe,32031,Republican,Marco Rubio,3815,0.24600000000000002
+Nevada,NV,Washoe,32031,Republican,Ted Cruz,3240,0.209
+Nevada,NV,Washoe,32031,Republican,Ben Carson,794,0.051
+Nevada,NV,Washoe,32031,Republican,John Kasich,731,0.047
+Nevada,NV,Washoe,32031,Democrat,Hillary Clinton,863,0.45899999999999996
+Nevada,NV,Washoe,32031,Democrat,Bernie Sanders,1015,0.54
+Nevada,NV,White Pine,32033,Republican,Donald Trump,172,0.395
+Nevada,NV,White Pine,32033,Republican,Ted Cruz,117,0.26899999999999996
+Nevada,NV,White Pine,32033,Republican,Marco Rubio,98,0.225
+Nevada,NV,White Pine,32033,Republican,Ben Carson,26,0.06
+Nevada,NV,White Pine,32033,Republican,John Kasich,17,0.039
+Nevada,NV,White Pine,32033,Democrat,Hillary Clinton,47,0.505
+Nevada,NV,White Pine,32033,Democrat,Bernie Sanders,46,0.495
+South Carolina,SC,Abbeville,45001,Republican,Donald Trump,1353,0.369
+South Carolina,SC,Abbeville,45001,Republican,Ted Cruz,876,0.239
+South Carolina,SC,Abbeville,45001,Republican,Marco Rubio,740,0.20199999999999999
+South Carolina,SC,Abbeville,45001,Republican,Ben Carson,305,0.083
+South Carolina,SC,Abbeville,45001,Republican,Jeb Bush,236,0.064
+South Carolina,SC,Abbeville,45001,Republican,John Kasich,157,0.043
+South Carolina,SC,Abbeville,45001,Democrat,Hillary Clinton,1501,0.818
+South Carolina,SC,Abbeville,45001,Democrat,Bernie Sanders,312,0.17
+South Carolina,SC,Aiken,45003,Republican,Donald Trump,9027,0.316
+South Carolina,SC,Aiken,45003,Republican,Ted Cruz,7036,0.24600000000000002
+South Carolina,SC,Aiken,45003,Republican,Marco Rubio,6804,0.23800000000000002
+South Carolina,SC,Aiken,45003,Republican,Ben Carson,2613,0.091
+South Carolina,SC,Aiken,45003,Republican,John Kasich,1904,0.067
+South Carolina,SC,Aiken,45003,Republican,Jeb Bush,1207,0.042
+South Carolina,SC,Aiken,45003,Democrat,Hillary Clinton,6888,0.7020000000000001
+South Carolina,SC,Aiken,45003,Democrat,Bernie Sanders,2870,0.293
+South Carolina,SC,Allendale,45005,Republican,Donald Trump,160,0.44299999999999995
+South Carolina,SC,Allendale,45005,Republican,Marco Rubio,92,0.255
+South Carolina,SC,Allendale,45005,Republican,Ted Cruz,44,0.122
+South Carolina,SC,Allendale,45005,Republican,Ben Carson,32,0.08900000000000001
+South Carolina,SC,Allendale,45005,Republican,Jeb Bush,21,0.057999999999999996
+South Carolina,SC,Allendale,45005,Republican,John Kasich,12,0.033
+South Carolina,SC,Allendale,45005,Democrat,Hillary Clinton,1022,0.9079999999999999
+South Carolina,SC,Allendale,45005,Democrat,Bernie Sanders,95,0.084
+South Carolina,SC,Anderson,45007,Republican,Donald Trump,10953,0.319
+South Carolina,SC,Anderson,45007,Republican,Ted Cruz,8750,0.255
+South Carolina,SC,Anderson,45007,Republican,Marco Rubio,7175,0.209
+South Carolina,SC,Anderson,45007,Republican,Ben Carson,2959,0.086
+South Carolina,SC,Anderson,45007,Republican,Jeb Bush,2411,0.07
+South Carolina,SC,Anderson,45007,Republican,John Kasich,2038,0.059000000000000004
+South Carolina,SC,Anderson,45007,Democrat,Hillary Clinton,5550,0.669
+South Carolina,SC,Anderson,45007,Democrat,Bernie Sanders,2691,0.324
+South Carolina,SC,Bamberg,45009,Republican,Donald Trump,481,0.401
+South Carolina,SC,Bamberg,45009,Republican,Marco Rubio,333,0.278
+South Carolina,SC,Bamberg,45009,Republican,Ted Cruz,193,0.161
+South Carolina,SC,Bamberg,45009,Republican,Ben Carson,78,0.065
+South Carolina,SC,Bamberg,45009,Republican,Jeb Bush,58,0.048
+South Carolina,SC,Bamberg,45009,Republican,John Kasich,57,0.048
+South Carolina,SC,Bamberg,45009,Democrat,Hillary Clinton,1715,0.883
+South Carolina,SC,Bamberg,45009,Democrat,Bernie Sanders,204,0.105
+South Carolina,SC,Barnwell,45011,Republican,Donald Trump,1106,0.42700000000000005
+South Carolina,SC,Barnwell,45011,Republican,Marco Rubio,575,0.222
+South Carolina,SC,Barnwell,45011,Republican,Ted Cruz,516,0.19899999999999998
+South Carolina,SC,Barnwell,45011,Republican,Ben Carson,171,0.066
+South Carolina,SC,Barnwell,45011,Republican,Jeb Bush,129,0.05
+South Carolina,SC,Barnwell,45011,Republican,John Kasich,91,0.035
+South Carolina,SC,Barnwell,45011,Democrat,Hillary Clinton,1560,0.8740000000000001
+South Carolina,SC,Barnwell,45011,Democrat,Bernie Sanders,209,0.11699999999999999
+South Carolina,SC,Beaufort,45013,Republican,Donald Trump,9912,0.301
+South Carolina,SC,Beaufort,45013,Republican,Marco Rubio,9126,0.27699999999999997
+South Carolina,SC,Beaufort,45013,Republican,John Kasich,6245,0.18899999999999997
+South Carolina,SC,Beaufort,45013,Republican,Ted Cruz,4407,0.134
+South Carolina,SC,Beaufort,45013,Republican,Jeb Bush,2185,0.066
+South Carolina,SC,Beaufort,45013,Republican,Ben Carson,1095,0.033
+South Carolina,SC,Beaufort,45013,Democrat,Hillary Clinton,9945,0.733
+South Carolina,SC,Beaufort,45013,Democrat,Bernie Sanders,3567,0.263
+South Carolina,SC,Berkeley,45015,Republican,Donald Trump,9406,0.34
+South Carolina,SC,Berkeley,45015,Republican,Ted Cruz,6244,0.226
+South Carolina,SC,Berkeley,45015,Republican,Marco Rubio,6176,0.223
+South Carolina,SC,Berkeley,45015,Republican,Jeb Bush,2662,0.096
+South Carolina,SC,Berkeley,45015,Republican,Ben Carson,1641,0.059000000000000004
+South Carolina,SC,Berkeley,45015,Republican,John Kasich,1555,0.055999999999999994
+South Carolina,SC,Berkeley,45015,Democrat,Hillary Clinton,9471,0.72
+South Carolina,SC,Berkeley,45015,Democrat,Bernie Sanders,3584,0.272
+South Carolina,SC,Calhoun,45017,Republican,Donald Trump,805,0.35200000000000004
+South Carolina,SC,Calhoun,45017,Republican,Ted Cruz,564,0.24600000000000002
+South Carolina,SC,Calhoun,45017,Republican,Marco Rubio,421,0.184
+South Carolina,SC,Calhoun,45017,Republican,Jeb Bush,250,0.109
+South Carolina,SC,Calhoun,45017,Republican,Ben Carson,139,0.061
+South Carolina,SC,Calhoun,45017,Republican,John Kasich,110,0.048
+South Carolina,SC,Calhoun,45017,Democrat,Hillary Clinton,1536,0.861
+South Carolina,SC,Calhoun,45017,Democrat,Bernie Sanders,241,0.135
+South Carolina,SC,Charleston,45019,Republican,Donald Trump,14420,0.264
+South Carolina,SC,Charleston,45019,Republican,Marco Rubio,15247,0.27899999999999997
+South Carolina,SC,Charleston,45019,Republican,Ted Cruz,9050,0.166
+South Carolina,SC,Charleston,45019,Republican,John Kasich,7301,0.134
+South Carolina,SC,Charleston,45019,Republican,Jeb Bush,6140,0.11199999999999999
+South Carolina,SC,Charleston,45019,Republican,Ben Carson,2467,0.045
+South Carolina,SC,Charleston,45019,Democrat,Hillary Clinton,26535,0.66
+South Carolina,SC,Charleston,45019,Democrat,Bernie Sanders,13420,0.33399999999999996
+South Carolina,SC,Cherokee,45021,Republican,Donald Trump,3616,0.42
+South Carolina,SC,Cherokee,45021,Republican,Ted Cruz,1978,0.23
+South Carolina,SC,Cherokee,45021,Republican,Marco Rubio,1449,0.168
+South Carolina,SC,Cherokee,45021,Republican,Ben Carson,879,0.102
+South Carolina,SC,Cherokee,45021,Republican,Jeb Bush,382,0.044000000000000004
+South Carolina,SC,Cherokee,45021,Republican,John Kasich,308,0.036000000000000004
+South Carolina,SC,Cherokee,45021,Democrat,Hillary Clinton,1870,0.779
+South Carolina,SC,Cherokee,45021,Democrat,Bernie Sanders,514,0.214
+South Carolina,SC,Chester,45023,Republican,Donald Trump,1403,0.42100000000000004
+South Carolina,SC,Chester,45023,Republican,Ted Cruz,844,0.254
+South Carolina,SC,Chester,45023,Republican,Marco Rubio,553,0.166
+South Carolina,SC,Chester,45023,Republican,Ben Carson,284,0.085
+South Carolina,SC,Chester,45023,Republican,Jeb Bush,126,0.038
+South Carolina,SC,Chester,45023,Republican,John Kasich,119,0.036000000000000004
+South Carolina,SC,Chester,45023,Democrat,Hillary Clinton,1962,0.7959999999999999
+South Carolina,SC,Chester,45023,Democrat,Bernie Sanders,492,0.2
+South Carolina,SC,Chesterfield,45025,Republican,Donald Trump,1806,0.401
+South Carolina,SC,Chesterfield,45025,Republican,Ted Cruz,1434,0.319
+South Carolina,SC,Chesterfield,45025,Republican,Marco Rubio,695,0.154
+South Carolina,SC,Chesterfield,45025,Republican,Ben Carson,246,0.055
+South Carolina,SC,Chesterfield,45025,Republican,Jeb Bush,180,0.04
+South Carolina,SC,Chesterfield,45025,Republican,John Kasich,139,0.031
+South Carolina,SC,Chesterfield,45025,Democrat,Hillary Clinton,2209,0.828
+South Carolina,SC,Chesterfield,45025,Democrat,Bernie Sanders,446,0.16699999999999998
+South Carolina,SC,Clarendon,45027,Republican,Donald Trump,1601,0.373
+South Carolina,SC,Clarendon,45027,Republican,Ted Cruz,1036,0.24100000000000002
+South Carolina,SC,Clarendon,45027,Republican,Marco Rubio,793,0.185
+South Carolina,SC,Clarendon,45027,Republican,Jeb Bush,354,0.08199999999999999
+South Carolina,SC,Clarendon,45027,Republican,Ben Carson,267,0.062
+South Carolina,SC,Clarendon,45027,Republican,John Kasich,243,0.057
+South Carolina,SC,Clarendon,45027,Democrat,Hillary Clinton,3564,0.9079999999999999
+South Carolina,SC,Clarendon,45027,Democrat,Bernie Sanders,337,0.086
+South Carolina,SC,Colleton,45029,Republican,Donald Trump,2326,0.433
+South Carolina,SC,Colleton,45029,Republican,Ted Cruz,1103,0.205
+South Carolina,SC,Colleton,45029,Republican,Marco Rubio,936,0.174
+South Carolina,SC,Colleton,45029,Republican,Jeb Bush,503,0.094
+South Carolina,SC,Colleton,45029,Republican,Ben Carson,281,0.052000000000000005
+South Carolina,SC,Colleton,45029,Republican,John Kasich,223,0.042
+South Carolina,SC,Colleton,45029,Democrat,Hillary Clinton,2932,0.825
+South Carolina,SC,Colleton,45029,Democrat,Bernie Sanders,583,0.16399999999999998
+South Carolina,SC,Darlington,45031,Republican,Donald Trump,3352,0.37799999999999995
+South Carolina,SC,Darlington,45031,Republican,Ted Cruz,2594,0.292
+South Carolina,SC,Darlington,45031,Republican,Marco Rubio,1387,0.156
+South Carolina,SC,Darlington,45031,Republican,Jeb Bush,693,0.078
+South Carolina,SC,Darlington,45031,Republican,Ben Carson,525,0.059000000000000004
+South Carolina,SC,Darlington,45031,Republican,John Kasich,328,0.037000000000000005
+South Carolina,SC,Darlington,45031,Democrat,Hillary Clinton,4988,0.8190000000000001
+South Carolina,SC,Darlington,45031,Democrat,Bernie Sanders,1079,0.177
+South Carolina,SC,Dillon,45033,Republican,Donald Trump,972,0.363
+South Carolina,SC,Dillon,45033,Republican,Ted Cruz,912,0.341
+South Carolina,SC,Dillon,45033,Republican,Marco Rubio,445,0.166
+South Carolina,SC,Dillon,45033,Republican,Jeb Bush,169,0.063
+South Carolina,SC,Dillon,45033,Republican,Ben Carson,112,0.042
+South Carolina,SC,Dillon,45033,Republican,John Kasich,65,0.024
+South Carolina,SC,Dillon,45033,Democrat,Hillary Clinton,1615,0.841
+South Carolina,SC,Dillon,45033,Democrat,Bernie Sanders,292,0.152
+South Carolina,SC,Dorchester,45035,Republican,Donald Trump,6949,0.315
+South Carolina,SC,Dorchester,45035,Republican,Marco Rubio,5244,0.23800000000000002
+South Carolina,SC,Dorchester,45035,Republican,Ted Cruz,5199,0.23600000000000002
+South Carolina,SC,Dorchester,45035,Republican,Jeb Bush,1951,0.08800000000000001
+South Carolina,SC,Dorchester,45035,Republican,John Kasich,1418,0.064
+South Carolina,SC,Dorchester,45035,Republican,Ben Carson,1310,0.059000000000000004
+South Carolina,SC,Dorchester,45035,Democrat,Hillary Clinton,6920,0.7020000000000001
+South Carolina,SC,Dorchester,45035,Democrat,Bernie Sanders,2876,0.292
+South Carolina,SC,Edgefield,45037,Republican,Donald Trump,1366,0.341
+South Carolina,SC,Edgefield,45037,Republican,Ted Cruz,1148,0.28600000000000003
+South Carolina,SC,Edgefield,45037,Republican,Marco Rubio,900,0.225
+South Carolina,SC,Edgefield,45037,Republican,Ben Carson,326,0.081
+South Carolina,SC,Edgefield,45037,Republican,John Kasich,151,0.038
+South Carolina,SC,Edgefield,45037,Republican,Jeb Bush,116,0.028999999999999998
+South Carolina,SC,Edgefield,45037,Democrat,Hillary Clinton,1474,0.818
+South Carolina,SC,Edgefield,45037,Democrat,Bernie Sanders,301,0.16699999999999998
+South Carolina,SC,Fairfield,45039,Republican,Donald Trump,919,0.359
+South Carolina,SC,Fairfield,45039,Republican,Ted Cruz,631,0.247
+South Carolina,SC,Fairfield,45039,Republican,Marco Rubio,496,0.19399999999999998
+South Carolina,SC,Fairfield,45039,Republican,Jeb Bush,204,0.08
+South Carolina,SC,Fairfield,45039,Republican,John Kasich,164,0.064
+South Carolina,SC,Fairfield,45039,Republican,Ben Carson,145,0.057
+South Carolina,SC,Fairfield,45039,Democrat,Hillary Clinton,3260,0.8740000000000001
+South Carolina,SC,Fairfield,45039,Democrat,Bernie Sanders,440,0.11800000000000001
+South Carolina,SC,Florence,45041,Republican,Donald Trump,6004,0.331
+South Carolina,SC,Florence,45041,Republican,Ted Cruz,5208,0.287
+South Carolina,SC,Florence,45041,Republican,Marco Rubio,3357,0.185
+South Carolina,SC,Florence,45041,Republican,Jeb Bush,1462,0.081
+South Carolina,SC,Florence,45041,Republican,Ben Carson,1267,0.07
+South Carolina,SC,Florence,45041,Republican,John Kasich,823,0.045
+South Carolina,SC,Florence,45041,Democrat,Hillary Clinton,9411,0.78
+South Carolina,SC,Florence,45041,Democrat,Bernie Sanders,2584,0.214
+South Carolina,SC,Georgetown,45043,Republican,Donald Trump,4620,0.402
+South Carolina,SC,Georgetown,45043,Republican,Marco Rubio,2693,0.23399999999999999
+South Carolina,SC,Georgetown,45043,Republican,Ted Cruz,1591,0.138
+South Carolina,SC,Georgetown,45043,Republican,John Kasich,1023,0.08900000000000001
+South Carolina,SC,Georgetown,45043,Republican,Jeb Bush,959,0.083
+South Carolina,SC,Georgetown,45043,Republican,Ben Carson,609,0.053
+South Carolina,SC,Georgetown,45043,Democrat,Hillary Clinton,4931,0.778
+South Carolina,SC,Georgetown,45043,Democrat,Bernie Sanders,1346,0.212
+South Carolina,SC,Greenville,45045,Republican,Donald Trump,24913,0.268
+South Carolina,SC,Greenville,45045,Republican,Ted Cruz,22899,0.24600000000000002
+South Carolina,SC,Greenville,45045,Republican,Marco Rubio,22875,0.24600000000000002
+South Carolina,SC,Greenville,45045,Republican,Ben Carson,8036,0.086
+South Carolina,SC,Greenville,45045,Republican,John Kasich,7683,0.083
+South Carolina,SC,Greenville,45045,Republican,Jeb Bush,6548,0.07
+South Carolina,SC,Greenville,45045,Democrat,Hillary Clinton,19807,0.6409999999999999
+South Carolina,SC,Greenville,45045,Democrat,Bernie Sanders,10965,0.355
+South Carolina,SC,Greenwood,45047,Republican,Donald Trump,3029,0.28800000000000003
+South Carolina,SC,Greenwood,45047,Republican,Marco Rubio,2543,0.24100000000000002
+South Carolina,SC,Greenwood,45047,Republican,Ted Cruz,2408,0.22899999999999998
+South Carolina,SC,Greenwood,45047,Republican,Ben Carson,989,0.094
+South Carolina,SC,Greenwood,45047,Republican,Jeb Bush,866,0.08199999999999999
+South Carolina,SC,Greenwood,45047,Republican,John Kasich,697,0.066
+South Carolina,SC,Greenwood,45047,Democrat,Hillary Clinton,3588,0.774
+South Carolina,SC,Greenwood,45047,Democrat,Bernie Sanders,983,0.212
+South Carolina,SC,Hampton,45049,Republican,Donald Trump,721,0.434
+South Carolina,SC,Hampton,45049,Republican,Ted Cruz,365,0.21899999999999997
+South Carolina,SC,Hampton,45049,Republican,Marco Rubio,314,0.18899999999999997
+South Carolina,SC,Hampton,45049,Republican,Ben Carson,92,0.055
+South Carolina,SC,Hampton,45049,Republican,John Kasich,88,0.053
+South Carolina,SC,Hampton,45049,Republican,Jeb Bush,83,0.05
+South Carolina,SC,Hampton,45049,Democrat,Hillary Clinton,1930,0.88
+South Carolina,SC,Hampton,45049,Democrat,Bernie Sanders,241,0.11
+South Carolina,SC,Horry,45051,Republican,Donald Trump,26445,0.49200000000000005
+South Carolina,SC,Horry,45051,Republican,Marco Rubio,9605,0.179
+South Carolina,SC,Horry,45051,Republican,Ted Cruz,8496,0.158
+South Carolina,SC,Horry,45051,Republican,John Kasich,3430,0.064
+South Carolina,SC,Horry,45051,Republican,Jeb Bush,3161,0.059000000000000004
+South Carolina,SC,Horry,45051,Republican,Ben Carson,2638,0.049
+South Carolina,SC,Horry,45051,Democrat,Hillary Clinton,11294,0.672
+South Carolina,SC,Horry,45051,Democrat,Bernie Sanders,5449,0.324
+South Carolina,SC,Jasper,45053,Republican,Donald Trump,1169,0.39
+South Carolina,SC,Jasper,45053,Republican,Marco Rubio,695,0.23199999999999998
+South Carolina,SC,Jasper,45053,Republican,Ted Cruz,566,0.18899999999999997
+South Carolina,SC,Jasper,45053,Republican,John Kasich,295,0.098
+South Carolina,SC,Jasper,45053,Republican,Ben Carson,157,0.052000000000000005
+South Carolina,SC,Jasper,45053,Republican,Jeb Bush,119,0.04
+South Carolina,SC,Jasper,45053,Democrat,Hillary Clinton,2194,0.851
+South Carolina,SC,Jasper,45053,Democrat,Bernie Sanders,355,0.138
+South Carolina,SC,Kershaw,45055,Republican,Donald Trump,3673,0.344
+South Carolina,SC,Kershaw,45055,Republican,Ted Cruz,2772,0.259
+South Carolina,SC,Kershaw,45055,Republican,Marco Rubio,1896,0.177
+South Carolina,SC,Kershaw,45055,Republican,Jeb Bush,1150,0.10800000000000001
+South Carolina,SC,Kershaw,45055,Republican,Ben Carson,616,0.057999999999999996
+South Carolina,SC,Kershaw,45055,Republican,John Kasich,579,0.054000000000000006
+South Carolina,SC,Kershaw,45055,Democrat,Hillary Clinton,3743,0.7709999999999999
+South Carolina,SC,Kershaw,45055,Democrat,Bernie Sanders,1086,0.22399999999999998
+South Carolina,SC,Lancaster,45057,Republican,Donald Trump,4190,0.33899999999999997
+South Carolina,SC,Lancaster,45057,Republican,Marco Rubio,2754,0.223
+South Carolina,SC,Lancaster,45057,Republican,Ted Cruz,2689,0.217
+South Carolina,SC,Lancaster,45057,Republican,Ben Carson,1136,0.092
+South Carolina,SC,Lancaster,45057,Republican,John Kasich,1047,0.085
+South Carolina,SC,Lancaster,45057,Republican,Jeb Bush,561,0.045
+South Carolina,SC,Lancaster,45057,Democrat,Hillary Clinton,3332,0.73
+South Carolina,SC,Lancaster,45057,Democrat,Bernie Sanders,1213,0.266
+South Carolina,SC,Laurens,45059,Republican,Donald Trump,3321,0.345
+South Carolina,SC,Laurens,45059,Republican,Ted Cruz,2745,0.285
+South Carolina,SC,Laurens,45059,Republican,Marco Rubio,1580,0.16399999999999998
+South Carolina,SC,Laurens,45059,Republican,Ben Carson,791,0.08199999999999999
+South Carolina,SC,Laurens,45059,Republican,Jeb Bush,765,0.079
+South Carolina,SC,Laurens,45059,Republican,John Kasich,436,0.045
+South Carolina,SC,Laurens,45059,Democrat,Hillary Clinton,2952,0.784
+South Carolina,SC,Laurens,45059,Democrat,Bernie Sanders,799,0.212
+South Carolina,SC,Lee,45061,Republican,Donald Trump,743,0.474
+South Carolina,SC,Lee,45061,Republican,Ted Cruz,353,0.225
+South Carolina,SC,Lee,45061,Republican,Marco Rubio,195,0.125
+South Carolina,SC,Lee,45061,Republican,Jeb Bush,152,0.09699999999999999
+South Carolina,SC,Lee,45061,Republican,Ben Carson,65,0.042
+South Carolina,SC,Lee,45061,Republican,John Kasich,58,0.037000000000000005
+South Carolina,SC,Lee,45061,Democrat,Hillary Clinton,2207,0.8759999999999999
+South Carolina,SC,Lee,45061,Democrat,Bernie Sanders,288,0.114
+South Carolina,SC,Lexington,45063,Republican,Donald Trump,16361,0.3
+South Carolina,SC,Lexington,45063,Republican,Ted Cruz,13167,0.24100000000000002
+South Carolina,SC,Lexington,45063,Republican,Marco Rubio,11419,0.209
+South Carolina,SC,Lexington,45063,Republican,Jeb Bush,5298,0.09699999999999999
+South Carolina,SC,Lexington,45063,Republican,Ben Carson,4847,0.08900000000000001
+South Carolina,SC,Lexington,45063,Republican,John Kasich,3449,0.063
+South Carolina,SC,Lexington,45063,Democrat,Hillary Clinton,8810,0.609
+South Carolina,SC,Lexington,45063,Democrat,Bernie Sanders,5584,0.386
+South Carolina,SC,Marion,45067,Republican,Donald Trump,1206,0.425
+South Carolina,SC,Marion,45067,Republican,Ted Cruz,740,0.261
+South Carolina,SC,Marion,45067,Republican,Marco Rubio,436,0.154
+South Carolina,SC,Marion,45067,Republican,Jeb Bush,215,0.076
+South Carolina,SC,Marion,45067,Republican,Ben Carson,140,0.049
+South Carolina,SC,Marion,45067,Republican,John Kasich,100,0.035
+South Carolina,SC,Marion,45067,Democrat,Hillary Clinton,3359,0.8540000000000001
+South Carolina,SC,Marion,45067,Democrat,Bernie Sanders,552,0.14
+South Carolina,SC,Marlboro,45069,Republican,Donald Trump,737,0.42100000000000004
+South Carolina,SC,Marlboro,45069,Republican,Ted Cruz,409,0.23399999999999999
+South Carolina,SC,Marlboro,45069,Republican,Marco Rubio,254,0.145
+South Carolina,SC,Marlboro,45069,Republican,Jeb Bush,164,0.094
+South Carolina,SC,Marlboro,45069,Republican,Ben Carson,128,0.073
+South Carolina,SC,Marlboro,45069,Republican,John Kasich,57,0.033
+South Carolina,SC,Marlboro,45069,Democrat,Hillary Clinton,2132,0.89
+South Carolina,SC,Marlboro,45069,Democrat,Bernie Sanders,252,0.105
+South Carolina,SC,McCormick,45065,Republican,Donald Trump,615,0.33899999999999997
+South Carolina,SC,McCormick,45065,Republican,Marco Rubio,468,0.258
+South Carolina,SC,McCormick,45065,Republican,Ted Cruz,371,0.204
+South Carolina,SC,McCormick,45065,Republican,John Kasich,180,0.099
+South Carolina,SC,McCormick,45065,Republican,Ben Carson,106,0.057999999999999996
+South Carolina,SC,McCormick,45065,Republican,Jeb Bush,76,0.042
+South Carolina,SC,McCormick,45065,Democrat,Hillary Clinton,973,0.851
+South Carolina,SC,McCormick,45065,Democrat,Bernie Sanders,162,0.142
+South Carolina,SC,Newberry,45071,Republican,Donald Trump,2024,0.344
+South Carolina,SC,Newberry,45071,Republican,Ted Cruz,1251,0.213
+South Carolina,SC,Newberry,45071,Republican,Marco Rubio,1146,0.195
+South Carolina,SC,Newberry,45071,Republican,Jeb Bush,607,0.10300000000000001
+South Carolina,SC,Newberry,45071,Republican,Ben Carson,518,0.08800000000000001
+South Carolina,SC,Newberry,45071,Republican,John Kasich,337,0.057
+South Carolina,SC,Newberry,45071,Democrat,Hillary Clinton,2118,0.81
+South Carolina,SC,Newberry,45071,Democrat,Bernie Sanders,469,0.179
+South Carolina,SC,Oconee,45073,Republican,Donald Trump,4424,0.284
+South Carolina,SC,Oconee,45073,Republican,Marco Rubio,4002,0.257
+South Carolina,SC,Oconee,45073,Republican,Ted Cruz,3164,0.203
+South Carolina,SC,Oconee,45073,Republican,John Kasich,1477,0.095
+South Carolina,SC,Oconee,45073,Republican,Jeb Bush,1391,0.08900000000000001
+South Carolina,SC,Oconee,45073,Republican,Ben Carson,1123,0.07200000000000001
+South Carolina,SC,Oconee,45073,Democrat,Hillary Clinton,1960,0.596
+South Carolina,SC,Oconee,45073,Democrat,Bernie Sanders,1303,0.396
+South Carolina,SC,Orangeburg,45075,Republican,Donald Trump,2536,0.38
+South Carolina,SC,Orangeburg,45075,Republican,Marco Rubio,1305,0.195
+South Carolina,SC,Orangeburg,45075,Republican,Ted Cruz,1303,0.195
+South Carolina,SC,Orangeburg,45075,Republican,Jeb Bush,779,0.11699999999999999
+South Carolina,SC,Orangeburg,45075,Republican,Ben Carson,404,0.06
+South Carolina,SC,Orangeburg,45075,Republican,John Kasich,353,0.053
+South Carolina,SC,Orangeburg,45075,Democrat,Hillary Clinton,11819,0.887
+South Carolina,SC,Orangeburg,45075,Democrat,Bernie Sanders,1460,0.11
+South Carolina,SC,Pickens,45077,Republican,Donald Trump,7136,0.301
+South Carolina,SC,Pickens,45077,Republican,Ted Cruz,6393,0.27
+South Carolina,SC,Pickens,45077,Republican,Marco Rubio,4961,0.209
+South Carolina,SC,Pickens,45077,Republican,Jeb Bush,2033,0.086
+South Carolina,SC,Pickens,45077,Republican,Ben Carson,1714,0.07200000000000001
+South Carolina,SC,Pickens,45077,Republican,John Kasich,1448,0.061
+South Carolina,SC,Pickens,45077,Democrat,Hillary Clinton,2499,0.555
+South Carolina,SC,Pickens,45077,Democrat,Bernie Sanders,1988,0.441
+South Carolina,SC,Richland,45079,Republican,Donald Trump,9172,0.23399999999999999
+South Carolina,SC,Richland,45079,Republican,Marco Rubio,10955,0.27899999999999997
+South Carolina,SC,Richland,45079,Republican,Ted Cruz,7964,0.203
+South Carolina,SC,Richland,45079,Republican,Jeb Bush,4484,0.114
+South Carolina,SC,Richland,45079,Republican,John Kasich,4051,0.10300000000000001
+South Carolina,SC,Richland,45079,Republican,Ben Carson,2633,0.067
+South Carolina,SC,Richland,45079,Democrat,Hillary Clinton,39243,0.758
+South Carolina,SC,Richland,45079,Democrat,Bernie Sanders,12318,0.23800000000000002
+South Carolina,SC,Saluda,45081,Republican,Donald Trump,1248,0.364
+South Carolina,SC,Saluda,45081,Republican,Ted Cruz,797,0.23199999999999998
+South Carolina,SC,Saluda,45081,Republican,Marco Rubio,553,0.161
+South Carolina,SC,Saluda,45081,Republican,Jeb Bush,382,0.111
+South Carolina,SC,Saluda,45081,Republican,Ben Carson,295,0.086
+South Carolina,SC,Saluda,45081,Republican,John Kasich,156,0.045
+South Carolina,SC,Saluda,45081,Democrat,Hillary Clinton,1023,0.8370000000000001
+South Carolina,SC,Saluda,45081,Democrat,Bernie Sanders,192,0.157
+South Carolina,SC,Spartanburg,45083,Republican,Donald Trump,15249,0.327
+South Carolina,SC,Spartanburg,45083,Republican,Ted Cruz,11478,0.24600000000000002
+South Carolina,SC,Spartanburg,45083,Republican,Marco Rubio,10691,0.22899999999999998
+South Carolina,SC,Spartanburg,45083,Republican,Ben Carson,4036,0.087
+South Carolina,SC,Spartanburg,45083,Republican,Jeb Bush,2744,0.059000000000000004
+South Carolina,SC,Spartanburg,45083,Republican,John Kasich,2457,0.053
+South Carolina,SC,Spartanburg,45083,Democrat,Hillary Clinton,10662,0.703
+South Carolina,SC,Spartanburg,45083,Democrat,Bernie Sanders,4447,0.293
+South Carolina,SC,Sumter,45085,Republican,Donald Trump,3762,0.337
+South Carolina,SC,Sumter,45085,Republican,Ted Cruz,2474,0.221
+South Carolina,SC,Sumter,45085,Republican,Marco Rubio,2236,0.2
+South Carolina,SC,Sumter,45085,Republican,Jeb Bush,1352,0.121
+South Carolina,SC,Sumter,45085,Republican,Ben Carson,817,0.073
+South Carolina,SC,Sumter,45085,Republican,John Kasich,532,0.048
+South Carolina,SC,Sumter,45085,Democrat,Hillary Clinton,9816,0.866
+South Carolina,SC,Sumter,45085,Democrat,Bernie Sanders,1441,0.127
+South Carolina,SC,Union,45087,Republican,Donald Trump,1403,0.389
+South Carolina,SC,Union,45087,Republican,Ted Cruz,884,0.245
+South Carolina,SC,Union,45087,Republican,Marco Rubio,752,0.20800000000000002
+South Carolina,SC,Union,45087,Republican,Jeb Bush,269,0.07400000000000001
+South Carolina,SC,Union,45087,Republican,Ben Carson,189,0.052000000000000005
+South Carolina,SC,Union,45087,Republican,John Kasich,114,0.032
+South Carolina,SC,Union,45087,Democrat,Hillary Clinton,1690,0.8340000000000001
+South Carolina,SC,Union,45087,Democrat,Bernie Sanders,332,0.16399999999999998
+South Carolina,SC,Williamsburg,45089,Republican,Donald Trump,1186,0.433
+South Carolina,SC,Williamsburg,45089,Republican,Ted Cruz,575,0.21
+South Carolina,SC,Williamsburg,45089,Republican,Marco Rubio,520,0.19
+South Carolina,SC,Williamsburg,45089,Republican,Jeb Bush,230,0.084
+South Carolina,SC,Williamsburg,45089,Republican,Ben Carson,152,0.055
+South Carolina,SC,Williamsburg,45089,Republican,John Kasich,76,0.027999999999999997
+South Carolina,SC,Williamsburg,45089,Democrat,Hillary Clinton,4609,0.885
+South Carolina,SC,Williamsburg,45089,Democrat,Bernie Sanders,557,0.107
+South Carolina,SC,York,45091,Republican,Donald Trump,12031,0.317
+South Carolina,SC,York,45091,Republican,Ted Cruz,9169,0.242
+South Carolina,SC,York,45091,Republican,Marco Rubio,8089,0.213
+South Carolina,SC,York,45091,Republican,Ben Carson,3953,0.10400000000000001
+South Carolina,SC,York,45091,Republican,John Kasich,2632,0.069
+South Carolina,SC,York,45091,Republican,Jeb Bush,2036,0.054000000000000006
+South Carolina,SC,York,45091,Democrat,Hillary Clinton,8895,0.635
+South Carolina,SC,York,45091,Democrat,Bernie Sanders,5058,0.361
+New Hampshire,NH,Belknap,33001,Democrat,Bernie Sanders,5990,0.6318565400843882
+New Hampshire,NH,Belknap,33001,Democrat,Hillary Clinton,3490,0.3681434599156118
+New Hampshire,NH,Belknap,33001,Republican,Ben Carson,390,0.025511872833126184
+New Hampshire,NH,Belknap,33001,Republican,Carly Fiorina,672,0.04395891934323281
+New Hampshire,NH,Belknap,33001,Republican,Chris Christie,1001,0.06548047360502388
+New Hampshire,NH,Belknap,33001,Republican,Donald Trump,5505,0.3601098972983581
+New Hampshire,NH,Belknap,33001,Republican,Jeb Bush,1738,0.11369137175377772
+New Hampshire,NH,Belknap,33001,Republican,John Kasich,2460,0.1609210440243344
+New Hampshire,NH,Belknap,33001,Republican,Marco Rubio,1504,0.098384248053902
+New Hampshire,NH,Belknap,33001,Republican,Ted Cruz,2017,0.1319421730882449
+New Hampshire,NH,Carroll,33003,Democrat,Bernie Sanders,5655,0.6364659538548115
+New Hampshire,NH,Carroll,33003,Democrat,Hillary Clinton,3230,0.3635340461451885
+New Hampshire,NH,Carroll,33003,Republican,Ben Carson,280,0.02312520647505781
+New Hampshire,NH,Carroll,33003,Republican,Carly Fiorina,442,0.03650479022134126
+New Hampshire,NH,Carroll,33003,Republican,Chris Christie,884,0.07300958044268252
+New Hampshire,NH,Carroll,33003,Republican,Donald Trump,4182,0.34539147670961345
+New Hampshire,NH,Carroll,33003,Republican,Jeb Bush,1241,0.10249421869838124
+New Hampshire,NH,Carroll,33003,Republican,John Kasich,2281,0.18838784274859596
+New Hampshire,NH,Carroll,33003,Republican,Marco Rubio,1433,0.11835150313842088
+New Hampshire,NH,Carroll,33003,Republican,Ted Cruz,1365,0.11273538156590684
+New Hampshire,NH,Cheshire,33005,Democrat,Bernie Sanders,12471,0.7070930430345297
+New Hampshire,NH,Cheshire,33005,Democrat,Hillary Clinton,5166,0.2929069569654703
+New Hampshire,NH,Cheshire,33005,Republican,Ben Carson,518,0.039331814730447986
+New Hampshire,NH,Cheshire,33005,Republican,Carly Fiorina,565,0.04290053151100987
+New Hampshire,NH,Cheshire,33005,Republican,Chris Christie,763,0.05793470007593014
+New Hampshire,NH,Cheshire,33005,Republican,Donald Trump,4543,0.3449506454062263
+New Hampshire,NH,Cheshire,33005,Republican,Jeb Bush,1501,0.11397114654517844
+New Hampshire,NH,Cheshire,33005,Republican,John Kasich,2178,0.165375854214123
+New Hampshire,NH,Cheshire,33005,Republican,Marco Rubio,1237,0.09392558845861806
+New Hampshire,NH,Cheshire,33005,Republican,Ted Cruz,1865,0.1416097190584662
+New Hampshire,NH,Coos,33007,Democrat,Bernie Sanders,3637,0.643716814159292
+New Hampshire,NH,Coos,33007,Democrat,Hillary Clinton,2013,0.35628318584070795
+New Hampshire,NH,Coos,33007,Republican,Ben Carson,170,0.02981932994211542
+New Hampshire,NH,Coos,33007,Republican,Carly Fiorina,275,0.048237151376951413
+New Hampshire,NH,Coos,33007,Republican,Chris Christie,355,0.06226977723206455
+New Hampshire,NH,Coos,33007,Republican,Donald Trump,2183,0.38291527802139974
+New Hampshire,NH,Coos,33007,Republican,Jeb Bush,561,0.09840378880898087
+New Hampshire,NH,Coos,33007,Republican,John Kasich,942,0.1652341694439572
+New Hampshire,NH,Coos,33007,Republican,Marco Rubio,615,0.10787581126118224
+New Hampshire,NH,Coos,33007,Republican,Ted Cruz,600,0.10524469391334854
+New Hampshire,NH,Grafton,33009,Democrat,Bernie Sanders,14258,0.6733094068757084
+New Hampshire,NH,Grafton,33009,Democrat,Hillary Clinton,6918,0.32669059312429166
+New Hampshire,NH,Grafton,33009,Republican,Ben Carson,470,0.029197987202584333
+New Hampshire,NH,Grafton,33009,Republican,Carly Fiorina,684,0.04249238988631422
+New Hampshire,NH,Grafton,33009,Republican,Chris Christie,1067,0.06628564328756911
+New Hampshire,NH,Grafton,33009,Republican,Donald Trump,4898,0.3042803006771448
+New Hampshire,NH,Grafton,33009,Republican,Jeb Bush,1864,0.11579797477790893
+New Hampshire,NH,Grafton,33009,Republican,John Kasich,3475,0.21587873516804373
+New Hampshire,NH,Grafton,33009,Republican,Marco Rubio,1923,0.11946325402248867
+New Hampshire,NH,Grafton,33009,Republican,Ted Cruz,1716,0.1066037149779462
+New Hampshire,NH,Hillsborough,33011,Democrat,Bernie Sanders,38646,0.5790096636452169
+New Hampshire,NH,Hillsborough,33011,Democrat,Hillary Clinton,28099,0.4209903363547831
+New Hampshire,NH,Hillsborough,33011,Republican,Ben Carson,1725,0.021054301790531058
+New Hampshire,NH,Hillsborough,33011,Republican,Carly Fiorina,3612,0.04408587714052068
+New Hampshire,NH,Hillsborough,33011,Republican,Chris Christie,7144,0.08719532289365442
+New Hampshire,NH,Hillsborough,33011,Republican,Donald Trump,28981,0.3537244754732641
+New Hampshire,NH,Hillsborough,33011,Republican,Jeb Bush,9575,0.11686663167787528
+New Hampshire,NH,Hillsborough,33011,Republican,John Kasich,12504,0.1526162258485799
+New Hampshire,NH,Hillsborough,33011,Republican,Marco Rubio,8803,0.10744406878959124
+New Hampshire,NH,Hillsborough,33011,Republican,Ted Cruz,9587,0.11701309638598333
+New Hampshire,NH,Merrimack,33013,Democrat,Bernie Sanders,18076,0.5968631335644708
+New Hampshire,NH,Merrimack,33013,Democrat,Hillary Clinton,12209,0.40313686643552915
+New Hampshire,NH,Merrimack,33013,Republican,Ben Carson,753,0.02322138958275511
+New Hampshire,NH,Merrimack,33013,Republican,Carly Fiorina,1511,0.04659697165941962
+New Hampshire,NH,Merrimack,33013,Republican,Chris Christie,2377,0.07330311160452709
+New Hampshire,NH,Merrimack,33013,Republican,Donald Trump,10966,0.33817497764208837
+New Hampshire,NH,Merrimack,33013,Republican,Jeb Bush,3816,0.1176797113516514
+New Hampshire,NH,Merrimack,33013,Republican,John Kasich,6172,0.19033521448175902
+New Hampshire,NH,Merrimack,33013,Republican,Marco Rubio,3056,0.09424245227742313
+New Hampshire,NH,Merrimack,33013,Republican,Ted Cruz,3776,0.11644617140037623
+New Hampshire,NH,Rockingham,33015,Democrat,Bernie Sanders,31080,0.5765271105010296
+New Hampshire,NH,Rockingham,33015,Democrat,Hillary Clinton,22829,0.4234728894989705
+New Hampshire,NH,Rockingham,33015,Republican,Ben Carson,1447,0.01983903917079123
+New Hampshire,NH,Rockingham,33015,Republican,Carly Fiorina,2825,0.03873205643226346
+New Hampshire,NH,Rockingham,33015,Republican,Chris Christie,5768,0.07908194743408695
+New Hampshire,NH,Rockingham,33015,Republican,Donald Trump,28716,0.3937096398261513
+New Hampshire,NH,Rockingham,33015,Republican,Jeb Bush,7747,0.10621495263035222
+New Hampshire,NH,Rockingham,33015,Republican,John Kasich,10370,0.14217749564692816
+New Hampshire,NH,Rockingham,33015,Republican,Marco Rubio,8074,0.11069827385277706
+New Hampshire,NH,Rockingham,33015,Republican,Ted Cruz,7990,0.10954659500664958
+New Hampshire,NH,Strafford,33017,Democrat,Bernie Sanders,15865,0.6431930592718722
+New Hampshire,NH,Strafford,33017,Democrat,Hillary Clinton,8801,0.3568069407281278
+New Hampshire,NH,Strafford,33017,Republican,Ben Carson,527,0.024641137139383738
+New Hampshire,NH,Strafford,33017,Republican,Carly Fiorina,825,0.038574835180249685
+New Hampshire,NH,Strafford,33017,Republican,Chris Christie,1233,0.057651844578482256
+New Hampshire,NH,Strafford,33017,Republican,Donald Trump,7352,0.3437602281759948
+New Hampshire,NH,Strafford,33017,Republican,Jeb Bush,2443,0.11422826950951513
+New Hampshire,NH,Strafford,33017,Republican,John Kasich,3193,0.14929630149156028
+New Hampshire,NH,Strafford,33017,Republican,Marco Rubio,2492,0.11651938093234207
+New Hampshire,NH,Strafford,33017,Republican,Ted Cruz,3322,0.15532800299247207
+New Hampshire,NH,Sullivan,33019,Democrat,Bernie Sanders,5906,0.702844222301559
+New Hampshire,NH,Sullivan,33019,Democrat,Hillary Clinton,2497,0.29715577769844104
+New Hampshire,NH,Sullivan,33019,Republican,Ben Carson,229,0.028324056895485467
+New Hampshire,NH,Sullivan,33019,Republican,Carly Fiorina,295,0.036487322201607914
+New Hampshire,NH,Sullivan,33019,Republican,Chris Christie,477,0.05899814471243043
+New Hampshire,NH,Sullivan,33019,Republican,Donald Trump,3080,0.38095238095238093
+New Hampshire,NH,Sullivan,33019,Republican,Jeb Bush,824,0.10191713048855906
+New Hampshire,NH,Sullivan,33019,Republican,John Kasich,1334,0.16499690785405072
+New Hampshire,NH,Sullivan,33019,Republican,Marco Rubio,895,0.11069882498453927
+New Hampshire,NH,Sullivan,33019,Republican,Ted Cruz,951,0.11762523191094619
