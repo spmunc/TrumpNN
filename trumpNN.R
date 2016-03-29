@@ -1,3 +1,9 @@
+## robert's version
+
+
+
+
+
 ###############################################################################
 ##
 ##  trumpNN.R: fits a neural network with one hidden layer to predict
@@ -7,7 +13,7 @@
 ###############################################################################
 
 ################################
-# Load required package(s)
+# Load required package(s) 
 ################################
 require(neuralnet)
 
