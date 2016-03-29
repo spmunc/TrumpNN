@@ -29,7 +29,7 @@ trump_county_facts <- subset(trump_county_facts, select = -c(area_name,state_abb
 # % hispanic: "RHI725214", % white: "RHI825214", % foreign born: "POP645213"
 # % bachelors: "EDU685213", % veteran: "VET605213", median hh income: "INC110213",
 # pop per sqm: "POP060210",
-columns_of_interest <- c("EDU685213", "INC110213", "RHI225214", "POP060210")
+columns_of_interest <- c("EDU685213", "RHI225214", "RHI725214")
 X <- trump_county_facts[,columns_of_interest]
 Y <- as.data.frame(trump_county_facts[,2])
 names(Y) <- c("fraction_votes")
@@ -38,7 +38,7 @@ names(Y) <- c("fraction_votes")
 #  Fit Neural Net
 ################################
 # Get indices for test set and split data
-test_inds <- sample(1:171,30) 
+test_inds <- sample(1:1881,30) 
 Xtrain <- X[-test_inds,]
 Xtest <- X[test_inds,]
 Ytrain <- Y[-test_inds,]
@@ -59,7 +59,7 @@ dat <- as.data.frame(cbind(Ytrain,Xtrain))
 names(dat)[1] <- c('D')
 n <- names(dat)
 f <- as.formula(paste("D ~", paste(n[!n %in% "D"], collapse = " + ")))
-mod <- neuralnet(f, data = dat, hidden = 4, act.fct = "tanh", stepmax = 1e+07, linear.output = FALSE)
+mod <- neuralnet(f, data = dat, hidden = 5, act.fct = "tanh", stepmax = 1e+07)
 
 
 ################################
@@ -77,7 +77,7 @@ mse_test <- sqrt(mean((Y_fit_test - Ytest)^2))
 benchmark_train <- sqrt(mean((Ytrain - mean(Ytrain))^2))
 benchmark_test <- sqrt(mean((Ytest - mean(Ytest))^2))
 
-sprintf("Training MSE: %.4f", mse_train)
+sprintf("Training RMSE: %.4f", mse_train)
 sprintf('... Training Benchmark: %.4f', benchmark_train)
-sprintf("Testing MSE: %.4f", mse_test)
+sprintf("Testing RMSE: %.4f", mse_test)
 sprintf('... Testing Benchmark: %.4f', benchmark_test)
