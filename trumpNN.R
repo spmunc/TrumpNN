@@ -21,6 +21,7 @@ require(neuralnet)
 # Read In Data
 ################################
 county_facts <- read.csv("2016_presidential_election/county_facts.csv")
+county_facts_dictionary <- read.csv("2016_presidential_election/county_facts_dictionary.csv")
 primary_results <- read.csv("2016_presidential_election/primary_results.csv")
 trump <- primary_results[primary_results$candidate == 'Donald Trump',]
 trump2 <- as.data.frame(cbind(trump$fips,trump$fraction_votes))
@@ -44,21 +45,21 @@ names(Y) <- c("fraction_votes")
 #  Fit Neural Net
 ################################
 # Get indices for test set and split data
-test_inds <- sample(1:1881,30) 
+test_inds <- sample(1:nrow(X),30) 
 Xtrain <- X[-test_inds,]
 Xtest <- X[test_inds,]
 Ytrain <- Y[-test_inds,]
 Ytest <- Y[test_inds,]
 
 # Scale Xtrain, Xtest and Ytrain, Ytest by Xtrain and Ytrain ([0,1] scaling)
-maxs <- apply(Xtrain, 2, function(x) max(x, na.rm = TRUE))
-mins <- apply(Xtrain, 2, function(x) min(x, na.rm = TRUE))
-Xtrain <- apply(Xtrain,2,function(x){(x-min(x))/(max(x)-min(x))})
-Xtest <- apply(Xtest,2,function(x){(x-min(x))/(max(x)-min(x))})
-maxy <- max(Ytrain)
-miny <- min(Ytrain)
-Ytrain <- ((Ytrain - miny)/(maxy-miny))
-Ytest <- ((Ytest - miny)/(maxy-miny))
+scale <- function(vector_to_scale, goal_min, goal_max){ 
+  new_vector <- (vector_to_scale - min(vector_to_scale))*(goal_max - goal_min)/(max(vector_to_scale)-min(vector_to_scale)) + goal_min
+  return(new_vector)
+}
+Xtrain <- apply(Xtrain, 2,function(x){scale(x, -0.85, 0.85)})
+Xtest <- apply(Xtest, 2, function(x){scale(x, -0.85, 0.85)})
+Ytrain <- scale(Ytrain, -0.85, 0.85)
+Ytest <- scale(Ytest, -0.85, 0.85)
 
 # Actually fit the neural net. Have to do weird thing with formula because it doesn accept "~."
 dat <- as.data.frame(cbind(Ytrain,Xtrain))
@@ -87,3 +88,37 @@ sprintf("Training RMSE: %.4f", mse_train)
 sprintf('... Training Benchmark: %.4f', benchmark_train)
 sprintf("Testing RMSE: %.4f", mse_test)
 sprintf('... Testing Benchmark: %.4f', benchmark_test)
+
+
+################################
+#  Looking at States in Order
+################################
+library(RColorBrewer)
+library(reshape2)
+library(plyr)
+library(ggplot2)
+february <- c('IA','NH','SC','NV')
+march <- c('MN','AL','AR','GA','MA','OK','TN','TX','VT','VA','KA','KY','LA','ME','HI','MI','ID','MS','DC','WY','IL','NC','OH','FL','MO','AZ','UT')
+order_of_states <- c(february, march)
+
+# Republicans only
+republicans <- primary_results[which(primary_results$party=='Republican'),]
+
+# Winner by state
+by_state_and_candidate <- aggregate(republicans$votes, by=list(State=republicans$state_abbreviation, Candidate=republicans$candidate), FUN = sum)
+total_votes <- aggregate(by_state_and_candidate$x, by=list(by_state_and_candidate$State), FUN=sum)
+by_state_and_candidate <- merge(by_state_and_candidate, total_votes, by.x='State', by.y='Group.1')
+by_state_and_candidate$fraction <- by_state_and_candidate$x.x/by_state_and_candidate$x.y
+
+order2 <- intersect(order_of_states, unique(republicans$state_abbreviation))
+
+by2 <- by_state_and_candidate[with(by_state_and_candidate, order(Candidate, match(State, order2))), ]
+
+by2$State <- with(by2, factor(State, levels=order2))
+
+ggplot(data=by2, aes(x=State, y=fraction, group=Candidate)) + 
+  geom_line(aes(color=Candidate)) +
+  xlab('State (in order)') +
+  ylab('Proportion') 
+
+
