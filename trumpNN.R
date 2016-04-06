@@ -36,7 +36,7 @@ trump_county_facts <- subset(trump_county_facts, select = -c(area_name,state_abb
 # % hispanic: "RHI725214", % white: "RHI825214", % foreign born: "POP645213"
 # % bachelors: "EDU685213", % veteran: "VET605213", median hh income: "INC110213",
 # pop per sqm: "POP060210",
-columns_of_interest <- c("EDU685213", "RHI225214", "RHI725214")
+columns_of_interest <- c("AGE775214", "SEX255214", "EDU685213", "RHI225214", "RHI725214",  "POP645213", "EDU685213", "VET605213", "INC110213")
 X <- trump_county_facts[,columns_of_interest]
 Y <- as.data.frame(trump_county_facts[,2])
 names(Y) <- c("fraction_votes")
@@ -56,7 +56,7 @@ scale <- function(vector_to_scale, goal_min, goal_max){
   new_vector <- (vector_to_scale - min(vector_to_scale))*(goal_max - goal_min)/(max(vector_to_scale)-min(vector_to_scale)) + goal_min
   return(new_vector)
 }
-Xtrain <- apply(Xtrain, 2,function(x){scale(x, -0.85, 0.85)})
+Xtrain <- apply(Xtrain, 2, function(x){scale(x, -0.85, 0.85)})
 Xtest <- apply(Xtest, 2, function(x){scale(x, -0.85, 0.85)})
 Ytrain <- scale(Ytrain, -0.85, 0.85)
 Ytest <- scale(Ytest, -0.85, 0.85)
@@ -66,7 +66,7 @@ dat <- as.data.frame(cbind(Ytrain,Xtrain))
 names(dat)[1] <- c('D')
 n <- names(dat)
 f <- as.formula(paste("D ~", paste(n[!n %in% "D"], collapse = " + ")))
-mod <- neuralnet(f, data = dat, hidden = 5, act.fct = "tanh", stepmax = 1e+07)
+mod <- neuralnet(f, data = dat, hidden = 10, act.fct = "tanh", stepmax = 1e+07)
 
 
 ################################
@@ -89,6 +89,8 @@ sprintf('... Training Benchmark: %.4f', benchmark_train)
 sprintf("Testing RMSE: %.4f", mse_test)
 sprintf('... Testing Benchmark: %.4f', benchmark_test)
 
+plot(Ytrain, Y_fit_train)
+plot(Ytest, Y_fit_test)
 
 ################################
 #  Looking at States in Order
