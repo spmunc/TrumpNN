@@ -36,7 +36,8 @@ trump_county_facts <- subset(trump_county_facts, select = -c(area_name,state_abb
 # % hispanic: "RHI725214", % white: "RHI825214", % foreign born: "POP645213"
 # % bachelors: "EDU685213", % veteran: "VET605213", median hh income: "INC110213",
 # pop per sqm: "POP060210",
-columns_of_interest <- c("AGE775214", "SEX255214", "EDU685213", "RHI225214", "RHI725214",  "POP645213", "EDU685213", "VET605213", "INC110213")
+columns_of_interest <- c("AGE775214", "SEX255214", "EDU685213", "RHI225214", "RHI725214",  "POP645213", "EDU685213", "VET605213", "INC110213", "RHI625214", "HSG445213", "PVY020213", "POP060210")
+columns_of_interest <- colnames(trump_county_facts[c(-1,-2)])
 X <- trump_county_facts[,columns_of_interest]
 Y <- as.data.frame(trump_county_facts[,2])
 names(Y) <- c("fraction_votes")
@@ -85,12 +86,25 @@ benchmark_train <- sqrt(mean((Ytrain - mean(Ytrain))^2))
 benchmark_test <- sqrt(mean((Ytest - mean(Ytest))^2))
 
 sprintf("Training RMSE: %.4f", mse_train)
-sprintf('... Training Benchmark: %.4f', benchmark_train)
+sprintf('Training Benchmark: %.4f', benchmark_train)
 sprintf("Testing RMSE: %.4f", mse_test)
-sprintf('... Testing Benchmark: %.4f', benchmark_test)
+sprintf('Testing Benchmark: %.4f', benchmark_test)
 
 plot(Ytrain, Y_fit_train)
 plot(Ytest, Y_fit_test)
+
+## Results
+# With c("AGE775214", "SEX255214", "EDU685213", "RHI225214", "RHI725214",  "POP645213", "EDU685213", "VET605213", "INC110213") we get:
+# "Training RMSE: 0.1555"
+# "Training Benchmark: 0.2463"
+# "Testing RMSE: 0.4992"
+# "Testing Benchmark: 0.4733"
+
+# With all
+# "Training RMSE: 0.1177"
+# "Training Benchmark: 0.2455"
+# "Testing RMSE: 1.5733"
+# "Testing Benchmark: 0.3393"
 
 ################################
 #  Looking at States in Order
