@@ -113,15 +113,24 @@ for(i in 1:length(new_county_facts_codes)){
 }
 names(ll) <- new_county_facts_codes
 # Create the classes for each row - the winners of the primary
-winner <- as.matrix(som.dat$winner)
-rownames(winner) <- som.dat$fips
-ll[[length(ll)+1]] <- winner
+ll$winner <- factor(som.dat$winner)
 
+# Supermap it
+kohmapss <- supersom(ll, grid = somgrid(10, 10, topo = "hexagon"), rlen = 100,
+                     alpha = c(0.10, 0.001), toroidal = TRUE)
 
-supersom(ll, grid = somgrid(10, 10, topo = "hexagon"), rlen = 100,
-         alpha = c(0.10, 0.001), toroidal = TRUE)
-
-
+classes <- levels(ll$winner)
+colors <- c("yellow", "green", "blue", "red", "orange")
+par(mfrow = c(3, 2))
+plot(kohmapss, type = "mapping",
+         pch = 1, main = "All", keepMargins = TRUE)
+for(i in seq(along = classes)){
+  X.class <- lapply(ll, function(x) subset(x, ll$winner == classes[i]))
+  X.map <- kohonen::map(kohmapss, newdata=X.class)
+  plot(kohmapss, type = "mapping", classif = X.map,
+          col = colors[i], pch = 1, main = classes[i], keepMargins = TRUE,
+          bgcol = gray(0.55))
+}
 
 
 
