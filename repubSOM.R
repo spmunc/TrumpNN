@@ -48,7 +48,7 @@ som.input <- subset(som.dat, select = columns_of_interest)
 ################################
 kohmap <- xyf(scale(som.input), classvec2classmat(som.dat$winner),
               grid = somgrid(10, 10, topo = "hexagon"), rlen = 100,
-              alpha = c(0.10, 0.01), toroidal = TRUE)
+              alpha = c(0.10, 0.001), toroidal = TRUE)
 xyfpredictions <- classmat2classvec(predict(kohmap)$unit.predictions)
 colorss <- xyfpredictions
 colorss <- as.integer(factor(colorss))
@@ -74,6 +74,55 @@ som.prediction <- predict(kohmap, newdata = Xtest,
                           trainY = classvec2classmat(som.dat$winner))
 
 View(cbind(som.prediction$prediction, som.testing))
+
+
+
+
+
+
+
+
+################################
+# SuperSOM
+################################
+county_facts <- read.csv("2016_presidential_election/county_facts.csv")
+primary_results <- read.csv("2016_presidential_election/primary_results.csv")
+som.dat <- som.dat
+
+# Remove area name and state abbreviation and choose the fips
+new_county_facts <- subset(county_facts, select = -c(area_name, state_abbreviation))
+new_county_facts <- subset(new_county_facts, fips %in% intersect(som.dat$fips, new_county_facts$fips))
+
+# Reorder them
+new_county_facts <- new_county_facts[,c('fips',colnames(new_county_facts)[order(setdiff(colnames(new_county_facts), 'fips'))+1])]
+
+# Get the name codes
+new_county_facts_codes <- unique(substr(setdiff(colnames(new_county_facts), 'fips'), 1,3))
+
+
+# Create a new data object - a list
+ll <- list()
+for(i in 1:length(new_county_facts_codes)){
+  #create the new matrix
+  x <- as.matrix(new_county_facts[,c(grep(pattern = new_county_facts_codes[i], x = colnames(new_county_facts)))])
+  
+  colnames(x) <- colnames(new_county_facts)[grep(pattern = new_county_facts_codes[i], x = colnames(new_county_facts))]
+  rownames(x) <- new_county_facts[,1]
+  
+  ll[[length(ll)+1]] <- x
+}
+names(ll) <- new_county_facts_codes
+# Create the classes for each row - the winners of the primary
+winner <- as.matrix(som.dat$winner)
+rownames(winner) <- som.dat$fips
+ll[[length(ll)+1]] <- winner
+
+
+supersom(ll, grid = somgrid(10, 10, topo = "hexagon"), rlen = 100,
+         alpha = c(0.10, 0.001), toroidal = TRUE)
+
+
+
 
 
 
