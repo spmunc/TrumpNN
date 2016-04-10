@@ -1,5 +1,5 @@
 .Rhistory
 .Rdata
-.Rproj.user/.DS_Store
 *.png
 .DS_Store
+.Rproj.user/*
