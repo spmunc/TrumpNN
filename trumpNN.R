@@ -67,7 +67,7 @@ dat <- as.data.frame(cbind(Ytrain,Xtrain))
 names(dat)[1] <- c('D')
 n <- names(dat)
 f <- as.formula(paste("D ~", paste(n[!n %in% "D"], collapse = " + ")))
-mod <- neuralnet(f, data = dat, hidden = 10, act.fct = "tanh", stepmax = 1e+07)
+mod <- neuralnet(f, data = dat, hidden = 25, act.fct = "tanh", stepmax = 1e+07)
 
 
 ################################

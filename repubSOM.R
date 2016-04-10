@@ -46,7 +46,7 @@ som.input <- subset(som.dat, select = columns_of_interest)
 ################################
 # Fit SOM
 ################################
-kohmap <- xyf(scale(som.input), classvec2classmat(som.dat$winner),
+kohmap <- xyf(base::scale(som.input), classvec2classmat(som.dat$winner),
               grid = somgrid(10, 10, topo = "hexagon"), rlen = 100,
               alpha = c(0.10, 0.001), toroidal = TRUE)
 xyfpredictions <- classmat2classvec(predict(kohmap)$unit.predictions)
