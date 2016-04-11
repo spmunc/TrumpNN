@@ -1,5 +1,10 @@
 ## robert's version
 
+# git status - check robert
+# git add .
+# git commit-m "i did things"
+# git push origin robert
+
 
 
 
