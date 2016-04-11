@@ -43,7 +43,7 @@ som.dat <- subset(som.dat, select = -c(area_name,state_abbreviation))
 columns_of_interest <- c("RHI825214","EDU685213", "INC110213")
 som.input <- subset(som.dat, select = columns_of_interest)
 som.input <- as.matrix(subset(som.dat, select = -c(fips,winner)))
-som.input <- scale(som.input)
+som.input <- base::scale(som.input)
 train_ind <- sample(1:nrow(som.input), 1500)
 
 ################################
