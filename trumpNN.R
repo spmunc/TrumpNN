@@ -2,7 +2,7 @@
 
 # git status - check robert
 # git add .
-# git commit-m "i did things"
+# git commit -m "i did things"
 # git push origin robert
 
 
