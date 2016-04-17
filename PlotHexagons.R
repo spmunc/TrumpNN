@@ -71,15 +71,21 @@ plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type
 dev.off()
 vars <- colnames(somm$codes$X)
 for(p in vars){
-  plotCplane(som_obj=aSom, variable=p, legend=FALSE, type="Quantile")
+  plotCplane(som_obj=somm, variable=p, legend=FALSE, type="Quantile")
 }
 
 
 
 
+
 #change somm X code map
+scale <- function(vector_to_scale, goal_min, goal_max){ 
+  new_vector <- (vector_to_scale - min(vector_to_scale))*(goal_max - goal_min)/(max(vector_to_scale)-min(vector_to_scale)) + goal_min
+  return(new_vector)
+}
 winners <- scale(apply(somm$codes$Y,1,which.max), -1,1)
 type = 'Quantile'
+variable = 'Winner'
 
 # hm
 hm <- matrix(nrow=8, ncol=8, data=winners) #, byrow=TRUE)
@@ -94,8 +100,8 @@ Hexagon <- function (x, y, unitcell = 1, col = "grey", border=NA) {
           col = col, border=border)
 }
 
-plot(0, 0, type = "n", axes = FALSE, xlim=c(0, som_obj$grid$xdim), 
-     ylim=c(0, som_obj$grid$ydim), xlab="", ylab= "", asp=1, main=substr(variable, 1, 10))
+plot(0, 0, type = "n", axes = FALSE, xlim=c(0, somm$grid$xdim), 
+     ylim=c(0, somm$grid$ydim), xlab="", ylab= "", asp=1, main=substr(variable, 1, 10))
 
 ColRamp <- rev(designer.colors(n=50, col=brewer.pal(9, "Spectral")))
 
@@ -103,7 +109,7 @@ ColorCode <- rep("#FFFFFF", length(hm))
 
 if(type == "Quantile") {
   #Quantile colorbins
-  Bins <- quantile(x=som_obj$codes$X, probs=cumsum(rep(1/length(ColRamp), length(ColRamp))))
+  Bins <- quantile(x=somm$codes$X, probs=cumsum(rep(1/length(ColRamp), length(ColRamp))))
 }
 
 
@@ -114,8 +120,8 @@ for (i in 1:length(hm))
 
 offset <- 0.5 #offset for the hexagons when moving up a row
 ind <- 1
-for (row in 1:som_obj$grid$ydim) {
-  for (column in 0:(som_obj$grid$xdim - 1)) {
+for (row in 1:somm$grid$ydim) {
+  for (column in 0:(somm$grid$xdim - 1)) {
     Hexagon(column + offset, row - 1, col = ColorCode[ind])
     ind <- ind +1}
   offset <- ifelse(offset, 0, 0.5)
