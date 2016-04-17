@@ -40,8 +40,8 @@ som.dat <- subset(som.dat, select = -c(area_name,state_abbreviation))
 # % hispanic: "RHI725214", % white: "RHI825214", % foreign born: "POP645213"
 # % bachelors: "EDU685213", % veteran: "VET605213", median hh income: "INC110213",
 # pop per sqm: "POP060210",
-columns_of_interest <- c("RHI825214","EDU685213", "INC110213")
-som.input <- subset(som.dat, select = columns_of_interest)
+#columns_of_interest <- c("RHI825214","EDU685213", "INC110213")
+#som.input <- subset(som.dat, select = columns_of_interest)
 som.input <- as.matrix(subset(som.dat, select = -c(fips,winner)))
 som.input <- scale(som.input)
 train_ind <- sample(1:nrow(som.input), 1500)
@@ -62,6 +62,67 @@ ssom2.predict <- predict(somm,newdata = som.input[train_ind,],trainY = classvec2
 ##############################################
 testConf <- confusionMatrix(ssom1.predict$prediction, som.dat$winner[-train_ind])
 trainConf <- confusionMatrix(ssom2.predict$prediction, som.dat$winner[train_ind])
+
+##############################################
+# Plot the SOM
+##############################################
+xyfpredictions <- classmat2classvec(predict(somm)$unit.predictions)
+plot(somm, main = 'SOM Input Grid with \n Corresponding Candidate')
+plot(somm, type='quality', main='Mean Distance to Mapped Inputs')
+plot(somm, type='changes')
+
+
+
+
+
+som.dat2 <- repub2[,c('fips','winner')]
+som.dat2 <- som.dat2[!duplicated(som.dat2$fips),]
+som.dat2 <- merge(som.dat2, county_facts, by = 'fips', all.x = TRUE, all.y = FALSE)
+som.dat2 <- subset(som.dat2, select = -c(area_name,state_abbreviation))
+
+################################
+# Pull out columns of interest
+################################
+# % over 65:"AGE775214", % black: "RHI225214", 
+# % hispanic: "RHI725214", % white: "RHI825214", % foreign born: "POP645213"
+# % bachelors: "EDU685213", % veteran: "VET605213", median hh income: "INC110213",
+# pop per sqm: "POP060210",
+#columns_of_interest <- c("RHI825214","EDU685213", "INC110213")
+#som.input <- subset(som.dat, select = columns_of_interest)
+som.input2.df <- som.dat2[som.dat2$winner == 'Donald Trump' | som.dat2$winner == 'Ted Cruz', ]
+som.test2.df <- som.dat2[som.dat2$winner != 'Donald Trump' & som.dat2$winner != 'Ted Cruz', ]
+som.input2 <- som.dat2[som.dat2$winner == 'Donald Trump' | som.dat2$winner == 'Ted Cruz', ]
+som.test2 <- som.dat2[som.dat2$winner != 'Donald Trump' & som.dat2$winner != 'Ted Cruz', ]
+
+som.input2 <- as.matrix(subset(som.input2, select = -c(fips,winner)))
+som.test2 <- as.matrix(subset(som.test2, select = -c(fips,winner)))
+
+means <- colMeans(som.input2)
+stds <- apply(som.input2, 2, sd)
+
+#som.input2 <- apply(som.input2, 2, function(x){(x-means)/stds})
+#som.test2 <- apply(som.test2, 2, function(x){(x-means)/stds})
+som.input2 <- scale(som.input2)
+som.test2 <- scale(som.test2)
+
+
+################################
+# Fit supervised SOM
+################################
+somm <- xyf(som.input2, classvec2classmat((som.input2.df$winner)), grid=somgrid(8,8))
+
+##############################################
+# Predict winner of test set
+##############################################
+ssom1.predict <- predict(somm, newdata = som.test2, trainY = classvec2classmat((som.input2.df$winner)))
+ssom2.predict <- predict(somm, newdata = som.input2, trainY = classvec2classmat((som.input2.df$winner)))
+
+
+##############################################
+# Get confusion matrix of test and train set
+##############################################
+testConf2 <- confusionMatrix(ssom1.predict$prediction, som.test2.df$winner)
+trainConf2 <- confusionMatrix(ssom2.predict$prediction, som.input2.df$winner)
 
 ##############################################
 # Plot the SOM
