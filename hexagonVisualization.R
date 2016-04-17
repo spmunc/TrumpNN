@@ -130,7 +130,7 @@ plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type
             col = col, border=border)
   }
   
-  hm <- component_plane_matrix(data=som_obj$codes, variable_index_or_name=variable)
+  hm <- component_plane_matrix(data=som_obj$codes$X, variable_index_or_name=variable)
   
   plot(0, 0, type = "n", axes = FALSE, xlim=c(0, som_obj$grid$xdim), 
        ylim=c(0, som_obj$grid$ydim), xlab="", ylab= "", asp=1, main=substr(variable, 1, 10))
@@ -146,7 +146,7 @@ plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type
   
   if(type == "Quantile") {
     #Quantile colorbins
-    Bins <- quantile(x=som_obj$codes, probs=cumsum(rep(1/length(ColRamp), length(ColRamp))))
+    Bins <- quantile(x=som_obj$codes$X, probs=cumsum(rep(1/length(ColRamp), length(ColRamp))))
   }
   
   
@@ -162,9 +162,9 @@ plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type
       ind <- ind +1}
     offset <- ifelse(offset, 0, 0.5)
   }  
-  if (legend==TRUE){
-    image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1.5,1.5))
-  }
+  #   if (legend==TRUE){
+  #     image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1.5,1.5))
+  #   }
 }
 
 
@@ -203,8 +203,11 @@ aSom <- som(data=as.matrix(base::scale(na.omit(usa.bg.som[1:1000,1:7]))), grid=a
 dev.off()
 par(mar = rep(1, 5))
 cplanelay <- layout(matrix(1:10, nrow=5))
-vars <- colnames(aSom$data)
-for(p in vars) {
+
+colnames(somm$codes$X) <- c(colnames(somm$data), 'winner')
+vars <- colnames(somm$codes$X)
+
+for(p in vars){
   plotCplane(som_obj=aSom, variable=p, legend=FALSE, type="Quantile")
 }
 plot(0, 0, type = "n", axes = FALSE, xlim=c(0, 1), 
