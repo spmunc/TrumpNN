@@ -5,6 +5,7 @@ require(caret)
 require(compositions)
 require(tidyr)
 require(stringr)
+require(nnet)
 
 ## Wrangle data to the correct format
 county.facts <- as.tbl(
@@ -34,6 +35,33 @@ candidate.data.results <- primary.results %>%
   mutate(y1=strtoi(y1), y2=strtoi(y2), y3=strtoi(y3))
 
 candidate.county.results <- county.facts %>% select(-area_name, -state_abbreviation)
-combined.df <- candidate.data.results %>% left_join(candidate.county.results, by=c("fips"))
+combined.df <- candidate.data.results %>% 
+  left_join(candidate.county.results, by=c("fips")) %>%
+  select(-fips)
 
+scale <- function(v, goal.min, goal.max) { 
+  return((v - min(v))*(goal.max - goal.min)/(max(v)-min(v)) + goal.min)
+}
+scaled.df <- data.frame(apply(combined.df, 2, function(x) scale(x, 0, 1)))
+X.mat <- scaled.df %>% select(-trump.percent, -y3, -y2, -y3)
+Y.mat <- scaled.df %>% select(trump.percent, y1, y2, y3)
 ## Create a neural network for the data.
+set.seed(58)
+prop <- .8
+train.indices <- sample(1:nrow(X.mat), size = floor(nrow(X.mat)*prop))
+X.train <- X.mat[train.indices,]
+X.test <- X.mat[-train.indices,]
+Y.train <- Y.mat[train.indices,]
+Y.test <- Y.mat[-train.indices,]
+scaled.train <- scaled.df[train.indices,]
+scaled.test <- scaled.df[-train.indices,]
+all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
+
+model <- neuralnet(all.form, scaled.train, hidden=4, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+07)
+
+Y.fit.train <- neuralnet::compute(model, X.train)$net.result
+Y.fit.test <- neuralnet::compute(model, X.test)$net.result
+
+# MSE in scaled space
+mse.train <- sqrt(mean((Y.fit.train - Y.train)^2))
+mse.test <- sqrt(mean((Y.fit.test - Y.test)^2))
