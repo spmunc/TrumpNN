@@ -37,15 +37,15 @@ candidate.data.results <- primary.results %>%
 candidate.county.results <- county.facts %>% select(-area_name, -state_abbreviation)
 combined.df <- candidate.data.results %>% 
   left_join(candidate.county.results, by=c("fips")) %>%
-    select(-fips) %>% select(AGE775214, SEX255214, EDU685213, RHI225214, RHI725214,  POP645213, EDU685213, VET605213, INC110213, RHI625214, HSG445213, PVY020213, POP060210)
+    select(-fips) %>% select(trump.percent,AGE775214, SEX255214, EDU685213, RHI225214, RHI725214,  POP645213, EDU685213, VET605213, INC110213, RHI625214, HSG445213, PVY020213, POP060210)
 
 
 scale <- function(v, goal.min, goal.max) { 
   return((v - min(v))*(goal.max - goal.min)/(max(v)-min(v)) + goal.min)
 }
 scaled.df <- data.frame(apply(combined.df, 2, function(x) scale(x, 0, 1)))
-X.mat <- scaled.df %>% select(-trump.percent, -y3, -y2, -y3)
-Y.mat <- scaled.df %>% select(trump.percent, y1, y2, y3)
+X.mat <- scaled.df %>% select(-trump.percent)
+Y.mat <- scaled.df %>% select(trump.percent)
 ## Create a neural network for the data.
 set.seed(58)
 prop <- .8
@@ -56,10 +56,10 @@ Y.train <- Y.mat[train.indices,]
 Y.test <- Y.mat[-train.indices,]
 scaled.train <- scaled.df[train.indices,]
 scaled.test <- scaled.df[-train.indices,]
-all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
+#all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
 percent.form <- as.formula(paste("trump.percent ~ ", paste(colnames(X.mat), collapse="+")))
 
-model <- neuralnet(all.form, scaled.train, hidden=4, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+07)
+model <- neuralnet(percent.form, scaled.train, hidden=16, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
 
 Y.fit.train <- neuralnet::compute(model, X.train)$net.result
 Y.fit.test <- neuralnet::compute(model, X.test)$net.result
@@ -68,5 +68,15 @@ Y.fit.train.scaled <- apply(Y.fit.train, 2, function(x) scale(x, 0, 1))
 Y.fit.train.scaled[,c(1,2,3)] <- apply(Y.fit.train.scaled[,c(1,2,3)], 2, function(x) round(x))
 
 # MSE in scaled space
-mse.train <- sqrt(mean((Y.fit.train.scaled - Y.train)^2))
+mse.train <- sqrt(mean((Y.fit.train - Y.train)^2))
 mse.test <- sqrt(mean((Y.fit.test - Y.test)^2))
+
+benchmark.train <- sqrt(mean((Y.train - mean(Y.train))^2))
+benchmark.test <- sqrt(mean((Y.test - mean(Y.test))^2))
+
+train.lm <- lm(percent.form, scaled.train)
+Y.fit.train.lm <- predict(train.lm, X.train)
+Y.fit.test.lm <- predict(train.lm, X.test)
+mse.train.lm <- sqrt(mean((Y.fit.train.lm - Y.train)^2))
+mse.test.lm <- sqrt(mean((Y.fit.test.lm - Y.test)^2))
+
