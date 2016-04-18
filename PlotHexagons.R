@@ -10,7 +10,7 @@ library(RColorBrewer) #to use brewer.pal
 library(fields) #to use designer.colors
 
 ##PLOTTING FUNCTION
-plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type="Quantile", legend=FALSE){
+plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type="Quantile", legend=TRUE){
   if (is.numeric(variable)){
     variable <- colnames(som_obj$data)[variable]
   }
@@ -66,12 +66,16 @@ plotCplane <- function(som_obj, variable=sample(colnames(som_obj$data), 1), type
       ind <- ind +1}
     offset <- ifelse(offset, 0, 0.5)
   }  
+  
+  if(legend==TRUE){
+    image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1.5,1.5))
+  }
 }
 
 dev.off()
 vars <- colnames(somm$codes$X)
 for(p in vars){
-  plotCplane(som_obj=somm, variable=p, legend=FALSE, type="Quantile")
+  plotCplane(som_obj=somm, variable=p, legend=TRUE, type="Quantile")
 }
 
 
@@ -88,7 +92,7 @@ type = 'Quantile'
 variable = 'Winner'
 
 # hm
-hm <- matrix(nrow=8, ncol=8, data=winners) #, byrow=TRUE)
+hm <- matrix(nrow=somm$grid$xdim, ncol=somm$grid$ydim, data=winners) #, byrow=TRUE)
 
 
 # this function
@@ -126,4 +130,7 @@ for (row in 1:somm$grid$ydim) {
     ind <- ind +1}
   offset <- ifelse(offset, 0, 0.5)
 }  
+
+image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1,1))
+
 

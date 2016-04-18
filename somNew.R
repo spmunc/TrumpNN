@@ -49,7 +49,7 @@ train_ind <- sample(1:nrow(som.input), 1500)
 ################################
 # Fit supervised SOM
 ################################
-somm <- xyf(som.input[train_ind, ], classvec2classmat((som.dat$winner)[train_ind]), grid=somgrid(8,8, 'hexagon'))
+somm <- xyf(som.input[train_ind, ], classvec2classmat((som.dat$winner)[train_ind]), grid=somgrid(16,16, 'hexagon'))
 
 ##############################################
 # Predict winner of training and test set
