@@ -80,3 +80,18 @@ Y.fit.test.lm <- predict(train.lm, X.test)
 mse.train.lm <- sqrt(mean((Y.fit.train.lm - Y.train)^2))
 mse.test.lm <- sqrt(mean((Y.fit.test.lm - Y.test)^2))
 
+paste("mse train: ", mse.train)
+paste("mse test: ", mse.test)
+paste("benchmark train: ", benchmark.train)
+paste("benchmark test: ", benchmark.test)
+paste("lm train: ", mse.train.lm)
+paste("lm test: ", mse.test.lm)
+
+all.models <- lapply(c("8-neurons.RData", "16-neurons.RData"),
+                     function(x) { 
+                       load(x)
+                       model
+                      })
+all.train.y <- lapply(all.models, function(m) neuralnet::compute(m, X.train)$net.result)
+all.test.y <- lapply(all.models, function(m) neuralnet::compute(m, X.test)$net.result)
+
