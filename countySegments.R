@@ -1,11 +1,9 @@
-require(kohonen)
-require(neuralnet)
+require(plyr)
 require(dplyr)
-require(caret)
-require(compositions)
 require(tidyr)
 require(stringr)
-require(nnet)
+require(compositions)
+require(neuralnet)
 
 ## Wrangle data to the correct format
 county.facts <- as.tbl(
@@ -59,7 +57,7 @@ scaled.test <- scaled.df[-train.indices,]
 #all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
 percent.form <- as.formula(paste("trump.percent ~ ", paste(colnames(X.mat), collapse="+")))
 
-model <- neuralnet(percent.form, scaled.train, hidden=16, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
+model <- neuralnet(percent.form, scaled.train, hidden=4, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
 
 Y.fit.train <- neuralnet::compute(model, X.train)$net.result
 Y.fit.test <- neuralnet::compute(model, X.test)$net.result
@@ -87,11 +85,45 @@ paste("benchmark test: ", benchmark.test)
 paste("lm train: ", mse.train.lm)
 paste("lm test: ", mse.test.lm)
 
-all.models <- lapply(c("8-neurons.RData", "16-neurons.RData"),
+all.models <- lapply(c("4-neurons.RData", "8-neurons.RData", "16-neurons.RData"),
                      function(x) { 
                        load(x)
                        model
                       })
-all.train.y <- lapply(all.models, function(m) neuralnet::compute(m, X.train)$net.result)
-all.test.y <- lapply(all.models, function(m) neuralnet::compute(m, X.test)$net.result)
+all.train.y <- lapply(all.models, function(m) neuralnet::compute(m, X.train)$net.result) %>%
+  data.frame() %>% apply(1, mean)
+all.test.y <- lapply(all.models, function(m) neuralnet::compute(m, X.test)$net.result) %>%
+  data.frame() %>% apply(1, mean)
+mse.train.avg <- sqrt(mean((all.train.y - Y.train)^2))
+mse.test.avg <- sqrt(mean((all.test.y - Y.test)^2))
 
+# Explore candidate effects
+candidates.interest <- 
+  factor(c("Donald Trump", "Ted Cruz", "Marco Rubio", "Ben Carson", "John Kasich", "Jeb Bush"))
+candidate.result.indicator <- primary.results %>%
+  mutate(candidate=as.character(candidate)) %>% #it's read in as a factor
+  filter(candidate %in% candidates.interest) %>% 
+  mutate(candidate.num=sapply(candidate, function(x) which(x==candidates.interest))) %>%
+  mutate(candidate.code=sapply(candidate.num,
+                               function(x) {
+                                  m <- rep("0", length(candidates.interest)) 
+                                  m[x] <- "1"
+                                  paste(m, collapse=",")
+                               })) %>%
+  separate(candidate.code, c("x1", "x2", "x3", "x4", "x5", "x6"), sep=",", convert=TRUE) %>%
+
+candidate.code.by.county <- candidate.result.indicator %>%
+  ddply(.(fips), summarize, x1=sum(x1), x2=sum(x2), x3=sum(x3), x4=sum(x4), x5=sum(x5), x6=sum(x6))
+
+candidate.results.trump <- candidate.result.indicator %>%
+  left_join(candidate.code.by.county, by=c("fips")) %>%
+  select(-x1.x, -x2.x, -x3.x, -x4.x, -x5.x, -x6.x) %>%
+  left_join(primary.results %>% 
+              select(candidate, fraction_votes, fips) %>% 
+              filter(candidate=="Donald Trump"), by=c("fips")) %>%
+  dplyr::rename(trump.percent=fraction_votes.y, x1=x1.y, x2=x2.y, x3=x3.y, x4=x4.y, x5=x5.y, x6=x6.y)
+
+
+combined.df.indicator <- candidate.results.trump %>% 
+  left_join(candidate.county.results, by=c("fips")) %>%
+    select(-fips) %>% select(trump.percent, x1, x2, x3, x4, x5, x6, AGE775214, SEX255214, EDU685213, RHI225214, RHI725214,  POP645213, EDU685213, VET605213, INC110213, RHI625214, HSG445213, PVY020213, POP060210)
