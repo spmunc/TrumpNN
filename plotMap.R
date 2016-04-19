@@ -13,21 +13,23 @@ NY.counties.candidates.scale <- data.frame(apply(NY.counties.candidates %>% sele
 
 
 Y.fit.train <- neuralnet::compute(model, NY.counties.candidates.scale)$net.result
-Y.fit.train.unscaled <- data.frame(apply(Y.fit.train, 2, function(x) scale(x, min(combined.df$trump.percent), max(combined.df$trump.percent)))
+Y.fit.train.unscaled <- data.frame(trump.percent=
+                                     apply(Y.fit.train, 2,
+                                           function(x) scale(x, .15, max(70))),
+                                   fips=NY.counties.candidates$fips)
 # define color buckets
-colors = c("#F1EEF6", "#D4B9DA", "#C994C7", "#DF65B0", "#DD1C77", "#980043")
-unemp$colorBuckets <- as.numeric(cut(unemp$unemp, c(0, 2, 4, 6, 8, 10, 100)))
-leg.txt <- c("<2%", "2-4%", "4-6%", "6-8%", "8-10%", ">10%")
+
+colorBuckets <- as.numeric(cut(Y.fit.train.unscaled$trump.percent, breaks = 90))
+colorGenerate <- colorRampPalette(c("red", "green"))(90)
 
 # align data with map definitions by (partial) matching state,county
 # names, which include multiple polygons for some counties
-cnty.fips <- county.fips$fips[match(map("county", plot=FALSE)$names,
+cnty.fips <- county.fips$fips[match(map("county", region="New York", plot=FALSE)$names,
                                     county.fips$polyname)]
-colorsmatched <- unemp$colorBuckets [match(cnty.fips, unemp$fips)]
+colorsmatched <- colorGenerate[match(cnty.fips, Y.fit.train.unscaled$fips)]
 
 # draw map
-map("county", region="New York", col = colors[colorsmatched], fill = TRUE, resolution = 0,
-    lty = 0, projection = "polyconic")
-title("unemployment by county, 2009")
-legend("topright", leg.txt, horiz = TRUE, fill = colors)
+map("county", region="New York", col = colorsmatched, fill = TRUE, resolution = 0,
+    lty = 0, projection = "polyconic", resolution=0)
+legend("topright", leg.txt, horiz = TRUE, fill = colorsmatched)
   
