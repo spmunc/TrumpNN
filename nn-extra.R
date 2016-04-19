@@ -41,9 +41,9 @@ combined.df <- candidate.data.results %>%
 scale <- function(v, goal.min, goal.max) { 
   return((v - min(v))*(goal.max - goal.min)/(max(v)-min(v)) + goal.min)
 }
-scaled.df <- data.frame(apply(combined.df, 2, function(x) scale(x, 0, 1)))
+scaled.df.X <- data.frame(apply(combined.df %>% select(-trump.percent), 2, function(x) scale(x, 0, 1)))
 X.mat <- scaled.df %>% select(-trump.percent)
-Y.mat <- scaled.df %>% select(trump.percent)
+Y.mat <- combined.df %>% select(trump.percent)
 ## Create a neural network for the data.
 set.seed(58)
 prop <- .8
