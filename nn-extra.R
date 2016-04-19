@@ -127,3 +127,37 @@ candidate.results.trump <- candidate.result.indicator %>%
 combined.df.indicator <- candidate.results.trump %>% 
   left_join(candidate.county.results, by=c("fips")) %>%
     select(-fips) %>% select(trump.percent, x1, x2, x3, x4, x5, x6, AGE775214, SEX255214, EDU685213, RHI225214, RHI725214,  POP645213, EDU685213, VET605213, INC110213, RHI625214, HSG445213, PVY020213, POP060210)
+
+scaled.df.indicator.temp <- data.frame(apply(combined.df.indicator %>% select(-x1,-x2,-x3, -x4, -x5, -x6), 2, function(x) scale(x, 0, 1)))
+scaled.df.indicator <- cbind(scaled.df.indicator.temp, combined.df.indicator %>% select(x1,x2,x3, x4, x5, x6))
+X.mat <- scaled.df.indicator %>% select(-trump.percent)
+Y.mat <- scaled.df.indicator %>% select(trump.percent)
+## Create a neural network for the data.
+set.seed(58)
+prop <- .8
+train.indices <- sample(1:nrow(X.mat), size = floor(nrow(X.mat)*prop))
+X.train <- X.mat[train.indices,]
+X.test <- X.mat[-train.indices,]
+Y.train <- Y.mat[train.indices,]
+Y.test <- Y.mat[-train.indices,]
+scaled.train.indicator <- scaled.df.indicator[train.indices,]
+scaled.test.indicator <- scaled.df.indicator[-train.indices,]
+#all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
+percent.form.indicator <- as.formula(paste("trump.percent ~", paste(colnames(X.mat), collapse="+")))
+
+model <- neuralnet(percent.form.indicator, scaled.train.indicator, hidden=16, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
+
+Y.fit.train <- neuralnet::compute(model, X.train)$net.result
+Y.fit.test <- neuralnet::compute(model, X.test)$net.result
+
+# MSE in scaled space
+mse.train <- sqrt(mean((Y.fit.train - Y.train)^2))
+mse.test <- sqrt(mean((Y.fit.test - Y.test)^2))
+
+benchmark.train <- sqrt(mean((Y.train - mean(Y.train))^2))
+benchmark.test <- sqrt(mean((Y.test - mean(Y.test))^2))
+
+paste("mse train: ", mse.train)
+paste("mse test: ", mse.test)
+paste("benchmark train: ", benchmark.train)
+paste("benchmark test: ", benchmark.test)
