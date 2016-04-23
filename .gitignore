@@ -1,3 +1,6 @@
-.Rhistory
-.Rdata
-.Rproj.user/
+*.Rhistory
+*.Rdata
+*.png
+.DS_Store
+.Rproj.user/*
+*.csv
