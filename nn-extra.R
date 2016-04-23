@@ -15,7 +15,7 @@ primary.results <- as.tbl(
 
 # Narrow down to candidates of interest
 candidates.interest <- 
-  factor(c("Donald Trump", "Ted Cruz", "Marco Rubio", "John Kasich", "Jeb Bush"))
+  factor(c("Donald Trump", "Ted Cruz", "Marco Rubio", "John Kasich", "Jeb Bush", "Ben Carson"))
 candidate.data.results <- primary.results %>%
   mutate(candidate=as.character(candidate)) %>% #it's read in as a factor
   filter(candidate %in% candidates.interest) %>% 
@@ -28,7 +28,7 @@ candidate.data.results <- primary.results %>%
               select(candidate, fraction_votes, fips) %>% 
               filter(candidate=="Donald Trump"), by=c("fips")) %>%
   select(fips, candidate.num, fraction_votes.y) %>%
-  rename(candidate=candidate.num, trump.percent=fraction_votes.y) %>%
+  dplyr::rename(candidate=candidate.num, trump.percent=fraction_votes.y) %>%
   separate(candidate, c("y1", "y2", "y3"), sep=",") %>%
   mutate(y1=strtoi(y1), y2=strtoi(y2), y3=strtoi(y3))
 
@@ -57,7 +57,7 @@ scaled.test <- scaled.df[-train.indices,]
 #all.form <- as.formula(paste("trump.percent + y1 + y2 + y3 ~ ", paste(colnames(X.mat), collapse="+")))
 percent.form <- as.formula(paste("trump.percent ~ ", paste(colnames(X.mat), collapse="+")))
 
-model <- neuralnet(percent.form, scaled.train, hidden=4, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
+model <- neuralnet(percent.form, scaled.train, hidden=8, rep=1, act.fct = "tanh", lifesign = "full", stepmax = 1e+08)
 
 Y.fit.train <- neuralnet::compute(model, X.train)$net.result
 Y.fit.test <- neuralnet::compute(model, X.test)$net.result
@@ -151,10 +151,10 @@ Y.fit.train <- neuralnet::compute(model, X.train)$net.result
 Y.fit.test <- neuralnet::compute(model, X.test)$net.result
 
 # MSE in scaled space
-mse.train <- sqrt(mean((Y.fit.train - Y.train)^2))
+mse.train <- sqrt(mean((Y.fit.train - Y.train$trump.percent)^2))
 mse.test <- sqrt(mean((Y.fit.test - Y.test)^2))
 
-benchmark.train <- sqrt(mean((Y.train - mean(Y.train))^2))
+benchmark.train <- sqrt(mean((Y.train$trump.percent - mean(Y.train$trump.percent))^2))
 benchmark.test <- sqrt(mean((Y.test - mean(Y.test))^2))
 
 paste("mse train: ", mse.train)
