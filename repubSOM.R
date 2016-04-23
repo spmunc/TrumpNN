@@ -105,7 +105,7 @@ ll <- list()
 for(i in 1:length(new_county_facts_codes)){
   #create the new matrix
   x <- as.matrix(new_county_facts[,c(grep(pattern = new_county_facts_codes[i], x = colnames(new_county_facts)))])
-  
+  x <- base::scale(x)
   colnames(x) <- colnames(new_county_facts)[grep(pattern = new_county_facts_codes[i], x = colnames(new_county_facts))]
   rownames(x) <- new_county_facts[,1]
   
@@ -131,6 +131,9 @@ for(i in seq(along = classes)){
           col = colors[i], pch = 1, main = classes[i], keepMargins = TRUE,
           bgcol = gray(0.55))
 }
+
+dev.off()
+plot(kohmapss)
 
 
 
