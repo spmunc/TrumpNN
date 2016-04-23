@@ -14,6 +14,7 @@
 ##  trumpNN.R: fits a neural network with one hidden layer to predict
 ##             the fraction of the votes in each county in NH, IA, SC, NV
 ##             that Donald Trump recieved based on demographics
+## things
 ##
 ###############################################################################
 
