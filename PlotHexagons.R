@@ -124,13 +124,19 @@ for (i in 1:length(hm))
 
 offset <- 0.5 #offset for the hexagons when moving up a row
 ind <- 1
-for (row in 1:somm$grid$ydim) {
-  for (column in 0:(somm$grid$xdim - 1)) {
+for (row in 1:somm$grid$ydim){
+  for (column in 0:(somm$grid$xdim - 1)){
     Hexagon(column + offset, row - 1, col = ColorCode[ind])
     ind <- ind +1}
   offset <- ifelse(offset, 0, 0.5)
 }  
 
+<<<<<<< HEAD
 #image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1,1))
 legend(1,0,c("Donald Trump", "Ted Cruz", "Marco Rubio", "Ben Carson", "John Kasich"), fill = names(table(ColorCode))[order(table(ColorCode), decreasing = 1)], horiz = TRUE, cex = 0.5)
+=======
+legend(-11,-1,c("Donald Trump", "Ted Cruz", "Marco Rubio", "Ben Carson"), fill = names(table(ColorCode))[order(table(ColorCode), decreasing = 1)], horiz = TRUE, cex = 0.8)
+# image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1,1))
+
+>>>>>>> 28469623742d2debf8abe92b68eb3f6df43984a7
 
