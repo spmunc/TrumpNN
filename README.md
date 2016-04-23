@@ -6,11 +6,11 @@ Objective one. Backpropagation Networks
 
 1. Backprop w/o candidate features
 
-+ trumpNN.R 
+a. TrumpNN.R
 
 2. Backprop w/ candidate features and NY case study
 
-+ nn-extra.R, plotMap.R 
+a. nn-extra.R, plotMap.R 
 
 Objective two. SOM Network
 
