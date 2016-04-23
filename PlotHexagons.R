@@ -131,6 +131,6 @@ for (row in 1:somm$grid$ydim) {
   offset <- ifelse(offset, 0, 0.5)
 }  
 
-image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1,1))
-
+#image.plot(legend.only=TRUE, col=ColRamp, zlim=c(-1,1))
+legend(1,0,c("Donald Trump", "Ted Cruz", "Marco Rubio", "Ben Carson", "John Kasich"), fill = names(table(ColorCode))[order(table(ColorCode), decreasing = 1)], horiz = TRUE, cex = 0.5)
 
